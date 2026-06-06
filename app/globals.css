@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), ui-serif, Georgia, serif;
+}
+
+:root {
+  --background: #323232;
+  --foreground: #fafafa;
+  --primary: #c99a5e;
+  --primary-foreground: #1a1a1a;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+  --secondary: #27272a;
+  --secondary-foreground: #fafafa;
+  --border: #27272a;
+  --destructive: #7f1d1d;
+  --destructive-foreground: #fafafa;
+}
+
+html,
+body {
+  background: radial-gradient(circle at center, #E8D5C4 0%, #A68A72 100%);
+  color: #4A3B32;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: hidden;
+}
+
+/* Đảm bảo trang sách (nền trắng) luôn có màu chữ tối và nền trắng */
+.page-light {
+  color: #1a202c;
+  background-color: #ffffff !important;
+}
+
+/* Đảm bảo bìa sách (nền tối) luôn có màu chữ sáng */
+.page-dark {
+  color: #ffffff;
+}
+
+/* Scrollbar tinh tế cho các vùng text dài trong sách */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(138, 90, 53, 0.3);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(138, 90, 53, 0.6);
+}

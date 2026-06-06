@@ -1,0 +1,4661 @@
+{
+  "bookTitle": {
+    "vi": "Danh Mục Dự Án Thu Hút Đầu Tư Giai Đoạn 2026 - 2030",
+    "en": "List of Investment Attraction Projects for the 2026 - 2030 Period"
+  },
+  "pages": [
+    {
+      "pageId": 1,
+      "category": {
+        "vi": "Lĩnh Vực Năng Lượng Tái Tạo",
+        "en": "Renewable Energy Sector"
+      },
+      "projects": [
+        {
+          "id": "RE-01",
+          "name": {
+            "vi": "Nhà máy điện mặt trời nổi hồ Sông Hinh",
+            "en": "Nhà máy điện mặt trời nổi hồ Sông Hinh"
+          },
+          "location": {
+            "vi": "Xã Sông Hinh",
+            "en": "Xã Sông Hinh"
+          },
+          "area": "273 ha",
+          "investmentCapital": {
+            "vi": "4500 tỷ đồng",
+            "en": "4500 billion VND"
+          },
+          "scale": {
+            "vi": "200MW",
+            "en": "200MW"
+          },
+          "qrLink": "https://qlvb.daklak.gov.vn/khcn/smartcloud/idesk6/page/paperwork/index.cpx#paperwork-menu-home"
+        },
+        {
+          "id": "RE-02",
+          "name": {
+            "vi": "Nhà máy điện mặt trời nổi hồ Sông Hinh 3",
+            "en": "Nhà máy điện mặt trời nổi hồ Sông Hinh 3"
+          },
+          "location": {
+            "vi": "Xã Sông Hinh",
+            "en": "Xã Sông Hinh"
+          },
+          "area": "233 ha",
+          "investmentCapital": {
+            "vi": "4334 tỷ đồng",
+            "en": "4334 billion VND"
+          },
+          "scale": {
+            "vi": "200MW",
+            "en": "200MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-03",
+          "name": {
+            "vi": "Nhà máy điện gió Dliêya-Krông Năng giai đoạn 1",
+            "en": "Nhà máy điện gió Dliêya-Krông Năng giai đoạn 1"
+          },
+          "location": {
+            "vi": "Xã Tam Giang và Dliêya",
+            "en": "Xã Tam Giang và Dliêya"
+          },
+          "area": "12,41 ha",
+          "investmentCapital": {
+            "vi": "3520 tỷ đồng",
+            "en": "3520 billion VND"
+          },
+          "scale": {
+            "vi": "80 MW",
+            "en": "80 MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-04",
+          "name": {
+            "vi": "Nhà máy điện gió LRSH Sơn Hòa",
+            "en": "Nhà máy điện gió LRSH Sơn Hòa"
+          },
+          "location": {
+            "vi": "xã Vân hoà và xã Xuân Phước",
+            "en": "xã Vân hoà và xã Xuân Phước"
+          },
+          "area": "31,5 ha",
+          "investmentCapital": {
+            "vi": "3120 tỷ đồng",
+            "en": "3120 billion VND"
+          },
+          "scale": {
+            "vi": "82MW",
+            "en": "82MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-05",
+          "name": {
+            "vi": "Nhà máy điện gió Easin 1",
+            "en": "Nhà máy điện gió Easin 1"
+          },
+          "location": {
+            "vi": "xã Cư Prơng; xã Krông Buk",
+            "en": "xã Cư Prơng; xã Krông Buk"
+          },
+          "area": "34,5 ha",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-06",
+          "name": {
+            "vi": "Nhà máy điện gió Krông Búk 3",
+            "en": "Nhà máy điện gió Krông Búk 3"
+          },
+          "location": {
+            "vi": "xã Krông Búk; xã Cư Pơng và xã Ea Khăl;",
+            "en": "xã Krông Búk; xã Cư Pơng và xã Ea Khăl;"
+          },
+          "area": "34,5 ha",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-07",
+          "name": {
+            "vi": "Nhà máy điện gió Thuận Phong Đắk Lắk",
+            "en": "Nhà máy điện gió Thuận Phong Đắk Lắk"
+          },
+          "location": {
+            "vi": "xã Krông Búk",
+            "en": "xã Krông Búk"
+          },
+          "area": "34,5 ha",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-08",
+          "name": {
+            "vi": "Nhà máy điện gió Cư Pơng 1,2",
+            "en": "Nhà máy điện gió Cư Pơng 1,2"
+          },
+          "location": {
+            "vi": "xã Cư Prơng; xã Prơng Drang; xã Ea Tul",
+            "en": "xã Cư Prơng; xã Prơng Drang; xã Ea Tul"
+          },
+          "area": "22,5 ha",
+          "investmentCapital": {
+            "vi": "2400 tỷ đồng",
+            "en": "2400 billion VND"
+          },
+          "scale": {
+            "vi": "80MW",
+            "en": "80MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-09",
+          "name": {
+            "vi": "Nhà máy điện gió Krông Năng 1.1; 1.2",
+            "en": "Nhà máy điện gió Krông Năng 1.1; 1.2"
+          },
+          "location": {
+            "vi": "xã Tam Giang",
+            "en": "xã Tam Giang"
+          },
+          "area": "27,5 ha",
+          "investmentCapital": {
+            "vi": "2400 tỷ đồng",
+            "en": "2400 billion VND"
+          },
+          "scale": {
+            "vi": "80MW",
+            "en": "80MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-10",
+          "name": {
+            "vi": "Nhà máy điện gió Ea Sin",
+            "en": "Nhà máy điện gió Ea Sin"
+          },
+          "location": {
+            "vi": "Xã Cư Prơng; xã Ea Khăl; xã Ea Kiết",
+            "en": "Xã Cư Prơng; xã Ea Khăl; xã Ea Kiết"
+          },
+          "area": "26 ha",
+          "investmentCapital": {
+            "vi": "2310 tỷ đồng",
+            "en": "2310 billion VND"
+          },
+          "scale": {
+            "vi": "77 MW",
+            "en": "77 MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-11",
+          "name": {
+            "vi": "Nhà máy điện gió NT 1; NT 2",
+            "en": "Nhà máy điện gió NT 1; NT 2"
+          },
+          "location": {
+            "vi": "xã Cuor Đăng; Ea Knuếc; Phường Cư Bao",
+            "en": "xã Cuor Đăng; Ea Knuếc; Phường Cư Bao"
+          },
+          "area": "26,23 ha",
+          "investmentCapital": {
+            "vi": "2250 tỷ đồng",
+            "en": "2250 billion VND"
+          },
+          "scale": {
+            "vi": "75MW",
+            "en": "75MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-12",
+          "name": {
+            "vi": "Nhà máy điện năng lượng mặt trời",
+            "en": "Nhà máy điện năng lượng mặt trời"
+          },
+          "location": {
+            "vi": "Xã Ea M’Droh, tỉnh Đắk Lắk",
+            "en": "Xã Ea M’Droh, tỉnh Đắk Lắk"
+          },
+          "area": "120 ha",
+          "investmentCapital": {
+            "vi": "1800 tỷ đồng",
+            "en": "1800 billion VND"
+          },
+          "scale": {
+            "vi": "xây dựng nhà máy điện mặt trời VK-100MWp",
+            "en": "xây dựng nhà máy điện mặt trời VK-100MWp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-13",
+          "name": {
+            "vi": "Nhà máy điện gió Tân Lập – Ea Hồ",
+            "en": "Nhà máy điện gió Tân Lập – Ea Hồ"
+          },
+          "location": {
+            "vi": "xã Prơng Drang; xã Krông Năng",
+            "en": "xã Prơng Drang; xã Krông Năng"
+          },
+          "area": "12,5 ha",
+          "investmentCapital": {
+            "vi": "1500 tỷ đồng",
+            "en": "1500 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-14",
+          "name": {
+            "vi": "Nhà máy điện Gió Xanh Nam Việt",
+            "en": "Nhà máy điện Gió Xanh Nam Việt"
+          },
+          "location": {
+            "vi": "Xã Phú Hòa 2",
+            "en": "Xã Phú Hòa 2"
+          },
+          "area": "8,19 ha",
+          "investmentCapital": {
+            "vi": "1580 tỷ đồng",
+            "en": "1580 billion VND"
+          },
+          "scale": {
+            "vi": "15MW",
+            "en": "15MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-15",
+          "name": {
+            "vi": "Nhà máy điện sinh khối Phú Yên",
+            "en": "Nhà máy điện sinh khối Phú Yên"
+          },
+          "location": {
+            "vi": "xã Xuân Lãnh",
+            "en": "xã Xuân Lãnh"
+          },
+          "area": "15 ha",
+          "investmentCapital": {
+            "vi": "1550 tỷ đồng",
+            "en": "1550 billion VND"
+          },
+          "scale": {
+            "vi": "30MW",
+            "en": "30MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-16",
+          "name": {
+            "vi": "Nhà máy xử lý rác thải sinh hoạt và phát điện Trung An",
+            "en": "Nhà máy xử lý rác thải sinh hoạt và phát điện Trung An"
+          },
+          "location": {
+            "vi": "xã Ô Loan",
+            "en": "xã Ô Loan"
+          },
+          "area": "4,5 ha",
+          "investmentCapital": {
+            "vi": "1400 tỷ đồng",
+            "en": "1400 billion VND"
+          },
+          "scale": {
+            "vi": "15MW",
+            "en": "15MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-17",
+          "name": {
+            "vi": "Dự án điện mặt trời hồ Ea H'Leo 1",
+            "en": "Dự án điện mặt trời hồ Ea H'Leo 1"
+          },
+          "location": {
+            "vi": "Xã Ea H'leo",
+            "en": "Xã Ea H'leo"
+          },
+          "area": "100 ha",
+          "investmentCapital": {
+            "vi": "200 tỷ đồng",
+            "en": "200 billion VND"
+          },
+          "scale": {
+            "vi": "200 mw",
+            "en": "200 mw"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-18",
+          "name": {
+            "vi": "Nhà máy điện mặt trời Ia Rvê (gồm 04 nhà máy từ số 1 đến số 4 với quy mô: 300+300+300+100)",
+            "en": "Nhà máy điện mặt trời Ia Rvê (gồm 04 nhà máy từ số 1 đến số 4 với quy mô: 300+300+300+100)"
+          },
+          "location": {
+            "vi": "xã Ia Rvê",
+            "en": "xã Ia Rvê"
+          },
+          "area": "1.464 ha",
+          "investmentCapital": {
+            "vi": "20000 tỷ đồng",
+            "en": "20000 billion VND"
+          },
+          "scale": {
+            "vi": "1000MW",
+            "en": "1000MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-19",
+          "name": {
+            "vi": "Cụm Nhà máy điện mặt trời tiểu khu 293 xã Cư M’Lan",
+            "en": "Cụm Nhà máy điện mặt trời tiểu khu 293 xã Cư M’Lan"
+          },
+          "location": {
+            "vi": "Tiểu khu 293, xã Ea Súp, tỉnh Đắk Lắk",
+            "en": "Tiểu khu 293, xã Ea Súp, tỉnh Đắk Lắk"
+          },
+          "area": "700 ha",
+          "investmentCapital": {
+            "vi": "10000 tỷ đồng",
+            "en": "10000 billion VND"
+          },
+          "scale": {
+            "vi": "500 MW",
+            "en": "500 MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-20",
+          "name": {
+            "vi": "Nhà máy ĐMT trên hồ Ea Súp Thượng giai đoạn 1",
+            "en": "Nhà máy ĐMT trên hồ Ea Súp Thượng giai đoạn 1"
+          },
+          "location": {
+            "vi": "xã Ea Súp",
+            "en": "xã Ea Súp"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "9040 tỷ đồng",
+            "en": "9040 billion VND"
+          },
+          "scale": {
+            "vi": "452MW",
+            "en": "452MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-21",
+          "name": {
+            "vi": "Nhà máy điện gió Ea Sin 2",
+            "en": "Nhà máy điện gió Ea Sin 2"
+          },
+          "location": {
+            "vi": "xã Cư Pơng, xã Krông Búk, xã Ea Khăl, xã Ea Kiết",
+            "en": "xã Cư Pơng, xã Krông Búk, xã Ea Khăl, xã Ea Kiết"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "5000 tỷ đồng",
+            "en": "5000 billion VND"
+          },
+          "scale": {
+            "vi": "250MW",
+            "en": "250MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-22",
+          "name": {
+            "vi": "Nhà máy điện MT kết hợp trồng cây dược liệu, giai đoạn 1",
+            "en": "Nhà máy điện MT kết hợp trồng cây dược liệu, giai đoạn 1"
+          },
+          "location": {
+            "vi": "Thôn 4, xã Ea H'leo",
+            "en": "Thôn 4, xã Ea H'leo"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "4600 tỷ đồng",
+            "en": "4600 billion VND"
+          },
+          "scale": {
+            "vi": "230MW",
+            "en": "230MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-23",
+          "name": {
+            "vi": "Nhà máy điện mặt trời trên hồ Krông Búk Hạ 1,2",
+            "en": "Nhà máy điện mặt trời trên hồ Krông Búk Hạ 1,2"
+          },
+          "location": {
+            "vi": "xã Ea Phê, xã Ea KLy",
+            "en": "xã Ea Phê, xã Ea KLy"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "4000 tỷ đồng",
+            "en": "4000 billion VND"
+          },
+          "scale": {
+            "vi": "200MW",
+            "en": "200MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-24",
+          "name": {
+            "vi": "Nhà máy điện gió Krông Ana 1",
+            "en": "Nhà máy điện gió Krông Ana 1"
+          },
+          "location": {
+            "vi": "xã Hòa Sơn, xã Krông Bông, xã Dang Kang, xã Ea Ning, xã Dray Bhăng",
+            "en": "xã Hòa Sơn, xã Krông Bông, xã Dang Kang, xã Ea Ning, xã Dray Bhăng"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "3200 tỷ đồng",
+            "en": "3200 billion VND"
+          },
+          "scale": {
+            "vi": "160MW",
+            "en": "160MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-25",
+          "name": {
+            "vi": "Nhà máy điện mặt trời trên hồ thủy lợi Ea H'leo",
+            "en": "Nhà máy điện mặt trời trên hồ thủy lợi Ea H'leo"
+          },
+          "location": {
+            "vi": "Thôn 7, xã Ea H'leo",
+            "en": "Thôn 7, xã Ea H'leo"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "150MW",
+            "en": "150MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-26",
+          "name": {
+            "vi": "Thủy điện Buôn Kuốp mở rộng",
+            "en": "Thủy điện Buôn Kuốp mở rộng"
+          },
+          "location": {
+            "vi": "xã Hòa Phú, xã Ea Na",
+            "en": "xã Hòa Phú, xã Ea Na"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "2800 tỷ đồng",
+            "en": "2800 billion VND"
+          },
+          "scale": {
+            "vi": "140MW",
+            "en": "140MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-27",
+          "name": {
+            "vi": "Thủy điện Srêpốk 3 mở rộng",
+            "en": "Thủy điện Srêpốk 3 mở rộng"
+          },
+          "location": {
+            "vi": "xã Ea Wer",
+            "en": "xã Ea Wer"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "2200 tỷ đồng",
+            "en": "2200 billion VND"
+          },
+          "scale": {
+            "vi": "110MW",
+            "en": "110MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-28",
+          "name": {
+            "vi": "Nhà máy điện mặt trời nổi trên hồ thủy điện Krông H'năng",
+            "en": "Nhà máy điện mặt trời nổi trên hồ thủy điện Krông H'năng"
+          },
+          "location": {
+            "vi": "xã Ea Knốp, xã Cư Prao",
+            "en": "xã Ea Knốp, xã Cư Prao"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-29",
+          "name": {
+            "vi": "Nhà máy điện gió Thuận Phong 2,  GĐ 1",
+            "en": "Nhà máy điện gió Thuận Phong 2,  GĐ 1"
+          },
+          "location": {
+            "vi": "xã Krông Búk",
+            "en": "xã Krông Búk"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-30",
+          "name": {
+            "vi": "Điện gió Thanh Phong Giai đoạn 1",
+            "en": "Điện gió Thanh Phong Giai đoạn 1"
+          },
+          "location": {
+            "vi": "xã Ea H'leo",
+            "en": "xã Ea H'leo"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-31",
+          "name": {
+            "vi": "Nhà máy điện gió Buôn Hồ 3 - Giai đoạn II;",
+            "en": "Nhà máy điện gió Buôn Hồ 3 - Giai đoạn II;"
+          },
+          "location": {
+            "vi": "phường Cư Bao, xã Ea Drông, xã Cuôr Đăng",
+            "en": "phường Cư Bao, xã Ea Drông, xã Cuôr Đăng"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "100MW",
+            "en": "100MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-32",
+          "name": {
+            "vi": "Nhà máy điện ĐMT Tây Hòa 3",
+            "en": "Nhà máy điện ĐMT Tây Hòa 3"
+          },
+          "location": {
+            "vi": "xã Sơn Hòa",
+            "en": "xã Sơn Hòa"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1400 tỷ đồng",
+            "en": "1400 billion VND"
+          },
+          "scale": {
+            "vi": "70MW",
+            "en": "70MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-33",
+          "name": {
+            "vi": "Nhà máy điện ĐMT Tây Hòa 2",
+            "en": "Nhà máy điện ĐMT Tây Hòa 2"
+          },
+          "location": {
+            "vi": "xã Sơn Hòa",
+            "en": "xã Sơn Hòa"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1200 tỷ đồng",
+            "en": "1200 billion VND"
+          },
+          "scale": {
+            "vi": "60MW",
+            "en": "60MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-34",
+          "name": {
+            "vi": "Nhà máy ĐMT Đa Lộc Phú Yên",
+            "en": "Nhà máy ĐMT Đa Lộc Phú Yên"
+          },
+          "location": {
+            "vi": "xã Xuân Lãnh",
+            "en": "xã Xuân Lãnh"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1100 tỷ đồng",
+            "en": "1100 billion VND"
+          },
+          "scale": {
+            "vi": "55MW",
+            "en": "55MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-35",
+          "name": {
+            "vi": "Nhà máy ĐMT trên hồ thuỷ điện Buôn Kuốp",
+            "en": "Nhà máy ĐMT trên hồ thuỷ điện Buôn Kuốp"
+          },
+          "location": {
+            "vi": "xã Ea Na",
+            "en": "xã Ea Na"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-36",
+          "name": {
+            "vi": "Nhà máy ĐMT trên hồ thuỷ điện Srêpốk 3",
+            "en": "Nhà máy ĐMT trên hồ thuỷ điện Srêpốk 3"
+          },
+          "location": {
+            "vi": "xã Ea Wer",
+            "en": "xã Ea Wer"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-37",
+          "name": {
+            "vi": "Nhà máy Điện mặt trời Tây Hòa 1",
+            "en": "Nhà máy Điện mặt trời Tây Hòa 1"
+          },
+          "location": {
+            "vi": "xã Sơn Hòa",
+            "en": "xã Sơn Hòa"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-38",
+          "name": {
+            "vi": "Dự án điện gió Sông Cầu 1 giai đoạn 1",
+            "en": "Dự án điện gió Sông Cầu 1 giai đoạn 1"
+          },
+          "location": {
+            "vi": "xã Xuân Lộc",
+            "en": "xã Xuân Lộc"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-39",
+          "name": {
+            "vi": "Dự án điện gió EaBar",
+            "en": "Dự án điện gió EaBar"
+          },
+          "location": {
+            "vi": "xã Ea Ly, xã Ea Bá",
+            "en": "xã Ea Ly, xã Ea Bá"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-40",
+          "name": {
+            "vi": "Điện gió HLP Krông Năng",
+            "en": "Điện gió HLP Krông Năng"
+          },
+          "location": {
+            "vi": "xã Tam Giang, xã Dliê Ya",
+            "en": "xã Tam Giang, xã Dliê Ya"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "50MW",
+            "en": "50MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-41",
+          "name": {
+            "vi": "Điện mặt trời Ea Súp 1",
+            "en": "Điện mặt trời Ea Súp 1"
+          },
+          "location": {
+            "vi": "xã Ea Súp",
+            "en": "xã Ea Súp"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "800 tỷ đồng",
+            "en": "800 billion VND"
+          },
+          "scale": {
+            "vi": "40MW",
+            "en": "40MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-42",
+          "name": {
+            "vi": "Điện mặt trời Ia Lốp 1",
+            "en": "Điện mặt trời Ia Lốp 1"
+          },
+          "location": {
+            "vi": "xã Ia Lốp",
+            "en": "xã Ia Lốp"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "800 tỷ đồng",
+            "en": "800 billion VND"
+          },
+          "scale": {
+            "vi": "40MW",
+            "en": "40MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-43",
+          "name": {
+            "vi": "Dự án điện gió Sông Cầu 2 giai đoạn 2",
+            "en": "Dự án điện gió Sông Cầu 2 giai đoạn 2"
+          },
+          "location": {
+            "vi": "xã Xuân Thọ",
+            "en": "xã Xuân Thọ"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "760 tỷ đồng",
+            "en": "760 billion VND"
+          },
+          "scale": {
+            "vi": "38MW",
+            "en": "38MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-44",
+          "name": {
+            "vi": "Nhà máy điện gió Krông Năng 1.4",
+            "en": "Nhà máy điện gió Krông Năng 1.4"
+          },
+          "location": {
+            "vi": "hôn Cư Klông, xã Tam Giang",
+            "en": "hôn Cư Klông, xã Tam Giang"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "800 tỷ đồng",
+            "en": "800 billion VND"
+          },
+          "scale": {
+            "vi": "40MW",
+            "en": "40MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-45",
+          "name": {
+            "vi": "Nhà máy ĐMT trên hồ thủy điện Ea Súp 3",
+            "en": "Nhà máy ĐMT trên hồ thủy điện Ea Súp 3"
+          },
+          "location": {
+            "vi": "xã Ea Khăl, xã Ea Kiết",
+            "en": "xã Ea Khăl, xã Ea Kiết"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "600 tỷ đồng",
+            "en": "600 billion VND"
+          },
+          "scale": {
+            "vi": "30MW",
+            "en": "30MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-46",
+          "name": {
+            "vi": "Nhà máy điện gió Krông Năng 1.5",
+            "en": "Nhà máy điện gió Krông Năng 1.5"
+          },
+          "location": {
+            "vi": "thôn Cư Klông và Tam Hợp, xã Tam Giang",
+            "en": "thôn Cư Klông và Tam Hợp, xã Tam Giang"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "600 tỷ đồng",
+            "en": "600 billion VND"
+          },
+          "scale": {
+            "vi": "30MW",
+            "en": "30MW"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "RE-47",
+          "name": {
+            "vi": "Nhà máy thủy điện Chư Pông Krông mở rộng (nâng công suất từ 8MW lên 12MW)",
+            "en": "Nhà máy thủy điện Chư Pông Krông mở rộng (nâng công suất từ 8MW lên 12MW)"
+          },
+          "location": {
+            "vi": "xã Nam Ka",
+            "en": "xã Nam Ka"
+          },
+          "area": "Chưa xác định",
+          "investmentCapital": {
+            "vi": "80 tỷ đồng",
+            "en": "80 billion VND"
+          },
+          "scale": {
+            "vi": "4MW",
+            "en": "4MW"
+          },
+          "qrLink": ""
+        }
+      ]
+    },
+    {
+      "pageId": 2,
+      "category": {
+        "vi": "Lĩnh Vực Đô Thị, Nhà Ở",
+        "en": "Urban and Housing Sector"
+      },
+      "projects": [
+        {
+          "id": "UR-01",
+          "name": {
+            "vi": "Khu đô thị dịch vụ ven biển thuộc Khu kinh tế Nam Phú Yên",
+            "en": "Khu đô thị dịch vụ ven biển thuộc Khu kinh tế Nam Phú Yên"
+          },
+          "location": {
+            "vi": "Phường Hòa Hiệp",
+            "en": "Phường Hòa Hiệp"
+          },
+          "area": "329 ha",
+          "investmentCapital": {
+            "vi": "37000 tỷ đồng",
+            "en": "37000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng.",
+            "en": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-02",
+          "name": {
+            "vi": "Khu đô thị mới phường Phú Yên",
+            "en": "Khu đô thị mới phường Phú Yên"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "297 ha",
+          "investmentCapital": {
+            "vi": "35000 tỷ đồng",
+            "en": "35000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn của một đô thị trong tương lai; một đô thị dịch vụ hỗn hợp hỗ trợ tốt cho khu vực Nam Tuy Hòa, Bắc Khu kinh tế Nam Phú Yên, sân bay Tuy Hòa và ga đường sắt...",
+            "en": "Xây dựng khu đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn của một đô thị trong tương lai; một đô thị dịch vụ hỗn hợp hỗ trợ tốt cho khu vực Nam Tuy Hòa, Bắc Khu kinh tế Nam Phú Yên, sân bay Tuy Hòa và ga đường sắt..."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-03",
+          "name": {
+            "vi": "Khu đô thị mới kết hợp TMDV và Thể thao",
+            "en": "Khu đô thị mới kết hợp TMDV và Thể thao"
+          },
+          "location": {
+            "vi": "Phường Xuân Đài",
+            "en": "Phường Xuân Đài"
+          },
+          "area": "310 ha",
+          "investmentCapital": {
+            "vi": "15500 tỷ đồng",
+            "en": "15500 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng khu đô thị kết hợp thương mại dịch vụ và thể thao; đồng bộ về nhà ở; thương mại dịch vụ, thể thao với công trình hạ tầng kỹ thuật, hạ tầng xã hội và các công trình khác phục vụ nhu cầu ở (công trình thương mại dịch vụ; thể thao, công trình công cộng, cảnh quan...).",
+            "en": "Đầu tư xây dựng khu đô thị kết hợp thương mại dịch vụ và thể thao; đồng bộ về nhà ở; thương mại dịch vụ, thể thao với công trình hạ tầng kỹ thuật, hạ tầng xã hội và các công trình khác phục vụ nhu cầu ở (công trình thương mại dịch vụ; thể thao, công trình công cộng, cảnh quan...)."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-04",
+          "name": {
+            "vi": "Khu đô thị, dịch vụ du lịch sinh thái Nam Sông Ba",
+            "en": "Khu đô thị, dịch vụ du lịch sinh thái Nam Sông Ba"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "190 ha",
+          "investmentCapital": {
+            "vi": "10000 tỷ đồng",
+            "en": "10000 billion VND"
+          },
+          "scale": {
+            "vi": "Phát triển khu vực Nam sông Ba thành khu vực hỗ hợp Đô thị - Du lịch - Dịch vụ để phục vụ phát triển du lịch và phát triển đô thị.",
+            "en": "Phát triển khu vực Nam sông Ba thành khu vực hỗ hợp Đô thị - Du lịch - Dịch vụ để phục vụ phát triển du lịch và phát triển đô thị."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-05",
+          "name": {
+            "vi": "Khu đô thị hồ Ea Tam",
+            "en": "Khu đô thị hồ Ea Tam"
+          },
+          "location": {
+            "vi": "phường Buôn Ma Thuột",
+            "en": "phường Buôn Ma Thuột"
+          },
+          "area": "62,34 ha",
+          "investmentCapital": {
+            "vi": "9760 tỷ đồng",
+            "en": "9760 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng khu đô thị đồng bộ về nhà ở với công trình hạ tầng kỹ thuật, hạ tầng xã hội và các công trình khác phục vụ nhu cầu ở (công trình thương mại dịch vụ; công trình công cộng, cảnh quan...). Quy mô dân số: khoảng 7.974  người.",
+            "en": "Đầu tư xây dựng khu đô thị đồng bộ về nhà ở với công trình hạ tầng kỹ thuật, hạ tầng xã hội và các công trình khác phục vụ nhu cầu ở (công trình thương mại dịch vụ; công trình công cộng, cảnh quan...). Quy mô dân số: khoảng 7.974  người."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-06",
+          "name": {
+            "vi": "Khu đô thị dịch vụ phía Đông đường Hùng Vương, phường Phú Yên",
+            "en": "Khu đô thị dịch vụ phía Đông đường Hùng Vương, phường Phú Yên"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "62 ha",
+          "investmentCapital": {
+            "vi": "9000 tỷ đồng",
+            "en": "9000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu dân cư đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn.",
+            "en": "Xây dựng khu dân cư đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-07",
+          "name": {
+            "vi": "Khu đô thị mới phía Đông Hòa Vinh",
+            "en": "Khu đô thị mới phía Đông Hòa Vinh"
+          },
+          "location": {
+            "vi": "Phường Đông Hòa",
+            "en": "Phường Đông Hòa"
+          },
+          "area": "122 ha",
+          "investmentCapital": {
+            "vi": "6600 tỷ đồng",
+            "en": "6600 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng khu đô thị hiện đại, đồng bộ về hạ tầng kỹ thuật và hạ tầng xã hội; phát triển nhà ở thương mại gắn với nhà ở xã hội, đảm bảo môi trường sống chất lượng, đáp ứng các tiêu chuẩn, quy chuẩn theo quy định.",
+            "en": "Đầu tư xây dựng khu đô thị hiện đại, đồng bộ về hạ tầng kỹ thuật và hạ tầng xã hội; phát triển nhà ở thương mại gắn với nhà ở xã hội, đảm bảo môi trường sống chất lượng, đáp ứng các tiêu chuẩn, quy chuẩn theo quy định."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-08",
+          "name": {
+            "vi": "Khu đô thị dịch vụ phía Tây đường Hùng Vương phường Phú Yên",
+            "en": "Khu đô thị dịch vụ phía Tây đường Hùng Vương phường Phú Yên"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "47 ha",
+          "investmentCapital": {
+            "vi": "6600 tỷ đồng",
+            "en": "6600 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu dân cư đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn.",
+            "en": "Xây dựng khu dân cư đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-09",
+          "name": {
+            "vi": "Khu đô thị Nam Chí Thạnh",
+            "en": "Khu đô thị Nam Chí Thạnh"
+          },
+          "location": {
+            "vi": "Xã Tuy An Bắc",
+            "en": "Xã Tuy An Bắc"
+          },
+          "area": "70 ha",
+          "investmentCapital": {
+            "vi": "5000 tỷ đồng",
+            "en": "5000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng.",
+            "en": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-10",
+          "name": {
+            "vi": "Khu đô thị, dịch vụ phục vụ công nghiệp phường Hòa Hiệp",
+            "en": "Khu đô thị, dịch vụ phục vụ công nghiệp phường Hòa Hiệp"
+          },
+          "location": {
+            "vi": "Phường Hòa Hiệp",
+            "en": "Phường Hòa Hiệp"
+          },
+          "area": "98 ha",
+          "investmentCapital": {
+            "vi": "4500 tỷ đồng",
+            "en": "4500 billion VND"
+          },
+          "scale": {
+            "vi": "Hình thành khu đô thị - dịch vụ phục vụ công nghiệp cho toàn Khu kinh tế Nam Phú Yên; đảm bảo quỹ đất phát triển nhà ở công nhân, chuyên gia và tái định cư; phát triển đồng bộ, khai thác hiệu quả quỹ đất, hướng đến đô thị hiện đại, bền vững.",
+            "en": "Hình thành khu đô thị - dịch vụ phục vụ công nghiệp cho toàn Khu kinh tế Nam Phú Yên; đảm bảo quỹ đất phát triển nhà ở công nhân, chuyên gia và tái định cư; phát triển đồng bộ, khai thác hiệu quả quỹ đất, hướng đến đô thị hiện đại, bền vững."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-11",
+          "name": {
+            "vi": "Khu đô thị du lịch sinh thái Phú Lương;",
+            "en": "Khu đô thị du lịch sinh thái Phú Lương;"
+          },
+          "location": {
+            "vi": "Xã Tuy An Đông",
+            "en": "Xã Tuy An Đông"
+          },
+          "area": "127.78 ha",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư đầy đủ hạ tầng phục vụ du lịch sinh thái kết hợp đô thị",
+            "en": "Đầu tư đầy đủ hạ tầng phục vụ du lịch sinh thái kết hợp đô thị"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-12",
+          "name": {
+            "vi": "Khu đô thị Quốc lộ 25",
+            "en": "Khu đô thị Quốc lộ 25"
+          },
+          "location": {
+            "vi": "Phường Tuy Hòa",
+            "en": "Phường Tuy Hòa"
+          },
+          "area": "38.15 ha",
+          "investmentCapital": {
+            "vi": "1600 tỷ đồng",
+            "en": "1600 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở thương mại, công trình hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ",
+            "en": "Nhà ở thương mại, công trình hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-13",
+          "name": {
+            "vi": "Khu đô thị tại Khu trung tâm hành chính Krông Búk",
+            "en": "Khu đô thị tại Khu trung tâm hành chính Krông Búk"
+          },
+          "location": {
+            "vi": "xã Krông Búk",
+            "en": "xã Krông Búk"
+          },
+          "area": "48 ha",
+          "investmentCapital": {
+            "vi": "1500 tỷ đồng",
+            "en": "1500 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở và các tiện ích thương mại",
+            "en": "Nhà ở và các tiện ích thương mại"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-14",
+          "name": {
+            "vi": "Khu đô thị Phú Sơn",
+            "en": "Khu đô thị Phú Sơn"
+          },
+          "location": {
+            "vi": "Xã Tuy An Đông",
+            "en": "Xã Tuy An Đông"
+          },
+          "area": "22.5 ha",
+          "investmentCapital": {
+            "vi": "1240 tỷ đồng",
+            "en": "1240 billion VND"
+          },
+          "scale": {
+            "vi": "22.5 ha",
+            "en": "22.5 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-15",
+          "name": {
+            "vi": "Khu đô thị Nam Bình (giai đoạn 1)",
+            "en": "Khu đô thị Nam Bình (giai đoạn 1)"
+          },
+          "location": {
+            "vi": "Phường Đông Hòa",
+            "en": "Phường Đông Hòa"
+          },
+          "area": "24,12 ha",
+          "investmentCapital": {
+            "vi": "1200 tỷ đồng",
+            "en": "1200 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu dân cư đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn.",
+            "en": "Xây dựng khu dân cư đô thị hiện đại với có các cơ sở hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ hoàn thiện, có môi trường sống tốt, đảm bảo tiêu chuẩn."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-16",
+          "name": {
+            "vi": "Khu đô thị hồ trung tâm",
+            "en": "Khu đô thị hồ trung tâm"
+          },
+          "location": {
+            "vi": "Xã Sông Hinh",
+            "en": "Xã Sông Hinh"
+          },
+          "area": "23.94 ha",
+          "investmentCapital": {
+            "vi": "1200 tỷ đồng",
+            "en": "1200 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở thương mại, công trình thương mại dịch vụ, trường mầm non, công viên cây xanh",
+            "en": "Nhà ở thương mại, công trình thương mại dịch vụ, trường mầm non, công viên cây xanh"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-17",
+          "name": {
+            "vi": "Khu đô thị dịch vụ ven Biển phường Hòa Hiệp thuộc Khu kinh tế Nam Phú Yên",
+            "en": "Khu đô thị dịch vụ ven Biển phường Hòa Hiệp thuộc Khu kinh tế Nam Phú Yên"
+          },
+          "location": {
+            "vi": "Phường Hòa Hiệp",
+            "en": "Phường Hòa Hiệp"
+          },
+          "area": "20 ha",
+          "investmentCapital": {
+            "vi": "800 tỷ đồng",
+            "en": "800 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng khu đô thị hiện đại, đồng bộ về hạ tầng kỹ thuật và hạ tầng xã hội; phát triển nhà ở thương mại gắn với nhà ở xã hội, đảm bảo môi trường sống chất lượng, đáp ứng các tiêu chuẩn, quy chuẩn theo quy định.",
+            "en": "Đầu tư xây dựng khu đô thị hiện đại, đồng bộ về hạ tầng kỹ thuật và hạ tầng xã hội; phát triển nhà ở thương mại gắn với nhà ở xã hội, đảm bảo môi trường sống chất lượng, đáp ứng các tiêu chuẩn, quy chuẩn theo quy định."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-18",
+          "name": {
+            "vi": "Khu đô thị sinh thái văn hóa du lịch dân tộc Đắk Lắk",
+            "en": "Khu đô thị sinh thái văn hóa du lịch dân tộc Đắk Lắk"
+          },
+          "location": {
+            "vi": "phường Tân An",
+            "en": "phường Tân An"
+          },
+          "area": "46,07 ha",
+          "investmentCapital": {
+            "vi": "530 tỷ đồng",
+            "en": "530 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng khu đô thị sinh thái văn hóa du lịch dân tộc",
+            "en": "Đầu tư xây dựng khu đô thị sinh thái văn hóa du lịch dân tộc"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-19",
+          "name": {
+            "vi": "Đầu tư hạ tầng Khu đô thị dịch vụ Hòa Phú",
+            "en": "Đầu tư hạ tầng Khu đô thị dịch vụ Hòa Phú"
+          },
+          "location": {
+            "vi": "Xã Hòa Phú",
+            "en": "Xã Hòa Phú"
+          },
+          "area": "54.77 ha",
+          "investmentCapital": {
+            "vi": "430.60174 tỷ đồng",
+            "en": "430.60174 billion VND"
+          },
+          "scale": {
+            "vi": "431 tỷ",
+            "en": "431 tỷ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-20",
+          "name": {
+            "vi": "Khu đô thị Hòn Chồng",
+            "en": "Khu đô thị Hòn Chồng"
+          },
+          "location": {
+            "vi": "Xã Tuy An Bắc",
+            "en": "Xã Tuy An Bắc"
+          },
+          "area": "100 ha",
+          "investmentCapital": {
+            "vi": "420 tỷ đồng",
+            "en": "420 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng.",
+            "en": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-21",
+          "name": {
+            "vi": "Khu dân cư phía Tây đồi Cư Hlăm (Quy mô 60ha)",
+            "en": "Khu dân cư phía Tây đồi Cư Hlăm (Quy mô 60ha)"
+          },
+          "location": {
+            "vi": "Xã Quảng Phú",
+            "en": "Xã Quảng Phú"
+          },
+          "area": "60 ha",
+          "investmentCapital": {
+            "vi": "5000 tỷ đồng",
+            "en": "5000 billion VND"
+          },
+          "scale": {
+            "vi": "60",
+            "en": "60"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-22",
+          "name": {
+            "vi": "Khu động lực kết hợp không gian ven sông Hà yến thuộc Khu Bắc đường sắt đến giáp sông Hà Yến",
+            "en": "Khu động lực kết hợp không gian ven sông Hà yến thuộc Khu Bắc đường sắt đến giáp sông Hà Yến"
+          },
+          "location": {
+            "vi": "Xã Tuy An Bắc",
+            "en": "Xã Tuy An Bắc"
+          },
+          "area": "40 ha",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng.",
+            "en": "Xây dựng Khu đô thị dịch vụ, du lịch tổng hợp với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường; với các khu chức năng dịch vụ chất lượng cao, đáp ứng nhu cầu ở và nghỉ dưỡng."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-23",
+          "name": {
+            "vi": "Khu dân cư nông thôn kết hợp du lịch sinh thái xã Ea Kpam và xã Cư M’gar",
+            "en": "Khu dân cư nông thôn kết hợp du lịch sinh thái xã Ea Kpam và xã Cư M’gar"
+          },
+          "location": {
+            "vi": "Xã Cư M’gar",
+            "en": "Xã Cư M’gar"
+          },
+          "area": "51.07 ha",
+          "investmentCapital": {
+            "vi": "2850 tỷ đồng",
+            "en": "2850 billion VND"
+          },
+          "scale": {
+            "vi": "Quy mô được xác định theo chi tiêu Quy hoạch chi tiết tỷ lệ 1/500 Khu dân cư nông thôn kết hợp du lịch sinh thái xã Ea Kpam và xã Cư M’gar, huyện Cư M’gar được UBND huyện Cư M’gar phê duyệt tại Quyết định số 971/QĐ-UBND ngày 17/3/2022. Quy mô dân số: Dự kiến ≈ 7.377 người.",
+            "en": "Quy mô được xác định theo chi tiêu Quy hoạch chi tiết tỷ lệ 1/500 Khu dân cư nông thôn kết hợp du lịch sinh thái xã Ea Kpam và xã Cư M’gar, huyện Cư M’gar được UBND huyện Cư M’gar phê duyệt tại Quyết định số 971/QĐ-UBND ngày 17/3/2022. Quy mô dân số: Dự kiến ≈ 7.377 người."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-24",
+          "name": {
+            "vi": "Khu dân cư mới phía Tây Quốc lộ 1",
+            "en": "Khu dân cư mới phía Tây Quốc lộ 1"
+          },
+          "location": {
+            "vi": "Phường Tuy Hòa",
+            "en": "Phường Tuy Hòa"
+          },
+          "area": "54.46 ha",
+          "investmentCapital": {
+            "vi": "2650 tỷ đồng",
+            "en": "2650 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở thương mại, công trình hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ",
+            "en": "Nhà ở thương mại, công trình hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-25",
+          "name": {
+            "vi": "Khu nhà ở hỗn hợp cao cấp số 07 phía Tây, đường Hùng Vương,",
+            "en": "Khu nhà ở hỗn hợp cao cấp số 07 phía Tây, đường Hùng Vương,"
+          },
+          "location": {
+            "vi": "Phường Bình Kiến",
+            "en": "Phường Bình Kiến"
+          },
+          "area": "0,86 ha",
+          "investmentCapital": {
+            "vi": "2580 tỷ đồng",
+            "en": "2580 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng nhà chung cư cao cấp kết hợp thương mại - dịch vụ: Chiều cao tối đa 150m; tầng nổi tối thiểu 20 tầng, tối đa 40 tầng; tầng hầm tối đa 03 tầng; tối đa 1.393 căn hộ",
+            "en": "Xây dựng nhà chung cư cao cấp kết hợp thương mại - dịch vụ: Chiều cao tối đa 150m; tầng nổi tối thiểu 20 tầng, tối đa 40 tầng; tầng hầm tối đa 03 tầng; tối đa 1.393 căn hộ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-26",
+          "name": {
+            "vi": "Khu dân cư trung tâm phường Tân Hòa",
+            "en": "Khu dân cư trung tâm phường Tân Hòa"
+          },
+          "location": {
+            "vi": "phường Tân Lập",
+            "en": "phường Tân Lập"
+          },
+          "area": "27.8 ha",
+          "investmentCapital": {
+            "vi": "2160 tỷ đồng",
+            "en": "2160 billion VND"
+          },
+          "scale": {
+            "vi": "Xác định theo Quyết định số 7033/QĐ-UBND ngày 31/10/2024 của UBND thành phố Buôn Ma Thuột về việc phê duyệt Quy hoạch chi tiết tỷ lệ 1/500 Khu dân cư đô thị mới tại phường Tân Hòa, thành phố Buôn Ma Thuột. Quy mô dân số: Dự kiến 4.030 người.",
+            "en": "Xác định theo Quyết định số 7033/QĐ-UBND ngày 31/10/2024 của UBND thành phố Buôn Ma Thuột về việc phê duyệt Quy hoạch chi tiết tỷ lệ 1/500 Khu dân cư đô thị mới tại phường Tân Hòa, thành phố Buôn Ma Thuột. Quy mô dân số: Dự kiến 4.030 người."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-27",
+          "name": {
+            "vi": "Khu nhà ở chung cư tại lô đất ký hiệu 4 phía đông, đường Hùng Vương (đoạn từ đường Trần Hào - đường số 14)",
+            "en": "Khu nhà ở chung cư tại lô đất ký hiệu 4 phía đông, đường Hùng Vương (đoạn từ đường Trần Hào - đường số 14)"
+          },
+          "location": {
+            "vi": "Phường Bình Kiến",
+            "en": "Phường Bình Kiến"
+          },
+          "area": "2,14 ha",
+          "investmentCapital": {
+            "vi": "2100 tỷ đồng",
+            "en": "2100 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng 02 khối nhà chung cư cao cấp, với số tầng: Tầng nổi tối đa 20 tầng, tầng hầm tối đa 03 tầng, chiều cao công trình: tối đa 75m",
+            "en": "Xây dựng 02 khối nhà chung cư cao cấp, với số tầng: Tầng nổi tối đa 20 tầng, tầng hầm tối đa 03 tầng, chiều cao công trình: tối đa 75m"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-28",
+          "name": {
+            "vi": "Khu dân cư mới xã Hòa An",
+            "en": "Khu dân cư mới xã Hòa An"
+          },
+          "location": {
+            "vi": "Phường Tuy Hòa",
+            "en": "Phường Tuy Hòa"
+          },
+          "area": "25.83 ha",
+          "investmentCapital": {
+            "vi": "1750 tỷ đồng",
+            "en": "1750 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở thương mại, công trình hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ",
+            "en": "Nhà ở thương mại, công trình hạ tầng xã hội, hạ tầng kỹ thuật đồng bộ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-29",
+          "name": {
+            "vi": "Khu dân cư thôn 15 xã M'Drắk",
+            "en": "Khu dân cư thôn 15 xã M'Drắk"
+          },
+          "location": {
+            "vi": "Xã M'Drắk",
+            "en": "Xã M'Drắk"
+          },
+          "area": "100 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-30",
+          "name": {
+            "vi": "Khu nhà ở tại lô đất ký hiệu 5 phía Đông, đường Hùng Vương (đoạn từ đường Trần Hào-đường số 14)",
+            "en": "Khu nhà ở tại lô đất ký hiệu 5 phía Đông, đường Hùng Vương (đoạn từ đường Trần Hào-đường số 14)"
+          },
+          "location": {
+            "vi": "Phường Bình Kiến",
+            "en": "Phường Bình Kiến"
+          },
+          "area": "2,34 ha",
+          "investmentCapital": {
+            "vi": "890 tỷ đồng",
+            "en": "890 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng hoàn thiện phần thô và hoàn thiện mặt ngoài các căn nhà ở liên kế dạng hỗn hợp",
+            "en": "Xây dựng hoàn thiện phần thô và hoàn thiện mặt ngoài các căn nhà ở liên kế dạng hỗn hợp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-31",
+          "name": {
+            "vi": "Khu nhà ở tại lô đất ký hiệu 6 phía đông, đường Hùng Vương (đoạn từ đường Trần Hào - đường số 14)",
+            "en": "Khu nhà ở tại lô đất ký hiệu 6 phía đông, đường Hùng Vương (đoạn từ đường Trần Hào - đường số 14)"
+          },
+          "location": {
+            "vi": "Phường Bình Kiến",
+            "en": "Phường Bình Kiến"
+          },
+          "area": "2,16 ha",
+          "investmentCapital": {
+            "vi": "830 tỷ đồng",
+            "en": "830 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng hoàn thiện phần thô và hoàn thiện mặt ngoài các căn nhà ở liên kế dạng hỗn hợp",
+            "en": "Xây dựng hoàn thiện phần thô và hoàn thiện mặt ngoài các căn nhà ở liên kế dạng hỗn hợp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-32",
+          "name": {
+            "vi": "Khu nhà ở thương mại Trung tâm xã Liên Sơn Lắk",
+            "en": "Khu nhà ở thương mại Trung tâm xã Liên Sơn Lắk"
+          },
+          "location": {
+            "vi": "xã Liên  Sơn Lắk",
+            "en": "xã Liên  Sơn Lắk"
+          },
+          "area": "10.02 ha",
+          "investmentCapital": {
+            "vi": "680 tỷ đồng",
+            "en": "680 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu nhà ở thương mại hiện đại gắn kết với hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với khu vực và các dự án lân cận",
+            "en": "Xây dựng khu nhà ở thương mại hiện đại gắn kết với hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với khu vực và các dự án lân cận"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-33",
+          "name": {
+            "vi": "Khu nhà ở thương mại Tây Nam hồ Lắk tại xã Liên Sơn Lắk",
+            "en": "Khu nhà ở thương mại Tây Nam hồ Lắk tại xã Liên Sơn Lắk"
+          },
+          "location": {
+            "vi": "xã Liên  Sơn Lắk",
+            "en": "xã Liên  Sơn Lắk"
+          },
+          "area": "10.21 ha",
+          "investmentCapital": {
+            "vi": "640 tỷ đồng",
+            "en": "640 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu nhà ở thương mại hiện đại gắn kết với hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với khu vực và các dự án lân cận",
+            "en": "Xây dựng khu nhà ở thương mại hiện đại gắn kết với hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với khu vực và các dự án lân cận"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-34",
+          "name": {
+            "vi": "Khu nhà ở đô thị, thương mại dịch vụ tại Hồ Vườn Ươm xã Pơng Drang",
+            "en": "Khu nhà ở đô thị, thương mại dịch vụ tại Hồ Vườn Ươm xã Pơng Drang"
+          },
+          "location": {
+            "vi": "Thôn 10, Xã Pơng Drang",
+            "en": "Thôn 10, Xã Pơng Drang"
+          },
+          "area": "34 ha",
+          "investmentCapital": {
+            "vi": "600 tỷ đồng",
+            "en": "600 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở và các tiện ích thương mại",
+            "en": "Nhà ở và các tiện ích thương mại"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-35",
+          "name": {
+            "vi": "Khu dân cư tập trung, đất thương mại dịch vụ, đất giáo dục, đất y tế, đất công viên cây xanh, đất giao thông nội bộ (tại cụm công nghiệp Ea Ô củ)",
+            "en": "Khu dân cư tập trung, đất thương mại dịch vụ, đất giáo dục, đất y tế, đất công viên cây xanh, đất giao thông nội bộ (tại cụm công nghiệp Ea Ô củ)"
+          },
+          "location": {
+            "vi": "Thôn 12, xã Ea Ô",
+            "en": "Thôn 12, xã Ea Ô"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "600 tỷ đồng",
+            "en": "600 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-36",
+          "name": {
+            "vi": "Khu dân cư trục đường Trần Phú và khu vực ven Hồ Tân An",
+            "en": "Khu dân cư trục đường Trần Phú và khu vực ven Hồ Tân An"
+          },
+          "location": {
+            "vi": "xã Krông Pắc",
+            "en": "xã Krông Pắc"
+          },
+          "area": "10,07 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu dân cư kiểu mẫu, hiện đại gắn kết với hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với khu vực và các dự án lân cận",
+            "en": "Xây dựng khu dân cư kiểu mẫu, hiện đại gắn kết với hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với khu vực và các dự án lân cận"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-37",
+          "name": {
+            "vi": "Nhà ở Liên kề -(LK -01)",
+            "en": "Nhà ở Liên kề -(LK -01)"
+          },
+          "location": {
+            "vi": "Tổ dân phố 6, Khu cánh đồng 8/10, (phườngThành Nhất cũ)",
+            "en": "Tổ dân phố 6, Khu cánh đồng 8/10, (phườngThành Nhất cũ)"
+          },
+          "area": "0.99 ha",
+          "investmentCapital": {
+            "vi": "400-500 tỷ đồng",
+            "en": "400-500 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng hoàn thiện phần thô và hoàn thiện mặt ngoài các căn nhà ở liên kế dạng hỗn hợp",
+            "en": "Xây dựng hoàn thiện phần thô và hoàn thiện mặt ngoài các căn nhà ở liên kế dạng hỗn hợp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-38",
+          "name": {
+            "vi": "Khu dân cư xã Cư Suê",
+            "en": "Khu dân cư xã Cư Suê"
+          },
+          "location": {
+            "vi": "Xã Quảng Phú",
+            "en": "Xã Quảng Phú"
+          },
+          "area": "59 ha",
+          "investmentCapital": {
+            "vi": "sẽ xác định tại thủ tục chấp thuận chủ trương đầu tư tỷ đồng",
+            "en": "sẽ xác định tại thủ tục chấp thuận chủ trương đầu tư billion VND"
+          },
+          "scale": {
+            "vi": "Khu nhà ở mới",
+            "en": "Khu nhà ở mới"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-39",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu C1, C2, C3)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu C1, C2, C3)"
+          },
+          "location": {
+            "vi": "Phường Tân An",
+            "en": "Phường Tân An"
+          },
+          "area": "12,79 ha",
+          "investmentCapital": {
+            "vi": "6390 tỷ đồng",
+            "en": "6390 billion VND"
+          },
+          "scale": {
+            "vi": "2150 căn",
+            "en": "2150 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-40",
+          "name": {
+            "vi": "Dự án Nhà ở xã hội (Ký hiệu B-OM01) thuộc Khu đô thị, dịch vụ phục vụ công nghiệp phường Hòa Hiệp",
+            "en": "Dự án Nhà ở xã hội (Ký hiệu B-OM01) thuộc Khu đô thị, dịch vụ phục vụ công nghiệp phường Hòa Hiệp"
+          },
+          "location": {
+            "vi": "Phường Hòa Hiệp",
+            "en": "Phường Hòa Hiệp"
+          },
+          "area": "6 ha",
+          "investmentCapital": {
+            "vi": "2500 tỷ đồng",
+            "en": "2500 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu nhà ở xã hội với đầy đủ hạ tầng kỹ thuật phục vụ cho các đối tượng theo quy định của pháp luật.",
+            "en": "Xây dựng khu nhà ở xã hội với đầy đủ hạ tầng kỹ thuật phục vụ cho các đối tượng theo quy định của pháp luật."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-41",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu OCC)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu OCC)"
+          },
+          "location": {
+            "vi": "Phường Buôn Ma Thuột",
+            "en": "Phường Buôn Ma Thuột"
+          },
+          "area": "4,63 ha",
+          "investmentCapital": {
+            "vi": "2320 tỷ đồng",
+            "en": "2320 billion VND"
+          },
+          "scale": {
+            "vi": "780 căn",
+            "en": "780 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-42",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu XH-1)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu XH-1)"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "4.55 ha",
+          "investmentCapital": {
+            "vi": "2270 tỷ đồng",
+            "en": "2270 billion VND"
+          },
+          "scale": {
+            "vi": "2800 căn",
+            "en": "2800 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-43",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu B4)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu B4)"
+          },
+          "location": {
+            "vi": "Phường Ea Kao",
+            "en": "Phường Ea Kao"
+          },
+          "area": "4,52 ha",
+          "investmentCapital": {
+            "vi": "2260 tỷ đồng",
+            "en": "2260 billion VND"
+          },
+          "scale": {
+            "vi": "630 căn",
+            "en": "630 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-44",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu XHCC)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu XHCC)"
+          },
+          "location": {
+            "vi": "Phường Buôn Ma Thuột",
+            "en": "Phường Buôn Ma Thuột"
+          },
+          "area": "4.28 ha",
+          "investmentCapital": {
+            "vi": "2140 tỷ đồng",
+            "en": "2140 billion VND"
+          },
+          "scale": {
+            "vi": "730 căn",
+            "en": "730 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-45",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu N14)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu N14)"
+          },
+          "location": {
+            "vi": "Xã Xuân Cảnh",
+            "en": "Xã Xuân Cảnh"
+          },
+          "area": "3.6 ha",
+          "investmentCapital": {
+            "vi": "1800 tỷ đồng",
+            "en": "1800 billion VND"
+          },
+          "scale": {
+            "vi": "2180 căn",
+            "en": "2180 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-46",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu LK-8, TDC-1 và TDC-2)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu LK-8, TDC-1 và TDC-2)"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "3 ha",
+          "investmentCapital": {
+            "vi": "1500 tỷ đồng",
+            "en": "1500 billion VND"
+          },
+          "scale": {
+            "vi": "1820 căn",
+            "en": "1820 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-47",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu DO CC-02)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu DO CC-02)"
+          },
+          "location": {
+            "vi": "Phường Buôn Ma Thuột",
+            "en": "Phường Buôn Ma Thuột"
+          },
+          "area": "2.95 ha",
+          "investmentCapital": {
+            "vi": "1480 tỷ đồng",
+            "en": "1480 billion VND"
+          },
+          "scale": {
+            "vi": "500 căn",
+            "en": "500 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-48",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu C-C)",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu C-C)"
+          },
+          "location": {
+            "vi": "Phường Buôn Ma Thuột",
+            "en": "Phường Buôn Ma Thuột"
+          },
+          "area": "2.06 ha",
+          "investmentCapital": {
+            "vi": "1030 tỷ đồng",
+            "en": "1030 billion VND"
+          },
+          "scale": {
+            "vi": "350 căn",
+            "en": "350 căn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-49",
+          "name": {
+            "vi": "Nhà ở cho lực lượng vũ trang Công an nhân dân",
+            "en": "Nhà ở cho lực lượng vũ trang Công an nhân dân"
+          },
+          "location": {
+            "vi": "Công an tỉnh, Phường Thành Nhất",
+            "en": "Công an tỉnh, Phường Thành Nhất"
+          },
+          "area": "1,89 ha",
+          "investmentCapital": {
+            "vi": "894 tỷ đồng",
+            "en": "894 billion VND"
+          },
+          "scale": {
+            "vi": "Khoảng 454 căn hộ nhà ở xã hội và 42 căn nhà ở thương mại thấp tầng.",
+            "en": "Khoảng 454 căn hộ nhà ở xã hội và 42 căn nhà ở thương mại thấp tầng."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "UR-50",
+          "name": {
+            "vi": "Nhà ở xã hội (Khu đất ký hiệu XH) thuộc Đồ án quy hoạch Khu đô thị mới Hòa Hiệp Bắc.",
+            "en": "Nhà ở xã hội (Khu đất ký hiệu XH) thuộc Đồ án quy hoạch Khu đô thị mới Hòa Hiệp Bắc."
+          },
+          "location": {
+            "vi": "Phường Hòa Hiệp",
+            "en": "Phường Hòa Hiệp"
+          },
+          "area": "1.36 ha",
+          "investmentCapital": {
+            "vi": "680 tỷ đồng",
+            "en": "680 billion VND"
+          },
+          "scale": {
+            "vi": "680 căn",
+            "en": "680 căn"
+          },
+          "qrLink": ""
+        }
+      ]
+    },
+    {
+      "pageId": 3,
+      "category": {
+        "vi": "Khu Cụm Công Nghiệp & Logistics",
+        "en": "Industrial Zones & Logistics"
+      },
+      "projects": [
+        {
+          "id": "IN-01",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Tâm - Giai đoạn 2",
+            "en": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Tâm - Giai đoạn 2"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "423,72 ha",
+          "investmentCapital": {
+            "vi": "4000 tỷ đồng",
+            "en": "4000 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê  đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt.",
+            "en": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê  đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-02",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Xuân Tây",
+            "en": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Xuân Tây"
+          },
+          "location": {
+            "vi": "Phường Đông Hòa",
+            "en": "Phường Đông Hòa"
+          },
+          "area": "454 ha",
+          "investmentCapital": {
+            "vi": "3650 tỷ đồng",
+            "en": "3650 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê  đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt.",
+            "en": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê  đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-03",
+          "name": {
+            "vi": "Đầu tư hạ tầng Khu công nghiệp Ea Kar",
+            "en": "Đầu tư hạ tầng Khu công nghiệp Ea Kar"
+          },
+          "location": {
+            "vi": "Xã Ea Knốp",
+            "en": "Xã Ea Knốp"
+          },
+          "area": "480 ha",
+          "investmentCapital": {
+            "vi": "3650 tỷ đồng",
+            "en": "3650 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-04",
+          "name": {
+            "vi": "Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Thành",
+            "en": "Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Thành"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "443 ha",
+          "investmentCapital": {
+            "vi": "3600 tỷ đồng",
+            "en": "3600 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại KCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt.\r\n(Phân kỳ đầu tư theo hiện trạng diện tích chuyển mục đích sử dụng đất trồng lúa 2 vụ).",
+            "en": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại KCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt.\r\n(Phân kỳ đầu tư theo hiện trạng diện tích chuyển mục đích sử dụng đất trồng lúa 2 vụ)."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-05",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Xuân Đông",
+            "en": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp Hòa Xuân Đông"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "420 ha",
+          "investmentCapital": {
+            "vi": "3380 tỷ đồng",
+            "en": "3380 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt.\r\n(Phân kỳ đầu tư theo hiện trạng diện tích chuyển mục đích sử dụng đất trồng lúa 2 vụ).",
+            "en": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt.\r\n(Phân kỳ đầu tư theo hiện trạng diện tích chuyển mục đích sử dụng đất trồng lúa 2 vụ)."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-06",
+          "name": {
+            "vi": "Đầu tư hạ tầng Khu công nghiệp Ea H'leo",
+            "en": "Đầu tư hạ tầng Khu công nghiệp Ea H'leo"
+          },
+          "location": {
+            "vi": "Xã Ea H'leo",
+            "en": "Xã Ea H'leo"
+          },
+          "area": "400 ha",
+          "investmentCapital": {
+            "vi": "3050 tỷ đồng",
+            "en": "3050 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-07",
+          "name": {
+            "vi": "Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp hậu cần sân bay",
+            "en": "Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp hậu cần sân bay"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "354 ha",
+          "investmentCapital": {
+            "vi": "2850 tỷ đồng",
+            "en": "2850 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại KCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt.\r\n(Phân kỳ đầu tư theo hiện trạng diện tích chuyển mục đích sử dụng đất trồng lúa 2 vụ).",
+            "en": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại KCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt.\r\n(Phân kỳ đầu tư theo hiện trạng diện tích chuyển mục đích sử dụng đất trồng lúa 2 vụ)."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-08",
+          "name": {
+            "vi": "Đầu tư hạ tầng Khu công nghiệp M'Drắk",
+            "en": "Đầu tư hạ tầng Khu công nghiệp M'Drắk"
+          },
+          "location": {
+            "vi": "xã Krông Á",
+            "en": "xã Krông Á"
+          },
+          "area": "300 ha",
+          "investmentCapital": {
+            "vi": "2280 tỷ đồng",
+            "en": "2280 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-09",
+          "name": {
+            "vi": "Đầu tư hạ tầng Khu công nghiệp Hòa Phú mở rộng",
+            "en": "Đầu tư hạ tầng Khu công nghiệp Hòa Phú mở rộng"
+          },
+          "location": {
+            "vi": "Xã Hòa Phú",
+            "en": "Xã Hòa Phú"
+          },
+          "area": "150 ha",
+          "investmentCapital": {
+            "vi": "1239.75 tỷ đồng",
+            "en": "1239.75 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Khu công nghiệp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-10",
+          "name": {
+            "vi": "Khu công nghiệp Ea Ô",
+            "en": "Khu công nghiệp Ea Ô"
+          },
+          "location": {
+            "vi": "Buôn Vân Kiều, xã Ea Ô",
+            "en": "Buôn Vân Kiều, xã Ea Ô"
+          },
+          "area": "300 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-11",
+          "name": {
+            "vi": "Khu công nghiệp  giai đoạn 2",
+            "en": "Khu công nghiệp  giai đoạn 2"
+          },
+          "location": {
+            "vi": "xã Xuân Cảnh",
+            "en": "xã Xuân Cảnh"
+          },
+          "area": "1.080ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "1.080ha",
+            "en": "1.080ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-12",
+          "name": {
+            "vi": "Cụm công nghiệp Đá Mài",
+            "en": "Cụm công nghiệp Đá Mài"
+          },
+          "location": {
+            "vi": "xã Sơn Thành",
+            "en": "xã Sơn Thành"
+          },
+          "area": "70 ha",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "Uu tiên đầu tu  các dự án về chế biến các sản phầm nông nghiệp hoặc Dự án xây dựng hạ tầng kỹ thuật cụm công nghiệp",
+            "en": "Uu tiên đầu tu  các dự án về chế biến các sản phầm nông nghiệp hoặc Dự án xây dựng hạ tầng kỹ thuật cụm công nghiệp"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-13",
+          "name": {
+            "vi": "Cụm công nghiệp Hòa Xuân 1 và Cụm công nghiệp Hòa Xuân 2",
+            "en": "Cụm công nghiệp Hòa Xuân 1 và Cụm công nghiệp Hòa Xuân 2"
+          },
+          "location": {
+            "vi": "Xã Hòa Phú",
+            "en": "Xã Hòa Phú"
+          },
+          "area": "150 ha",
+          "investmentCapital": {
+            "vi": "1500 tỷ đồng",
+            "en": "1500 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng kho chế biến nông sản; Kho lạnh; Đóng gói; Logistics phục vụ nông nghiệp; Cơ khí phục vụ nông nghiệp; kinh doanh và dịch vụ phục vụ nông nghiệp.",
+            "en": "Xây dựng kho chế biến nông sản; Kho lạnh; Đóng gói; Logistics phục vụ nông nghiệp; Cơ khí phục vụ nông nghiệp; kinh doanh và dịch vụ phục vụ nông nghiệp."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-14",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp, Tiểu thủ công nghiệp Suối Cối, xã Phú Mỡ",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp, Tiểu thủ công nghiệp Suối Cối, xã Phú Mỡ"
+          },
+          "location": {
+            "vi": "Thôn Suối Cối 1 và Suối Cối 2, Xã Phú Mỡ",
+            "en": "Thôn Suối Cối 1 và Suối Cối 2, Xã Phú Mỡ"
+          },
+          "area": "50 ha",
+          "investmentCapital": {
+            "vi": "550 tỷ đồng",
+            "en": "550 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư kết cấu hạ tầng CCN Suối Cối, diện tích 50ha",
+            "en": "Đầu tư kết cấu hạ tầng CCN Suối Cối, diện tích 50ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-15",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Soi Nga",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Soi Nga"
+          },
+          "location": {
+            "vi": "Xã Xuân Lãnh",
+            "en": "Xã Xuân Lãnh"
+          },
+          "area": "56 ha",
+          "investmentCapital": {
+            "vi": "530 tỷ đồng",
+            "en": "530 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư kết cấu hạ tầng CCN Soi Nga, diện tích 56 ha",
+            "en": "Đầu tư kết cấu hạ tầng CCN Soi Nga, diện tích 56 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-16",
+          "name": {
+            "vi": "Đầu tư cơ sở hạ tầng cụm công nghiệp Ea Ô (CCN Cư Elang củ)",
+            "en": "Đầu tư cơ sở hạ tầng cụm công nghiệp Ea Ô (CCN Cư Elang củ)"
+          },
+          "location": {
+            "vi": "Thôn 6E, xã Ea Ô",
+            "en": "Thôn 6E, xã Ea Ô"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-17",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Krông Búk 2",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Krông Búk 2"
+          },
+          "location": {
+            "vi": "Xã Pơng Drang",
+            "en": "Xã Pơng Drang"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng CCN, thúc đẩy phát triển ngành CN xã Pơng Drang",
+            "en": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng CCN, thúc đẩy phát triển ngành CN xã Pơng Drang"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-18",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Nam Bình 1",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Nam Bình 1"
+          },
+          "location": {
+            "vi": "Phường Đông Hòa",
+            "en": "Phường Đông Hòa"
+          },
+          "area": "59 ha",
+          "investmentCapital": {
+            "vi": "490 tỷ đồng",
+            "en": "490 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại CCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt.",
+            "en": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại CCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-19",
+          "name": {
+            "vi": "Đầu tư xây dựng Cụm Công nghiệp Xuân Thịnh",
+            "en": "Đầu tư xây dựng Cụm Công nghiệp Xuân Thịnh"
+          },
+          "location": {
+            "vi": "TDP Hòa Hiệp, phường Sông Cầu",
+            "en": "TDP Hòa Hiệp, phường Sông Cầu"
+          },
+          "area": "70,0 ha",
+          "investmentCapital": {
+            "vi": "490 tỷ đồng",
+            "en": "490 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng công trình dân dụng, hạ tầng kỹ thuật",
+            "en": "Xây dựng công trình dân dụng, hạ tầng kỹ thuật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-20",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng kỹ thuật Cụm công nghiệp Ea Trang",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng kỹ thuật Cụm công nghiệp Ea Trang"
+          },
+          "location": {
+            "vi": "xã Ea Trang",
+            "en": "xã Ea Trang"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "490 tỷ đồng",
+            "en": "490 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư cơ sở hạ tầng và kinh doanh kết cấu hạ tầng Cụm công nghiệp thúc đẩy phát triển ngành công nghiệp xã Ea Trang",
+            "en": "Đầu tư cơ sở hạ tầng và kinh doanh kết cấu hạ tầng Cụm công nghiệp thúc đẩy phát triển ngành công nghiệp xã Ea Trang"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-21",
+          "name": {
+            "vi": "Đầu tư kinh doanh kết cấu hạ tầng Cụm Công nghiệp xã Cư Prao",
+            "en": "Đầu tư kinh doanh kết cấu hạ tầng Cụm Công nghiệp xã Cư Prao"
+          },
+          "location": {
+            "vi": "Xã Cư Prao",
+            "en": "Xã Cư Prao"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "450 tỷ đồng",
+            "en": "450 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại CCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt.",
+            "en": "Xây dựng đồng bộ kết cấu hạ tầng kỹ thuật tại CCN và cho các nhà đầu tư thuê đất, thuê lại đất để thực hiện dự án đầu tư, tổ chức sản xuất, kinh doanh theo quy hoạch được duyệt."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-22",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Dang Kang",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp Dang Kang"
+          },
+          "location": {
+            "vi": "xã Đang Kang",
+            "en": "xã Đang Kang"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "400 tỷ đồng",
+            "en": "400 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Cụm công nghiệp, thúc đẩy phát triển ngành công nghiệp xã Dang Kang",
+            "en": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng Cụm công nghiệp, thúc đẩy phát triển ngành công nghiệp xã Dang Kang"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-23",
+          "name": {
+            "vi": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp phía bắc Ea H'Leo",
+            "en": "Đầu tư xây dựng và kinh doanh hạ tầng Cụm công nghiệp phía bắc Ea H'Leo"
+          },
+          "location": {
+            "vi": "xã Ea H'leo",
+            "en": "xã Ea H'leo"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "350 tỷ đồng",
+            "en": "350 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng CCN, thúc đẩy phát triển ngành CN xã Ea H'Leo",
+            "en": "Đầu tư xây dựng và kinh doanh kết cấu hạ tầng CCN, thúc đẩy phát triển ngành CN xã Ea H'Leo"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-24",
+          "name": {
+            "vi": "Đầu tư xây dựng cơ sở hạ tầng kỹ thuật cụm công nghiệp buôn Chăm (Ê Căm) xã Krông Ana",
+            "en": "Đầu tư xây dựng cơ sở hạ tầng kỹ thuật cụm công nghiệp buôn Chăm (Ê Căm) xã Krông Ana"
+          },
+          "location": {
+            "vi": "Buôn ÊCăm, xã Krông Ana",
+            "en": "Buôn ÊCăm, xã Krông Ana"
+          },
+          "area": "50 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "50 (ha)",
+            "en": "50 (ha)"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-25",
+          "name": {
+            "vi": "Đầu tư xây dựng hạ tầng kỹ thuật CCN Hai Riêng",
+            "en": "Đầu tư xây dựng hạ tầng kỹ thuật CCN Hai Riêng"
+          },
+          "location": {
+            "vi": "Xã Sông Hinh",
+            "en": "Xã Sông Hinh"
+          },
+          "area": "20 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê  đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt.",
+            "en": "Đầu tư xây dựng kết cấu hạ tầng kỹ thuật  KCN và cho các nhà đầu tư thuê  đất để thực hiện dự án đầu tư  theo quy hoạch được duyệt."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-26",
+          "name": {
+            "vi": "Cụm Công nghiệp Dray Bhăng",
+            "en": "Cụm Công nghiệp Dray Bhăng"
+          },
+          "location": {
+            "vi": "Thôn Kim Châu, xã Dray Bhăng",
+            "en": "Thôn Kim Châu, xã Dray Bhăng"
+          },
+          "area": "75 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "75ha",
+            "en": "75ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-27",
+          "name": {
+            "vi": "Khu tiểu thủ công nghiệp",
+            "en": "Khu tiểu thủ công nghiệp"
+          },
+          "location": {
+            "vi": "Xã Ea Knuếch",
+            "en": "Xã Ea Knuếch"
+          },
+          "area": "25 ha",
+          "investmentCapital": {
+            "vi": "70 tỷ đồng",
+            "en": "70 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-28",
+          "name": {
+            "vi": "Khu  tiểu thủ công nghiệp",
+            "en": "Khu  tiểu thủ công nghiệp"
+          },
+          "location": {
+            "vi": "Thôn 5 xã Ea Phê",
+            "en": "Thôn 5 xã Ea Phê"
+          },
+          "area": "25 ha",
+          "investmentCapital": {
+            "vi": "70 tỷ đồng",
+            "en": "70 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-29",
+          "name": {
+            "vi": "Trung tâm Logistics tại Đông Hòa gắn với Cảng cạn (ICD) phục vụ Cảng Vũng Rô và Cảng Bãi Gốc",
+            "en": "Trung tâm Logistics tại Đông Hòa gắn với Cảng cạn (ICD) phục vụ Cảng Vũng Rô và Cảng Bãi Gốc"
+          },
+          "location": {
+            "vi": "Phường Hòa Hiệp",
+            "en": "Phường Hòa Hiệp"
+          },
+          "area": "70 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng trung tâm logistics gắn với cảng cạn (ICD) phục vụ hoạt động của cảng Vũng Rô, cảng Bãi Gốc và các KCN trong KKT.",
+            "en": "Đầu tư xây dựng trung tâm logistics gắn với cảng cạn (ICD) phục vụ hoạt động của cảng Vũng Rô, cảng Bãi Gốc và các KCN trong KKT."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-30",
+          "name": {
+            "vi": "Trung tâm Logistics",
+            "en": "Trung tâm Logistics"
+          },
+          "location": {
+            "vi": "xã Tân Tiến",
+            "en": "xã Tân Tiến"
+          },
+          "area": "222 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng cơ sở hạ tầng, sản xuất chuỗi cung ứng, lưu kho, trung chuyển, phân phối hàng hóa",
+            "en": "Xây dựng cơ sở hạ tầng, sản xuất chuỗi cung ứng, lưu kho, trung chuyển, phân phối hàng hóa"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-31",
+          "name": {
+            "vi": "Đầu tư cảng cạn, hệ thống logictis",
+            "en": "Đầu tư cảng cạn, hệ thống logictis"
+          },
+          "location": {
+            "vi": "Thôn 6B, xã Ea Ô",
+            "en": "Thôn 6B, xã Ea Ô"
+          },
+          "area": "80 ha",
+          "investmentCapital": {
+            "vi": "400 tỷ đồng",
+            "en": "400 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-32",
+          "name": {
+            "vi": "Khu dịch vụ Logictic",
+            "en": "Khu dịch vụ Logictic"
+          },
+          "location": {
+            "vi": "Xã  Ea Kar",
+            "en": "Xã  Ea Kar"
+          },
+          "area": "50 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "Hạ tầng kho bãi, nhà xưởng, \r\ntập trung trung chuyển hàng hóa",
+            "en": "Hạ tầng kho bãi, nhà xưởng, \r\ntập trung trung chuyển hàng hóa"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-33",
+          "name": {
+            "vi": "Tuyến cao tốc Phú Yên - Đắk Lắk",
+            "en": "Tuyến cao tốc Phú Yên - Đắk Lắk"
+          },
+          "location": {
+            "vi": "Điểm đầu giao cắt với đường cao tốc Bắc – Nam phía Đông và điểm cuối tại QL.14, phường Buôn Hồ, tỉnh Đắk Lắk",
+            "en": "Điểm đầu giao cắt với đường cao tốc Bắc – Nam phía Đông và điểm cuối tại QL.14, phường Buôn Hồ, tỉnh Đắk Lắk"
+          },
+          "area": "122 Km ha",
+          "investmentCapital": {
+            "vi": "30980 tỷ đồng",
+            "en": "30980 billion VND"
+          },
+          "scale": {
+            "vi": "Tuyến đường bộ cao tốc Phú Yên - Đắk Lắk, đoạn từ cao tốc Bắc - Nam phía Đông đến Quốc lộ 14; tổng chiều dài khoảng 122km; 04 làn xe hoàn chỉnh, có làn dừng khẩn cấp liên tục, bề rộng nền đường 24,75m; tốc độ thiết kế 100km/h; bố trí 09 nút giao khác mức liên thông đảm bảo kết nối với các tuyến đường địa phương; 09 trạm thu phí không dừng và 02 trạm dừng nghỉ.",
+            "en": "Tuyến đường bộ cao tốc Phú Yên - Đắk Lắk, đoạn từ cao tốc Bắc - Nam phía Đông đến Quốc lộ 14; tổng chiều dài khoảng 122km; 04 làn xe hoàn chỉnh, có làn dừng khẩn cấp liên tục, bề rộng nền đường 24,75m; tốc độ thiết kế 100km/h; bố trí 09 nút giao khác mức liên thông đảm bảo kết nối với các tuyến đường địa phương; 09 trạm thu phí không dừng và 02 trạm dừng nghỉ."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-34",
+          "name": {
+            "vi": "Đầu tư hạ tầng quy hoạch chi tiết tỷ lệ 1/500 khu dân cư đô thị, trung tâm hành chính, văn hóa, thể dục, thể thao, thị trấn Ea Drăng, huyện Ea H'Leo",
+            "en": "Đầu tư hạ tầng quy hoạch chi tiết tỷ lệ 1/500 khu dân cư đô thị, trung tâm hành chính, văn hóa, thể dục, thể thao, thị trấn Ea Drăng, huyện Ea H'Leo"
+          },
+          "location": {
+            "vi": "Xã Ea Drăng",
+            "en": "Xã Ea Drăng"
+          },
+          "area": "46 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư cơ sở hạ tầng, khu nhà ở, khu trung tâm….",
+            "en": "Đầu tư cơ sở hạ tầng, khu nhà ở, khu trung tâm…."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "IN-35",
+          "name": {
+            "vi": "Hệ thống Cảng  nước sâu xã Xuân Cảnh",
+            "en": "Hệ thống Cảng  nước sâu xã Xuân Cảnh"
+          },
+          "location": {
+            "vi": "xã Xuân Cảnh",
+            "en": "xã Xuân Cảnh"
+          },
+          "area": "37 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "37 ha",
+            "en": "37 ha"
+          },
+          "qrLink": ""
+        }
+      ]
+    },
+    {
+      "pageId": 4,
+      "category": {
+        "vi": "Nông Nghiệp & Thương Mại Dịch Vụ",
+        "en": "Agriculture & Commercial Services"
+      },
+      "projects": [
+        {
+          "id": "AG-01",
+          "name": {
+            "vi": "Khu Chăn nuôi ứng dụng công nghệ cao",
+            "en": "Khu Chăn nuôi ứng dụng công nghệ cao"
+          },
+          "location": {
+            "vi": "Xã Ea Wer",
+            "en": "Xã Ea Wer"
+          },
+          "area": "390 ha",
+          "investmentCapital": {
+            "vi": "85000 tỷ đồng",
+            "en": "85000 billion VND"
+          },
+          "scale": {
+            "vi": "Tổ hợp dự án chăn nuôi trên nhà tầng (9 tầng) và kết hợp năng lượng tái tạo",
+            "en": "Tổ hợp dự án chăn nuôi trên nhà tầng (9 tầng) và kết hợp năng lượng tái tạo"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-02",
+          "name": {
+            "vi": "Khu tổ hợp chăn nuôi ứng dụng công nghệ cao quy mô 154 ha",
+            "en": "Khu tổ hợp chăn nuôi ứng dụng công nghệ cao quy mô 154 ha"
+          },
+          "location": {
+            "vi": "Xã Ea M’Droh, tỉnh Đắk Lắk",
+            "en": "Xã Ea M’Droh, tỉnh Đắk Lắk"
+          },
+          "area": "154 ha",
+          "investmentCapital": {
+            "vi": "1850 tỷ đồng",
+            "en": "1850 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu tổ hợp chăn nuôi",
+            "en": "Xây dựng khu tổ hợp chăn nuôi"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-03",
+          "name": {
+            "vi": "Dự án phát triển nuôi trồng thủy sản vùng biển hở",
+            "en": "Dự án phát triển nuôi trồng thủy sản vùng biển hở"
+          },
+          "location": {
+            "vi": "Các xã ven biển có NTTS",
+            "en": "Các xã ven biển có NTTS"
+          },
+          "area": "1000 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Hình thành các vùng NTTS phù hợp với đặc điểm của từng khu vực để khai thác hiệu quả, lợi thế tiềm năng.",
+            "en": "Hình thành các vùng NTTS phù hợp với đặc điểm của từng khu vực để khai thác hiệu quả, lợi thế tiềm năng."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-04",
+          "name": {
+            "vi": "Dự án nông nghiệp",
+            "en": "Dự án nông nghiệp"
+          },
+          "location": {
+            "vi": "Khoảnh 11, 12, 13, 14 TK 293, xã Ea Súp",
+            "en": "Khoảnh 11, 12, 13, 14 TK 293, xã Ea Súp"
+          },
+          "area": "136 ha",
+          "investmentCapital": {
+            "vi": "850 tỷ đồng",
+            "en": "850 billion VND"
+          },
+          "scale": {
+            "vi": "136 ha",
+            "en": "136 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-05",
+          "name": {
+            "vi": "Đầu tư các trang trại chăn nuôi",
+            "en": "Đầu tư các trang trại chăn nuôi"
+          },
+          "location": {
+            "vi": "Buôn Vân Kiều, xã Ea Ô",
+            "en": "Buôn Vân Kiều, xã Ea Ô"
+          },
+          "area": "80 ha",
+          "investmentCapital": {
+            "vi": "850 tỷ đồng",
+            "en": "850 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-06",
+          "name": {
+            "vi": "Khu nông nghiệp ứng dụng công nghệ cao xã Tây Sơn.",
+            "en": "Khu nông nghiệp ứng dụng công nghệ cao xã Tây Sơn."
+          },
+          "location": {
+            "vi": "xã Tây Sơn",
+            "en": "xã Tây Sơn"
+          },
+          "area": "185,89 ha",
+          "investmentCapital": {
+            "vi": "650,62 tỷ đồng",
+            "en": "650,62 billion VND"
+          },
+          "scale": {
+            "vi": "185,89 ha,",
+            "en": "185,89 ha,"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-07",
+          "name": {
+            "vi": "Dự án Nông nghiệp Công nghệ cao",
+            "en": "Dự án Nông nghiệp Công nghệ cao"
+          },
+          "location": {
+            "vi": "Xã Cư Prao",
+            "en": "Xã Cư Prao"
+          },
+          "area": "203.4 ha",
+          "investmentCapital": {
+            "vi": "650 tỷ đồng",
+            "en": "650 billion VND"
+          },
+          "scale": {
+            "vi": "Sản xuất nông nghiệp ứng dụng công nghệ cao",
+            "en": "Sản xuất nông nghiệp ứng dụng công nghệ cao"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-08",
+          "name": {
+            "vi": "Trồng cây nông nghiệp và cây dược liệu",
+            "en": "Trồng cây nông nghiệp và cây dược liệu"
+          },
+          "location": {
+            "vi": "tiểu khu 207 huộc xã Cư Kbang (cũ) nay là xã Ea Rốk.",
+            "en": "tiểu khu 207 huộc xã Cư Kbang (cũ) nay là xã Ea Rốk."
+          },
+          "area": "417 ha",
+          "investmentCapital": {
+            "vi": "580 tỷ đồng",
+            "en": "580 billion VND"
+          },
+          "scale": {
+            "vi": "trồng cây nông nghiệp và cây dược liệu",
+            "en": "trồng cây nông nghiệp và cây dược liệu"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-09",
+          "name": {
+            "vi": "Sản xuất Nông nghiệp, trồng cây dược liệu",
+            "en": "Sản xuất Nông nghiệp, trồng cây dược liệu"
+          },
+          "location": {
+            "vi": "Xã Ea Rốk",
+            "en": "Xã Ea Rốk"
+          },
+          "area": "917.2 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "trồng cây nông nghiệp và cây dược liệu",
+            "en": "trồng cây nông nghiệp và cây dược liệu"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-10",
+          "name": {
+            "vi": "Đầu tư nông nghiệp, lâm nông kết hợp trồng dược liệu",
+            "en": "Đầu tư nông nghiệp, lâm nông kết hợp trồng dược liệu"
+          },
+          "location": {
+            "vi": "Xã Ea Rốk",
+            "en": "Xã Ea Rốk"
+          },
+          "area": "803,74 ha",
+          "investmentCapital": {
+            "vi": "460 tỷ đồng",
+            "en": "460 billion VND"
+          },
+          "scale": {
+            "vi": "trồng cây nông, lâm nghiệp kết hợp trồng cây dược liệu",
+            "en": "trồng cây nông, lâm nghiệp kết hợp trồng cây dược liệu"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-11",
+          "name": {
+            "vi": "Dự án nông nghiệp",
+            "en": "Dự án nông nghiệp"
+          },
+          "location": {
+            "vi": "Khoảnh 1, 4, 5, 6, 8 TK 277, Xã Ea Súp",
+            "en": "Khoảnh 1, 4, 5, 6, 8 TK 277, Xã Ea Súp"
+          },
+          "area": "399 ha",
+          "investmentCapital": {
+            "vi": "450 tỷ đồng",
+            "en": "450 billion VND"
+          },
+          "scale": {
+            "vi": "400 ha",
+            "en": "400 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-12",
+          "name": {
+            "vi": "Đầu tư nông nghiệp, lâm nông kết hợp trồng cây dược liệu",
+            "en": "Đầu tư nông nghiệp, lâm nông kết hợp trồng cây dược liệu"
+          },
+          "location": {
+            "vi": "Xã Ea Rốk",
+            "en": "Xã Ea Rốk"
+          },
+          "area": "641.68 ha",
+          "investmentCapital": {
+            "vi": "400 tỷ đồng",
+            "en": "400 billion VND"
+          },
+          "scale": {
+            "vi": "trồng cây nông, lâm nghiệp và cây dược liệu",
+            "en": "trồng cây nông, lâm nghiệp và cây dược liệu"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-13",
+          "name": {
+            "vi": "Trang trại chăn nuôi lợn",
+            "en": "Trang trại chăn nuôi lợn"
+          },
+          "location": {
+            "vi": "xã Ea Rốk",
+            "en": "xã Ea Rốk"
+          },
+          "area": "38 ha",
+          "investmentCapital": {
+            "vi": "320 tỷ đồng",
+            "en": "320 billion VND"
+          },
+          "scale": {
+            "vi": "chăn nuôi lợn",
+            "en": "chăn nuôi lợn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-14",
+          "name": {
+            "vi": "Dự án Nuôi trồng thủy sản công nghệ cao",
+            "en": "Dự án Nuôi trồng thủy sản công nghệ cao"
+          },
+          "location": {
+            "vi": "xã Xuân Cảnh",
+            "en": "xã Xuân Cảnh"
+          },
+          "area": "80 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng hệ thống hạ tầng thiết yếu cho vùng nuôi công nghệ cao (giao thông, diện, hệ thống cấp nước, xử lý nước thải, chất thải; ao đìa NTTS); hình thành vùng NTTS công nghệ cao.",
+            "en": "Đầu tư xây dựng hệ thống hạ tầng thiết yếu cho vùng nuôi công nghệ cao (giao thông, diện, hệ thống cấp nước, xử lý nước thải, chất thải; ao đìa NTTS); hình thành vùng NTTS công nghệ cao."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-15",
+          "name": {
+            "vi": "Nuôi biển công nghiệp vùng biển hở xã Xuân Cảnh",
+            "en": "Nuôi biển công nghiệp vùng biển hở xã Xuân Cảnh"
+          },
+          "location": {
+            "vi": "xã Xuân Cảnh",
+            "en": "xã Xuân Cảnh"
+          },
+          "area": "700 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư vùng NTTS lồng bè",
+            "en": "Đầu tư vùng NTTS lồng bè"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-16",
+          "name": {
+            "vi": "Trang trại chăn nuôi heo tập trung",
+            "en": "Trang trại chăn nuôi heo tập trung"
+          },
+          "location": {
+            "vi": "Xã Ea Trang",
+            "en": "Xã Ea Trang"
+          },
+          "area": "32.84 ha",
+          "investmentCapital": {
+            "vi": "270 tỷ đồng",
+            "en": "270 billion VND"
+          },
+          "scale": {
+            "vi": "- Diện tích đất sử dụng: Khoảng 328.485,4 m2.\r\n- Công suất thiết kế: 2.500 heo nái, 40 heo đực giống và 30.000 heo thịt/lứa (02 lứa/năm). \r\n- Quy mô kiến trúc xây dựng: Xây dựng các hạng mục công trình gồm: Hệ thống chuồng trại (Chuồng heo đẻ, chuồng heo đực + phát triển hậu bị, chuồng 3 heo thịt, …), nhà quản lý, nhà điều hành hệ thống xử lý nước thải, ...; hệ thống ao hồ và cây xanh, giao thông.",
+            "en": "- Diện tích đất sử dụng: Khoảng 328.485,4 m2.\r\n- Công suất thiết kế: 2.500 heo nái, 40 heo đực giống và 30.000 heo thịt/lứa (02 lứa/năm). \r\n- Quy mô kiến trúc xây dựng: Xây dựng các hạng mục công trình gồm: Hệ thống chuồng trại (Chuồng heo đẻ, chuồng heo đực + phát triển hậu bị, chuồng 3 heo thịt, …), nhà quản lý, nhà điều hành hệ thống xử lý nước thải, ...; hệ thống ao hồ và cây xanh, giao thông."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-17",
+          "name": {
+            "vi": "Trang trại chăn nuôi heo",
+            "en": "Trang trại chăn nuôi heo"
+          },
+          "location": {
+            "vi": "Tiểu khu 195 xã Ea Rốk",
+            "en": "Tiểu khu 195 xã Ea Rốk"
+          },
+          "area": "36 ha",
+          "investmentCapital": {
+            "vi": "230 tỷ đồng",
+            "en": "230 billion VND"
+          },
+          "scale": {
+            "vi": "Chăn nuôi lợn",
+            "en": "Chăn nuôi lợn"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-18",
+          "name": {
+            "vi": "Dự án phát triển sản xuất giống rong biển bằng công nghệ nuôi cấy mô; nuôi thương phẩm rong biển ngoài tự nhiên",
+            "en": "Dự án phát triển sản xuất giống rong biển bằng công nghệ nuôi cấy mô; nuôi thương phẩm rong biển ngoài tự nhiên"
+          },
+          "location": {
+            "vi": "- Sản xuất giống: Trại Sản xuất giống thuộc Trung tâm Khuyến Nông xã Ô Loan - Các vùng Nuôi trồng thủy Sản vùng biển ven bờ",
+            "en": "- Sản xuất giống: Trại Sản xuất giống thuộc Trung tâm Khuyến Nông xã Ô Loan - Các vùng Nuôi trồng thủy Sản vùng biển ven bờ"
+          },
+          "area": "150 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "- Hoàn thiện quy trình sản xuất giống các loài rong biển có giá trịnh kinh tế;\r\n- Phát triển các vùng trồng rong thương phẩm để tạo sản phẩm hàng hóa cung cấp cho thị trường trong nước và xuất khẩu.\r\n- Phương thức: Trồng chuyên canh; trồng ghép các với các vùng nuôi trồng thủy sản lồng bè.",
+            "en": "- Hoàn thiện quy trình sản xuất giống các loài rong biển có giá trịnh kinh tế;\r\n- Phát triển các vùng trồng rong thương phẩm để tạo sản phẩm hàng hóa cung cấp cho thị trường trong nước và xuất khẩu.\r\n- Phương thức: Trồng chuyên canh; trồng ghép các với các vùng nuôi trồng thủy sản lồng bè."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-19",
+          "name": {
+            "vi": "Dự án nông nghiệp",
+            "en": "Dự án nông nghiệp"
+          },
+          "location": {
+            "vi": "1, 2, 3, 7, 8 TK 277 xã Ea SÚp",
+            "en": "1, 2, 3, 7, 8 TK 277 xã Ea SÚp"
+          },
+          "area": "150 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "150 ha",
+            "en": "150 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-20",
+          "name": {
+            "vi": "Dự án chăn nuôi tập trung Đồng Hội, xã Phú Mỡ",
+            "en": "Dự án chăn nuôi tập trung Đồng Hội, xã Phú Mỡ"
+          },
+          "location": {
+            "vi": "Thôn Đồng Hồi xã Phú Mỡ",
+            "en": "Thôn Đồng Hồi xã Phú Mỡ"
+          },
+          "area": "255 ha",
+          "investmentCapital": {
+            "vi": "95 tỷ đồng",
+            "en": "95 billion VND"
+          },
+          "scale": {
+            "vi": "Khu chăn nuôi tập trung trên diện tích đất 255ha",
+            "en": "Khu chăn nuôi tập trung trên diện tích đất 255ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-21",
+          "name": {
+            "vi": "Tổ hợp lọc hóa dầu",
+            "en": "Tổ hợp lọc hóa dầu"
+          },
+          "location": {
+            "vi": "KCN Hòa Xuân Đông hoặc KCN Hòa Xuân Tây",
+            "en": "KCN Hòa Xuân Đông hoặc KCN Hòa Xuân Tây"
+          },
+          "area": "300-350 ha",
+          "investmentCapital": {
+            "vi": "122500 tỷ đồng",
+            "en": "122500 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng Tổ hợp lọc hóa dầu 8 triệu tấn/năm, nhằm đáp ứng nhu cầu ngày càng tăng của Việt Nam và thế giới về các loại sản phẩm dầu mỏ chất lượng cao.",
+            "en": "Đầu tư xây dựng Tổ hợp lọc hóa dầu 8 triệu tấn/năm, nhằm đáp ứng nhu cầu ngày càng tăng của Việt Nam và thế giới về các loại sản phẩm dầu mỏ chất lượng cao."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-22",
+          "name": {
+            "vi": "Dự án Kho xăng, dầu, khí hóa lỏng (LNG)",
+            "en": "Dự án Kho xăng, dầu, khí hóa lỏng (LNG)"
+          },
+          "location": {
+            "vi": "KCN Hòa Tâm hoặc KCN Hòa Xuân Đông hoặc KCN Hòa Xuân Tây",
+            "en": "KCN Hòa Tâm hoặc KCN Hòa Xuân Đông hoặc KCN Hòa Xuân Tây"
+          },
+          "area": "70 ha",
+          "investmentCapital": {
+            "vi": "44000 tỷ đồng",
+            "en": "44000 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư kho LNG nhằm cung cấp khí cho các hộ tiêu dùng và xuất khẩu.",
+            "en": "Đầu tư kho LNG nhằm cung cấp khí cho các hộ tiêu dùng và xuất khẩu."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-23",
+          "name": {
+            "vi": "Nhà máy chế biến các sản phẩm nông nghiệp",
+            "en": "Nhà máy chế biến các sản phẩm nông nghiệp"
+          },
+          "location": {
+            "vi": "xã Ea Súp",
+            "en": "xã Ea Súp"
+          },
+          "area": "20 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "20 ha",
+            "en": "20 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-24",
+          "name": {
+            "vi": "Dự án nhà máy chế biến các sản phẩm từ nông nghiệp",
+            "en": "Dự án nhà máy chế biến các sản phẩm từ nông nghiệp"
+          },
+          "location": {
+            "vi": "Thôn 6B, xã Ea Ô",
+            "en": "Thôn 6B, xã Ea Ô"
+          },
+          "area": "20 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-25",
+          "name": {
+            "vi": "Đầu tư sản xuất, chế biến, nông sản, lâm sản, thủy sản, hải sản tập trung",
+            "en": "Đầu tư sản xuất, chế biến, nông sản, lâm sản, thủy sản, hải sản tập trung"
+          },
+          "location": {
+            "vi": "xã Krông Năng",
+            "en": "xã Krông Năng"
+          },
+          "area": "239,35 ha",
+          "investmentCapital": {
+            "vi": "240 tỷ đồng",
+            "en": "240 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng cơ sở hạ tầng, đường nội bộ, điện chiếu sáng thoát nước. sản xuất, chế biến, nông sản, lâm sản, thủy sản, hải sản tập trung",
+            "en": "Xây dựng cơ sở hạ tầng, đường nội bộ, điện chiếu sáng thoát nước. sản xuất, chế biến, nông sản, lâm sản, thủy sản, hải sản tập trung"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-26",
+          "name": {
+            "vi": "Dự án đầu tư nhà máy chế biến sâu, tinh chế Cà phê",
+            "en": "Dự án đầu tư nhà máy chế biến sâu, tinh chế Cà phê"
+          },
+          "location": {
+            "vi": "Tại Cụm CN Ea Ral, xã Ea Drăng",
+            "en": "Tại Cụm CN Ea Ral, xã Ea Drăng"
+          },
+          "area": "2 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "10.000-20.000 tấn SP/năm",
+            "en": "10.000-20.000 tấn SP/năm"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-27",
+          "name": {
+            "vi": "Đầu tư xây dựng nhà máy sản xuất gạch không nung trên địa bàn xã Krông Ana",
+            "en": "Đầu tư xây dựng nhà máy sản xuất gạch không nung trên địa bàn xã Krông Ana"
+          },
+          "location": {
+            "vi": "thôn Sơn Trà, xã Krông Ana",
+            "en": "thôn Sơn Trà, xã Krông Ana"
+          },
+          "area": "65 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "65 (ha)",
+            "en": "65 (ha)"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-28",
+          "name": {
+            "vi": "Khu dịch vụ - công cộng, hành chính cảng Bãi Gốc",
+            "en": "Khu dịch vụ - công cộng, hành chính cảng Bãi Gốc"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "34,49 ha",
+          "investmentCapital": {
+            "vi": "3450 tỷ đồng",
+            "en": "3450 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu dịch vụ - công cộng và hành chính phục vụ hoạt động Cảng Bãi Gốc; cung cấp các dịch vụ hỗ trợ khai thác cảng biển, logistics và thương mại; đồng thời bố trí hệ thống cây xanh, cảnh quan và hạ tầng giao thông đồng bộ theo quy hoạch.",
+            "en": "Xây dựng khu dịch vụ - công cộng và hành chính phục vụ hoạt động Cảng Bãi Gốc; cung cấp các dịch vụ hỗ trợ khai thác cảng biển, logistics và thương mại; đồng thời bố trí hệ thống cây xanh, cảnh quan và hạ tầng giao thông đồng bộ theo quy hoạch."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-29",
+          "name": {
+            "vi": "Tổ hơp công trình Trung tâm thương mại dịch vụ khu hành chính mới (gồm 3 vị trí dự án dọ trục QL26)",
+            "en": "Tổ hơp công trình Trung tâm thương mại dịch vụ khu hành chính mới (gồm 3 vị trí dự án dọ trục QL26)"
+          },
+          "location": {
+            "vi": "Xã Ea Kar",
+            "en": "Xã Ea Kar"
+          },
+          "area": "2.2 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "5-7 tầng",
+            "en": "5-7 tầng"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-30",
+          "name": {
+            "vi": "Khu TMDV Đồi 500 - Xuân Phú",
+            "en": "Khu TMDV Đồi 500 - Xuân Phú"
+          },
+          "location": {
+            "vi": "xã Ea Kar",
+            "en": "xã Ea Kar"
+          },
+          "area": "15 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Nhà ở liền kề, nhà ở biệt thự, đất công cộng (công cộng đô thị, đất cơ quan, trường học, y tế), cây xanh, hạ tầng kỹ thuật và giao thông",
+            "en": "Nhà ở liền kề, nhà ở biệt thự, đất công cộng (công cộng đô thị, đất cơ quan, trường học, y tế), cây xanh, hạ tầng kỹ thuật và giao thông"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-31",
+          "name": {
+            "vi": "Dự án Khu TMDV và Trường nghề Ea Ô, bệnh viện",
+            "en": "Dự án Khu TMDV và Trường nghề Ea Ô, bệnh viện"
+          },
+          "location": {
+            "vi": "Thôn 10, Ea Ô",
+            "en": "Thôn 10, Ea Ô"
+          },
+          "area": "30 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Khu TMDV và Trường học",
+            "en": "Khu TMDV và Trường học"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-32",
+          "name": {
+            "vi": "Chợ Ea Kar",
+            "en": "Chợ Ea Kar"
+          },
+          "location": {
+            "vi": "xã Ea Kar",
+            "en": "xã Ea Kar"
+          },
+          "area": "2.4 ha",
+          "investmentCapital": {
+            "vi": "400 tỷ đồng",
+            "en": "400 billion VND"
+          },
+          "scale": {
+            "vi": "Chợ hạng 2 (200 đến 400 điểm kinh doanh)",
+            "en": "Chợ hạng 2 (200 đến 400 điểm kinh doanh)"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-33",
+          "name": {
+            "vi": "Chợ đầu mối Ea Kar",
+            "en": "Chợ đầu mối Ea Kar"
+          },
+          "location": {
+            "vi": "Xã Ea Kar",
+            "en": "Xã Ea Kar"
+          },
+          "area": "30 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "Chợ đầu mối nông sản khu vực",
+            "en": "Chợ đầu mối nông sản khu vực"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-34",
+          "name": {
+            "vi": "Bãi đỗ xe kết hợp dịch vụ hạ tầng phục du khách và vận chuyển khách tham quan du lịch khu Danh lam thắng cảnh Quốc gia Gành Đá Đĩa",
+            "en": "Bãi đỗ xe kết hợp dịch vụ hạ tầng phục du khách và vận chuyển khách tham quan du lịch khu Danh lam thắng cảnh Quốc gia Gành Đá Đĩa"
+          },
+          "location": {
+            "vi": "Xã Tuy An Đông",
+            "en": "Xã Tuy An Đông"
+          },
+          "area": "20 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "20 ha",
+            "en": "20 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-35",
+          "name": {
+            "vi": "Trung tâm thương mại - dịch vụ Số 1",
+            "en": "Trung tâm thương mại - dịch vụ Số 1"
+          },
+          "location": {
+            "vi": "Đường Võ Nguyên Giáp, tại Khu TĐC TDP 1B, phường Tân Lập",
+            "en": "Đường Võ Nguyên Giáp, tại Khu TĐC TDP 1B, phường Tân Lập"
+          },
+          "area": "1.3 ha",
+          "investmentCapital": {
+            "vi": "296 tỷ đồng",
+            "en": "296 billion VND"
+          },
+          "scale": {
+            "vi": "Khu trung tâm thương mại - dịch vụ; Mật độ xây dựng 40%, số tầng 2-5 tầng, hệ số sử dụng đất 2,0 (Trong quá trình điều chỉnh QHC Buôn Ma Thuột đề nghị điều chỉnh tầng cao lên thành 12-15 tầng)",
+            "en": "Khu trung tâm thương mại - dịch vụ; Mật độ xây dựng 40%, số tầng 2-5 tầng, hệ số sử dụng đất 2,0 (Trong quá trình điều chỉnh QHC Buôn Ma Thuột đề nghị điều chỉnh tầng cao lên thành 12-15 tầng)"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-36",
+          "name": {
+            "vi": "Khu Thương mại dịch vụ Krông Pách Thượng, vị trí 2",
+            "en": "Khu Thương mại dịch vụ Krông Pách Thượng, vị trí 2"
+          },
+          "location": {
+            "vi": "Thôn 16 xã Cư Yang",
+            "en": "Thôn 16 xã Cư Yang"
+          },
+          "area": "44.3 ha",
+          "investmentCapital": {
+            "vi": "250 tỷ đồng",
+            "en": "250 billion VND"
+          },
+          "scale": {
+            "vi": "44,3 ha",
+            "en": "44,3 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-37",
+          "name": {
+            "vi": "Trung tâm thương mại - dịch vụ số 4",
+            "en": "Trung tâm thương mại - dịch vụ số 4"
+          },
+          "location": {
+            "vi": "Đường Võ Nguyên Giáp,  tại Khu dân cư phường Tân Lập (20Ha)",
+            "en": "Đường Võ Nguyên Giáp,  tại Khu dân cư phường Tân Lập (20Ha)"
+          },
+          "area": "1.04 ha",
+          "investmentCapital": {
+            "vi": "236 tỷ đồng",
+            "en": "236 billion VND"
+          },
+          "scale": {
+            "vi": "Khu trung tâm thương mại - dịch vụ; Mật độ xây dựng 60%, số tầng 3-5 tầng, hệ số sử dụng đất 3,0 (Trong quá trình điều chỉnh QHC Buôn Ma Thuột đề nghị điều chỉnh tầng cao lên thành 12-15 tầng)",
+            "en": "Khu trung tâm thương mại - dịch vụ; Mật độ xây dựng 60%, số tầng 3-5 tầng, hệ số sử dụng đất 3,0 (Trong quá trình điều chỉnh QHC Buôn Ma Thuột đề nghị điều chỉnh tầng cao lên thành 12-15 tầng)"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-38",
+          "name": {
+            "vi": "Dự án Trục Thương mại, điểm nhấn Hồ Ea Kar",
+            "en": "Dự án Trục Thương mại, điểm nhấn Hồ Ea Kar"
+          },
+          "location": {
+            "vi": "Ninh Thanh,  xã Ea Kmút, xã Ea Kar",
+            "en": "Ninh Thanh,  xã Ea Kmút, xã Ea Kar"
+          },
+          "area": "3 ha",
+          "investmentCapital": {
+            "vi": "200 tỷ đồng",
+            "en": "200 billion VND"
+          },
+          "scale": {
+            "vi": "Khu thương mại",
+            "en": "Khu thương mại"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-39",
+          "name": {
+            "vi": "Khu thương mại dịch vụ tổng hợp Hồ trung chuyển xã Ea Súp",
+            "en": "Khu thương mại dịch vụ tổng hợp Hồ trung chuyển xã Ea Súp"
+          },
+          "location": {
+            "vi": "Hồ Trung chuyển xã  Ea Súp",
+            "en": "Hồ Trung chuyển xã  Ea Súp"
+          },
+          "area": "18 ha",
+          "investmentCapital": {
+            "vi": "200 tỷ đồng",
+            "en": "200 billion VND"
+          },
+          "scale": {
+            "vi": "18 ha",
+            "en": "18 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-40",
+          "name": {
+            "vi": "Dự án Tổ hợp  Phim trường, Du lịch sinh thái – Nông nghiệp công nghệ  cao tại hồ Krông Búk Hạ",
+            "en": "Dự án Tổ hợp  Phim trường, Du lịch sinh thái – Nông nghiệp công nghệ  cao tại hồ Krông Búk Hạ"
+          },
+          "location": {
+            "vi": "Buôn Puăn B,  Ea Phê",
+            "en": "Buôn Puăn B,  Ea Phê"
+          },
+          "area": "89,9 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-41",
+          "name": {
+            "vi": "Chợ Hòa Phú",
+            "en": "Chợ Hòa Phú"
+          },
+          "location": {
+            "vi": "Xã Hòa Phú",
+            "en": "Xã Hòa Phú"
+          },
+          "area": "3.345 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "Dự kiến 200–400 điểm kinh doanh; có tổ chức đất chợ + thương mại dịch vụ + khu ở liền kề kết hợp thương mại.",
+            "en": "Dự kiến 200–400 điểm kinh doanh; có tổ chức đất chợ + thương mại dịch vụ + khu ở liền kề kết hợp thương mại."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-42",
+          "name": {
+            "vi": "Trung tâm thương mại- siêu thị",
+            "en": "Trung tâm thương mại- siêu thị"
+          },
+          "location": {
+            "vi": "Xã M'Drắk",
+            "en": "Xã M'Drắk"
+          },
+          "area": "0.2563 ha",
+          "investmentCapital": {
+            "vi": "120 tỷ đồng",
+            "en": "120 billion VND"
+          },
+          "scale": {
+            "vi": "Theo đề xuất quy mô của Nhà đầu tư",
+            "en": "Theo đề xuất quy mô của Nhà đầu tư"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-43",
+          "name": {
+            "vi": "Trung tâm thương mại, siêu thị kinh doanh tổng hợp",
+            "en": "Trung tâm thương mại, siêu thị kinh doanh tổng hợp"
+          },
+          "location": {
+            "vi": "Thôn Trung Hòa, xã Sơn Hòa",
+            "en": "Thôn Trung Hòa, xã Sơn Hòa"
+          },
+          "area": "1.7 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "1,7ha",
+            "en": "1,7ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-44",
+          "name": {
+            "vi": "Khu Thương mại dịch vụ Krông Pách Thượng, vị trí 1",
+            "en": "Khu Thương mại dịch vụ Krông Pách Thượng, vị trí 1"
+          },
+          "location": {
+            "vi": "Thôn 14 xã Cư Yang",
+            "en": "Thôn 14 xã Cư Yang"
+          },
+          "area": "11.9 ha",
+          "investmentCapital": {
+            "vi": "80 tỷ đồng",
+            "en": "80 billion VND"
+          },
+          "scale": {
+            "vi": "11,9 ha",
+            "en": "11,9 ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "AG-45",
+          "name": {
+            "vi": "Trung tâm Thương mại",
+            "en": "Trung tâm Thương mại"
+          },
+          "location": {
+            "vi": "Thôn Kim Châu",
+            "en": "Thôn Kim Châu"
+          },
+          "area": "4.9 ha",
+          "investmentCapital": {
+            "vi": "70 tỷ đồng",
+            "en": "70 billion VND"
+          },
+          "scale": {
+            "vi": "52ha",
+            "en": "52ha"
+          },
+          "qrLink": ""
+        }
+      ]
+    },
+    {
+      "pageId": 5,
+      "category": {
+        "vi": "Y Tế, Giáo Dục & Môi Trường",
+        "en": "Healthcare, Education & Environment"
+      },
+      "projects": [
+        {
+          "id": "HE-01",
+          "name": {
+            "vi": "Bệnh viện chuyên khoa chất lượng cao",
+            "en": "Bệnh viện chuyên khoa chất lượng cao"
+          },
+          "location": {
+            "vi": "Phường Tuy Hòa",
+            "en": "Phường Tuy Hòa"
+          },
+          "area": "3.75 ha",
+          "investmentCapital": {
+            "vi": "1300 tỷ đồng",
+            "en": "1300 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng bệnh viện chuyên khoa chất lượng cao có quy mô khoảng 400 giường với hệ thống trang thiết bị ý tế hiện đại, đồng bộ, đáp ứng nhu cầu khám chữa bệnh của người dân trong khu vực",
+            "en": "Đầu tư xây dựng bệnh viện chuyên khoa chất lượng cao có quy mô khoảng 400 giường với hệ thống trang thiết bị ý tế hiện đại, đồng bộ, đáp ứng nhu cầu khám chữa bệnh của người dân trong khu vực"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-02",
+          "name": {
+            "vi": "Bệnh viện Đa khoa chất lượng cao",
+            "en": "Bệnh viện Đa khoa chất lượng cao"
+          },
+          "location": {
+            "vi": "Phường Đông Hòa",
+            "en": "Phường Đông Hòa"
+          },
+          "area": "3.73 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng bệnh viện đa khoa chất lượng cao có quy mô khoảng 300 giường với hệ thống trang thiết bị ý tế hiện đại, đồng bộ, đáp ứng nhu cầu khám chữa bệnh của người dân trong khu vực",
+            "en": "Đầu tư xây dựng bệnh viện đa khoa chất lượng cao có quy mô khoảng 300 giường với hệ thống trang thiết bị ý tế hiện đại, đồng bộ, đáp ứng nhu cầu khám chữa bệnh của người dân trong khu vực"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-03",
+          "name": {
+            "vi": "Bệnh viện đa khoa",
+            "en": "Bệnh viện đa khoa"
+          },
+          "location": {
+            "vi": "xã Quảng Phú",
+            "en": "xã Quảng Phú"
+          },
+          "area": "3,7 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "200 giường bệnh",
+            "en": "200 giường bệnh"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-04",
+          "name": {
+            "vi": "Bệnh viện Da Liễu",
+            "en": "Bệnh viện Da Liễu"
+          },
+          "location": {
+            "vi": "Phường Buôn Ma Thuột",
+            "en": "Phường Buôn Ma Thuột"
+          },
+          "area": "1.4149 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "50 giường bệnh",
+            "en": "50 giường bệnh"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-05",
+          "name": {
+            "vi": "Dự án Đầu tư xây dựng trường học đa  cấp hoặc Bệnh viện quốc tế  tại Khu đô thị mới Nam Tuy Hòa",
+            "en": "Dự án Đầu tư xây dựng trường học đa  cấp hoặc Bệnh viện quốc tế  tại Khu đô thị mới Nam Tuy Hòa"
+          },
+          "location": {
+            "vi": "Phường Phú Yên",
+            "en": "Phường Phú Yên"
+          },
+          "area": "3,3 ha",
+          "investmentCapital": {
+            "vi": "1400 tỷ đồng",
+            "en": "1400 billion VND"
+          },
+          "scale": {
+            "vi": "Thu hút đầu tư xây dựng trường học đa cấp hoặc bệnh viên theo tiêu chuẩn quốc tế nhằm đáp ứng nhu cầu giáo dục, đào tạo, chăm sóc y tế của người dân; góp phần hoàn thiện hệ thống hạ tầng xã hội theo quy hoạch.",
+            "en": "Thu hút đầu tư xây dựng trường học đa cấp hoặc bệnh viên theo tiêu chuẩn quốc tế nhằm đáp ứng nhu cầu giáo dục, đào tạo, chăm sóc y tế của người dân; góp phần hoàn thiện hệ thống hạ tầng xã hội theo quy hoạch."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-06",
+          "name": {
+            "vi": "Dự án Trường Tiểu học, THCS chất lượng cao xã Quảng Phú",
+            "en": "Dự án Trường Tiểu học, THCS chất lượng cao xã Quảng Phú"
+          },
+          "location": {
+            "vi": "Xã Quảng Phú",
+            "en": "Xã Quảng Phú"
+          },
+          "area": "5 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "5",
+            "en": "5"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-07",
+          "name": {
+            "vi": "Trường Mầm non, tiểu học khu vực dân cư TDP 8, xã Quảng Phú",
+            "en": "Trường Mầm non, tiểu học khu vực dân cư TDP 8, xã Quảng Phú"
+          },
+          "location": {
+            "vi": "Xã Quảng Phú",
+            "en": "Xã Quảng Phú"
+          },
+          "area": "3 ha",
+          "investmentCapital": {
+            "vi": "75 tỷ đồng",
+            "en": "75 billion VND"
+          },
+          "scale": {
+            "vi": "3",
+            "en": "3"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-08",
+          "name": {
+            "vi": "Trường phổ thông thực hành – nghề Quốc Tế Tây Nguyên.",
+            "en": "Trường phổ thông thực hành – nghề Quốc Tế Tây Nguyên."
+          },
+          "location": {
+            "vi": "Trung tâm xã Ea Knuếc, tỉnh Đắk Lắk.",
+            "en": "Trung tâm xã Ea Knuếc, tỉnh Đắk Lắk."
+          },
+          "area": "1,2 ha",
+          "investmentCapital": {
+            "vi": "theo quy định tỷ đồng",
+            "en": "theo quy định billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư trường THPT - Thực hành - Đào tạo nghề. 1.200-1.500 HS.",
+            "en": "Đầu tư trường THPT - Thực hành - Đào tạo nghề. 1.200-1.500 HS."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-09",
+          "name": {
+            "vi": "Nhà máy xử lý rác thải sinh hoạt phát điện Hòa Phú.",
+            "en": "Nhà máy xử lý rác thải sinh hoạt phát điện Hòa Phú."
+          },
+          "location": {
+            "vi": "xã Hòa Phú",
+            "en": "xã Hòa Phú"
+          },
+          "area": "50 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Công suất thiết kế: ≥ 500 tấn/ngày, có khả năng thu hồi năng lượng, xử lý các chất thải thứ cấp. Nhà máy điện có công suất: Khoảng 09 MW.",
+            "en": "Công suất thiết kế: ≥ 500 tấn/ngày, có khả năng thu hồi năng lượng, xử lý các chất thải thứ cấp. Nhà máy điện có công suất: Khoảng 09 MW."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-10",
+          "name": {
+            "vi": "Dự án Nhà máy xử lý rác thải, nước thải và chất thải nguy hại phục vụ Khu kinh tế Nam Phú Yên",
+            "en": "Dự án Nhà máy xử lý rác thải, nước thải và chất thải nguy hại phục vụ Khu kinh tế Nam Phú Yên"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "20-30 ha",
+          "investmentCapital": {
+            "vi": "500 tỷ đồng",
+            "en": "500 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng nhà máy xử lý rác thải, nước thải và chất thải nguy hại theo quy hoạch chung xây dựng Khu kinh tế Nam Phú Yên.",
+            "en": "Đầu tư xây dựng nhà máy xử lý rác thải, nước thải và chất thải nguy hại theo quy hoạch chung xây dựng Khu kinh tế Nam Phú Yên."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-11",
+          "name": {
+            "vi": "Đầu tư Cơ sở xử lý chất thải rắn huyện Cư M’gar (cũ) quy mô 10ha",
+            "en": "Đầu tư Cơ sở xử lý chất thải rắn huyện Cư M’gar (cũ) quy mô 10ha"
+          },
+          "location": {
+            "vi": "Xã Ea M’Droh, tỉnh Đắk Lắk",
+            "en": "Xã Ea M’Droh, tỉnh Đắk Lắk"
+          },
+          "area": "10 ha",
+          "investmentCapital": {
+            "vi": "168 tỷ đồng",
+            "en": "168 billion VND"
+          },
+          "scale": {
+            "vi": "Khu đốt chất thải rắn; Khu chôn lấp tro xỉ; Khu điều hành; Đất giao thông + hạ tầng kỹ thuật; Đất cây xanh, mặt nước",
+            "en": "Khu đốt chất thải rắn; Khu chôn lấp tro xỉ; Khu điều hành; Đất giao thông + hạ tầng kỹ thuật; Đất cây xanh, mặt nước"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-12",
+          "name": {
+            "vi": "Nhà máy xử lý rác thải huyện Krông Búk",
+            "en": "Nhà máy xử lý rác thải huyện Krông Búk"
+          },
+          "location": {
+            "vi": "Xã Krông Búk",
+            "en": "Xã Krông Búk"
+          },
+          "area": "11 ha",
+          "investmentCapital": {
+            "vi": "120 tỷ đồng",
+            "en": "120 billion VND"
+          },
+          "scale": {
+            "vi": "Các hạng mục phù hợp với nhà máy xử lý rác thải: Bãi chứa, nhà máy và thiết bị xử lý, hệ thống hạ tầng kỹ thuật kèm theo, ...",
+            "en": "Các hạng mục phù hợp với nhà máy xử lý rác thải: Bãi chứa, nhà máy và thiết bị xử lý, hệ thống hạ tầng kỹ thuật kèm theo, ..."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-13",
+          "name": {
+            "vi": "Nhà máy xử lý rác thải sinh hoạt",
+            "en": "Nhà máy xử lý rác thải sinh hoạt"
+          },
+          "location": {
+            "vi": "xã Liên Sơn Lắk",
+            "en": "xã Liên Sơn Lắk"
+          },
+          "area": "5 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng lò đốt rác và bãi xử lý rác",
+            "en": "Xây dựng lò đốt rác và bãi xử lý rác"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-14",
+          "name": {
+            "vi": "Trung tâm dữ liệu và cơ sở kết nối cáp viễn thông biển trên bờ (Data Center)",
+            "en": "Trung tâm dữ liệu và cơ sở kết nối cáp viễn thông biển trên bờ (Data Center)"
+          },
+          "location": {
+            "vi": "KCN Hòa Xuân Đông hoặc KCN Hòa Xuân Tây",
+            "en": "KCN Hòa Xuân Đông hoặc KCN Hòa Xuân Tây"
+          },
+          "area": "200 ha",
+          "investmentCapital": {
+            "vi": "2450 tỷ đồng",
+            "en": "2450 billion VND"
+          },
+          "scale": {
+            "vi": "- Xây dựng mới tuyến cáp quang biển quốc tế và trạm cập bờ (CLS) \r\n- Thiết lập các trung tâm dữ liệu thông tin gần Trạm cập bờ để cung cấp năng lực cho các đơn vị cung cấp dịch vụ điện toán đám mây của Việt Nam và Quốc tế.\r\n- Cung cấp điện năng tái tạo cho trạm cập bờ, trung tâm dữ liệu và các khu vực khác.",
+            "en": "- Xây dựng mới tuyến cáp quang biển quốc tế và trạm cập bờ (CLS) \r\n- Thiết lập các trung tâm dữ liệu thông tin gần Trạm cập bờ để cung cấp năng lực cho các đơn vị cung cấp dịch vụ điện toán đám mây của Việt Nam và Quốc tế.\r\n- Cung cấp điện năng tái tạo cho trạm cập bờ, trung tâm dữ liệu và các khu vực khác."
+          },
+          "qrLink": ""
+        }
+      ]
+    },
+    {
+      "pageId": 6,
+      "category": {
+        "vi": "Du Lịch & Thể Thao",
+        "en": "Tourism & Sports"
+      },
+      "projects": [
+        {
+          "id": "TS-01",
+          "name": {
+            "vi": "Khu dịch vụ du lịch, nghỉ dưỡng, trung tâm văn hóa thể dục thể thao (sân Gofl)",
+            "en": "Khu dịch vụ du lịch, nghỉ dưỡng, trung tâm văn hóa thể dục thể thao (sân Gofl)"
+          },
+          "location": {
+            "vi": "Thôn Tân qui, Đồng Nổ, Đồng Môn, xã Ô Loan",
+            "en": "Thôn Tân qui, Đồng Nổ, Đồng Môn, xã Ô Loan"
+          },
+          "area": "450 ha",
+          "investmentCapital": {
+            "vi": "40865 tỷ đồng",
+            "en": "40865 billion VND"
+          },
+          "scale": {
+            "vi": "Sân Golf diện tích khoảng 150ha; các khu phục vụ du lịch, nghỉ dưỡng, công viên cây xanh diện tích khoảng 300ha",
+            "en": "Sân Golf diện tích khoảng 150ha; các khu phục vụ du lịch, nghỉ dưỡng, công viên cây xanh diện tích khoảng 300ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-02",
+          "name": {
+            "vi": "Khu du lịch nghỉ dưỡng cao cấp vịnh Vũng Rô",
+            "en": "Khu du lịch nghỉ dưỡng cao cấp vịnh Vũng Rô"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "201,2 ha",
+          "investmentCapital": {
+            "vi": "20000 tỷ đồng",
+            "en": "20000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng quần thể du lịch đặc thù, cao cấp, hiện đại và đồng bộ các yêu cầu về kỹ thuật xây dựng và môi trường theo tiêu chuẩn quốc gia và quốc tế phục vụ cho khách du lịch trong và ngoài nước với nhiều loại hình dịch vụ khác nhau, bao gồm các công trình nghỉ dưỡng sang trọng đúng tiêu chuẩn.",
+            "en": "Xây dựng quần thể du lịch đặc thù, cao cấp, hiện đại và đồng bộ các yêu cầu về kỹ thuật xây dựng và môi trường theo tiêu chuẩn quốc gia và quốc tế phục vụ cho khách du lịch trong và ngoài nước với nhiều loại hình dịch vụ khác nhau, bao gồm các công trình nghỉ dưỡng sang trọng đúng tiêu chuẩn."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-03",
+          "name": {
+            "vi": "Khu đô thị - du lịch Biển Hồ - Đá Bia",
+            "en": "Khu đô thị - du lịch Biển Hồ - Đá Bia"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "338,4 ha",
+          "investmentCapital": {
+            "vi": "13300 tỷ đồng",
+            "en": "13300 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng khu đô thị và du lịch văn hóa, nghỉ dưỡng sinh thái với cảnh quan thiên nhiên hấp dẫn kết hợp với các khu vui chơi giải trí, dịch vụ du lịch ven hồ và du lịch văn hóa hấp dẫn, sân gôn 18 lỗ hiện đại với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường. Đáp ứng nhu cầu nghỉ dưỡng, du lịch văn hóa của du khách trong và ngoài nước.",
+            "en": "Xây dựng khu đô thị và du lịch văn hóa, nghỉ dưỡng sinh thái với cảnh quan thiên nhiên hấp dẫn kết hợp với các khu vui chơi giải trí, dịch vụ du lịch ven hồ và du lịch văn hóa hấp dẫn, sân gôn 18 lỗ hiện đại với cơ sở hạ tầng và dịch vụ đồng bộ theo hướng phát triển bền vững và bảo vệ môi trường. Đáp ứng nhu cầu nghỉ dưỡng, du lịch văn hóa của du khách trong và ngoài nước."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-04",
+          "name": {
+            "vi": "Tổ hợp khu du lịch sinh thái, nghỉ dưỡng cao cấp An Hòa Hải",
+            "en": "Tổ hợp khu du lịch sinh thái, nghỉ dưỡng cao cấp An Hòa Hải"
+          },
+          "location": {
+            "vi": "Xã An Hòa Hải",
+            "en": "Xã An Hòa Hải"
+          },
+          "area": "420 ha",
+          "investmentCapital": {
+            "vi": "4200 tỷ đồng",
+            "en": "4200 billion VND"
+          },
+          "scale": {
+            "vi": "Tổ hợp Khu du lịch sinh thái, vui chơi giải trí và sân golf hiện đại, đồng bộ về giao thông và hạ tầng kỹ thuật",
+            "en": "Tổ hợp Khu du lịch sinh thái, vui chơi giải trí và sân golf hiện đại, đồng bộ về giao thông và hạ tầng kỹ thuật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-05",
+          "name": {
+            "vi": "Khu du lịch dịch vụ cao cấp Bãi Từ Nham",
+            "en": "Khu du lịch dịch vụ cao cấp Bãi Từ Nham"
+          },
+          "location": {
+            "vi": "TDP Phú Dương, Từ Nham, phường Sông Cầu",
+            "en": "TDP Phú Dương, Từ Nham, phường Sông Cầu"
+          },
+          "area": "300 ha",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "Xây dựng hạ tầng kỹ thuật",
+            "en": "Xây dựng hạ tầng kỹ thuật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-06",
+          "name": {
+            "vi": "Khu phức hợp (Du lịch sinh thái, nghỉ dưỡng; khu vui chơi giải trí).",
+            "en": "Khu phức hợp (Du lịch sinh thái, nghỉ dưỡng; khu vui chơi giải trí)."
+          },
+          "location": {
+            "vi": "Buôn Đôn",
+            "en": "Buôn Đôn"
+          },
+          "area": "966 ha",
+          "investmentCapital": {
+            "vi": "2500 tỷ đồng",
+            "en": "2500 billion VND"
+          },
+          "scale": {
+            "vi": "Khu  nhỉ dưỡng, khu vui chơi giải trí, vườn thú,",
+            "en": "Khu  nhỉ dưỡng, khu vui chơi giải trí, vườn thú,"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-07",
+          "name": {
+            "vi": "Khu du lịch sinh thái ven sông Sêrêpốk, Xã Hòa Phú",
+            "en": "Khu du lịch sinh thái ven sông Sêrêpốk, Xã Hòa Phú"
+          },
+          "location": {
+            "vi": "Xã Hòa Phú",
+            "en": "Xã Hòa Phú"
+          },
+          "area": "170 ha",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "Dự kiến quy mô đầu tư: Phát triển du lịch sinh thái ven sông Sêrêpốk",
+            "en": "Dự kiến quy mô đầu tư: Phát triển du lịch sinh thái ven sông Sêrêpốk"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-08",
+          "name": {
+            "vi": "Tổ hợp Khu du lịch sinh thái nghì dưỡng cao cấp Đá bàn Hồ Mỹ Lâm",
+            "en": "Tổ hợp Khu du lịch sinh thái nghì dưỡng cao cấp Đá bàn Hồ Mỹ Lâm"
+          },
+          "location": {
+            "vi": "Xã Hòa Thịnh",
+            "en": "Xã Hòa Thịnh"
+          },
+          "area": "352,4 ha",
+          "investmentCapital": {
+            "vi": "1200 tỷ đồng",
+            "en": "1200 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng Khu du lịch sinh thái đồng bộ về giao thông và hạ tầng kỹ thuật phù hợp với quy hoạch chung xây dựng khu vực xung quanh hồ Mỹ Lâm",
+            "en": "Đầu tư xây dựng Khu du lịch sinh thái đồng bộ về giao thông và hạ tầng kỹ thuật phù hợp với quy hoạch chung xây dựng khu vực xung quanh hồ Mỹ Lâm"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-09",
+          "name": {
+            "vi": "Khu du lịch nghỉ dưỡng cao cấp Hòn Nưa (tổng DT đồ án QH 33,9ha)",
+            "en": "Khu du lịch nghỉ dưỡng cao cấp Hòn Nưa (tổng DT đồ án QH 33,9ha)"
+          },
+          "location": {
+            "vi": "Xã Hòa Xuân",
+            "en": "Xã Hòa Xuân"
+          },
+          "area": "10,6 ha",
+          "investmentCapital": {
+            "vi": "1125 tỷ đồng",
+            "en": "1125 billion VND"
+          },
+          "scale": {
+            "vi": "Hình thành một quần thể du lịch đặc thù, cao cấp, hiện đại và đồng bộ các yêu cầu về kỹ thuật xây dựng và môi trường theo tiêu chuẩn quốc gia và quốc tế phục vụ cho khách du lịch trong và ngoài nước với nhiều loại hình dịch vụ khác nhau, bao gồm các công trình nghỉ dưỡng sang trọng đúng tiêu chuẩn.",
+            "en": "Hình thành một quần thể du lịch đặc thù, cao cấp, hiện đại và đồng bộ các yêu cầu về kỹ thuật xây dựng và môi trường theo tiêu chuẩn quốc gia và quốc tế phục vụ cho khách du lịch trong và ngoài nước với nhiều loại hình dịch vụ khác nhau, bao gồm các công trình nghỉ dưỡng sang trọng đúng tiêu chuẩn."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-10",
+          "name": {
+            "vi": "Đầu tư xây dựng khu dịch vụ du lịch, nhà hàng, vui chơi giải trí trên mặt nước hồ Ea Rông",
+            "en": "Đầu tư xây dựng khu dịch vụ du lịch, nhà hàng, vui chơi giải trí trên mặt nước hồ Ea Rông"
+          },
+          "location": {
+            "vi": "Buôn Đôn",
+            "en": "Buôn Đôn"
+          },
+          "area": "25 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư cơ sở hạ tầng",
+            "en": "Đầu tư cơ sở hạ tầng"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-11",
+          "name": {
+            "vi": "Đầu tư xây dựng khu nhà nghỉ dưỡng, gắn với du lịch sinh thái nghỉ dưỡng bên cạnh quần thể Thủy tùng, hồ nước",
+            "en": "Đầu tư xây dựng khu nhà nghỉ dưỡng, gắn với du lịch sinh thái nghỉ dưỡng bên cạnh quần thể Thủy tùng, hồ nước"
+          },
+          "location": {
+            "vi": "Xã Ea Drăng",
+            "en": "Xã Ea Drăng"
+          },
+          "area": "50-80 ha",
+          "investmentCapital": {
+            "vi": "500-800 tỷ đồng",
+            "en": "500-800 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư cơ sở hạ tầng, khu nhà ở….",
+            "en": "Đầu tư cơ sở hạ tầng, khu nhà ở…."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-12",
+          "name": {
+            "vi": "Đầu tư xây dựng khu nhà nghỉ dưỡng, du lịch sinh thái kết nối chuỗi du lịch nghỉ dưỡng Hồ sinh thái thị trấn EaDrăng",
+            "en": "Đầu tư xây dựng khu nhà nghỉ dưỡng, du lịch sinh thái kết nối chuỗi du lịch nghỉ dưỡng Hồ sinh thái thị trấn EaDrăng"
+          },
+          "location": {
+            "vi": "Xã Ea Drăng",
+            "en": "Xã Ea Drăng"
+          },
+          "area": "50-80 ha",
+          "investmentCapital": {
+            "vi": "500-800 tỷ đồng",
+            "en": "500-800 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư cơ sở hạ tầng, khu nhà ở….",
+            "en": "Đầu tư cơ sở hạ tầng, khu nhà ở…."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-13",
+          "name": {
+            "vi": "Khu du lịch  núi Bà",
+            "en": "Khu du lịch  núi Bà"
+          },
+          "location": {
+            "vi": "Xã Tuy An Bắc",
+            "en": "Xã Tuy An Bắc"
+          },
+          "area": "150 ha",
+          "investmentCapital": {
+            "vi": "668 tỷ đồng",
+            "en": "668 billion VND"
+          },
+          "scale": {
+            "vi": "Tổ hợp Khu du lịch sinh\r\nthái, vui chơi giải trí và sân\r\ngolf hiện đại, đồng bộ về\r\ngiao thông và hạ tầng kỹ\r\nthuật",
+            "en": "Tổ hợp Khu du lịch sinh\r\nthái, vui chơi giải trí và sân\r\ngolf hiện đại, đồng bộ về\r\ngiao thông và hạ tầng kỹ\r\nthuật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-14",
+          "name": {
+            "vi": "Khu phức hợp vui chơi, giải trí, nghỉ dưỡng Hồ Lắk",
+            "en": "Khu phức hợp vui chơi, giải trí, nghỉ dưỡng Hồ Lắk"
+          },
+          "location": {
+            "vi": "xã Liên Sơn Lắk",
+            "en": "xã Liên Sơn Lắk"
+          },
+          "area": "10,6 ha",
+          "investmentCapital": {
+            "vi": "300 tỷ đồng",
+            "en": "300 billion VND"
+          },
+          "scale": {
+            "vi": "Phức hợp (nghỉ dưỡng, thể thao, giải trí...) bao quanh bởi các đường Âu Cơ và Hồ Xuân Hương",
+            "en": "Phức hợp (nghỉ dưỡng, thể thao, giải trí...) bao quanh bởi các đường Âu Cơ và Hồ Xuân Hương"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-15",
+          "name": {
+            "vi": "Khu du lịch sinh thái điện ảnh Moonlight Land",
+            "en": "Khu du lịch sinh thái điện ảnh Moonlight Land"
+          },
+          "location": {
+            "vi": "Xã Ea Knuếc",
+            "en": "Xã Ea Knuếc"
+          },
+          "area": "20 ha",
+          "investmentCapital": {
+            "vi": "180 tỷ đồng",
+            "en": "180 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư khu du lịch.",
+            "en": "Đầu tư khu du lịch."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-16",
+          "name": {
+            "vi": "Khu du lịch sinh thái hồ Suối Bùn",
+            "en": "Khu du lịch sinh thái hồ Suối Bùn"
+          },
+          "location": {
+            "vi": "Thôn Trung Hòa, xã Sơn Hòa",
+            "en": "Thôn Trung Hòa, xã Sơn Hòa"
+          },
+          "area": "10 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng hạ tầng khu du lịch, các công trình dịch vụ trong khu du lịch",
+            "en": "Đầu tư xây dựng hạ tầng khu du lịch, các công trình dịch vụ trong khu du lịch"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-17",
+          "name": {
+            "vi": "Dự án Tổ hợp  Phim trường, Du lịch sinh thái – Nông nghiệp công nghệ  cao tại hồ Krông Búk Hạ",
+            "en": "Dự án Tổ hợp  Phim trường, Du lịch sinh thái – Nông nghiệp công nghệ  cao tại hồ Krông Búk Hạ"
+          },
+          "location": {
+            "vi": "Buôn Puăn B,  Ea Phê",
+            "en": "Buôn Puăn B,  Ea Phê"
+          },
+          "area": "89,9 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-18",
+          "name": {
+            "vi": "Phát triển du lịch thác Drai Ea H’Jie kết hợp cơ sở chăm sóc người cao tuổi",
+            "en": "Phát triển du lịch thác Drai Ea H’Jie kết hợp cơ sở chăm sóc người cao tuổi"
+          },
+          "location": {
+            "vi": "Buôn Ea Khít",
+            "en": "Buôn Ea Khít"
+          },
+          "area": "25 ha",
+          "investmentCapital": {
+            "vi": "150 tỷ đồng",
+            "en": "150 billion VND"
+          },
+          "scale": {
+            "vi": "25ha",
+            "en": "25ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-19",
+          "name": {
+            "vi": "Khu du lịch sinh thái Hồ Krông Jing",
+            "en": "Khu du lịch sinh thái Hồ Krông Jing"
+          },
+          "location": {
+            "vi": "Thôn Hồ, xã Cư M'ta, Đắk Lắk",
+            "en": "Thôn Hồ, xã Cư M'ta, Đắk Lắk"
+          },
+          "area": "27.4 ha",
+          "investmentCapital": {
+            "vi": "100 tỷ đồng",
+            "en": "100 billion VND"
+          },
+          "scale": {
+            "vi": "27,4 ha (Xây dựng hạ tầng, kỹ thuật đảm bảo hoạt động khu du lịch)",
+            "en": "27,4 ha (Xây dựng hạ tầng, kỹ thuật đảm bảo hoạt động khu du lịch)"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-20",
+          "name": {
+            "vi": "Khu du lịch gắn với địa danh lịch sử Thác Dray Kpơr",
+            "en": "Khu du lịch gắn với địa danh lịch sử Thác Dray Kpơr"
+          },
+          "location": {
+            "vi": "Buôn Trưng xã Cư Yang",
+            "en": "Buôn Trưng xã Cư Yang"
+          },
+          "area": "108.5 ha",
+          "investmentCapital": {
+            "vi": "70 tỷ đồng",
+            "en": "70 billion VND"
+          },
+          "scale": {
+            "vi": "108.5ha",
+            "en": "108.5ha"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-21",
+          "name": {
+            "vi": "Sân golf kết hợp dịch vụ thương mại và nhà ở xã hội",
+            "en": "Sân golf kết hợp dịch vụ thương mại và nhà ở xã hội"
+          },
+          "location": {
+            "vi": "phường Bình Kiến và xã Tuy An Nam",
+            "en": "phường Bình Kiến và xã Tuy An Nam"
+          },
+          "area": "126 ha",
+          "investmentCapital": {
+            "vi": "3000 tỷ đồng",
+            "en": "3000 billion VND"
+          },
+          "scale": {
+            "vi": "Sân golf 18 lỗ kết hợp khu dịch vụ thương mại và nhà ở xã hội",
+            "en": "Sân golf 18 lỗ kết hợp khu dịch vụ thương mại và nhà ở xã hội"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-22",
+          "name": {
+            "vi": "Tổ hợp sân golf Buôn Đôn",
+            "en": "Tổ hợp sân golf Buôn Đôn"
+          },
+          "location": {
+            "vi": "xã Ea Wer",
+            "en": "xã Ea Wer"
+          },
+          "area": "299 ha",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "Sân golf 36 lỗ và tổ hợp thương mại",
+            "en": "Sân golf 36 lỗ và tổ hợp thương mại"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-23",
+          "name": {
+            "vi": "Sân golf hồ Ea Kao",
+            "en": "Sân golf hồ Ea Kao"
+          },
+          "location": {
+            "vi": "phường Ea Kao",
+            "en": "phường Ea Kao"
+          },
+          "area": "76,7 ha",
+          "investmentCapital": {
+            "vi": "2000 tỷ đồng",
+            "en": "2000 billion VND"
+          },
+          "scale": {
+            "vi": "Sân golf 18 lỗ",
+            "en": "Sân golf 18 lỗ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-24",
+          "name": {
+            "vi": "Sân gold Phú Hòa.",
+            "en": "Sân gold Phú Hòa."
+          },
+          "location": {
+            "vi": "Xã Phú Hòa 2, tỉnh Đắk Lắk",
+            "en": "Xã Phú Hòa 2, tỉnh Đắk Lắk"
+          },
+          "area": "89.95 ha",
+          "investmentCapital": {
+            "vi": "1020 tỷ đồng",
+            "en": "1020 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư xây dựng sân golf 18 lỗ tiêu chuẩn quốc tế, gồm các hạng mục: Sân golf, cảnh quan; nhà Câu lạc bộ; sân tập golf và các công trình phụ trợ",
+            "en": "Đầu tư xây dựng sân golf 18 lỗ tiêu chuẩn quốc tế, gồm các hạng mục: Sân golf, cảnh quan; nhà Câu lạc bộ; sân tập golf và các công trình phụ trợ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-25",
+          "name": {
+            "vi": "Sân golf hồ Lắk",
+            "en": "Sân golf hồ Lắk"
+          },
+          "location": {
+            "vi": "xã Liên Sơn Lắk",
+            "en": "xã Liên Sơn Lắk"
+          },
+          "area": "89,44 ha",
+          "investmentCapital": {
+            "vi": "1000 tỷ đồng",
+            "en": "1000 billion VND"
+          },
+          "scale": {
+            "vi": "Sân golf 18 lỗ",
+            "en": "Sân golf 18 lỗ"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-26",
+          "name": {
+            "vi": "Dự án Sân Golf",
+            "en": "Dự án Sân Golf"
+          },
+          "location": {
+            "vi": "xã Tuy An Nam",
+            "en": "xã Tuy An Nam"
+          },
+          "area": "450 ha",
+          "investmentCapital": {
+            "vi": "Chưa xác định tỷ đồng",
+            "en": "Chưa xác định billion VND"
+          },
+          "scale": {
+            "vi": "Trong tổng quy mô 450 ha: trong đó kêu gọi đầu tư sân Golf 150 ha, còn lại đất TMD+DTT+ DHT+ …",
+            "en": "Trong tổng quy mô 450 ha: trong đó kêu gọi đầu tư sân Golf 150 ha, còn lại đất TMD+DTT+ DHT+ …"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-27",
+          "name": {
+            "vi": "Dự án sân gôn hồ Ea Nhái",
+            "en": "Dự án sân gôn hồ Ea Nhái"
+          },
+          "location": {
+            "vi": "xã Cuôr Đăng, xã Ea Knuếc",
+            "en": "xã Cuôr Đăng, xã Ea Knuếc"
+          },
+          "area": "191 ha",
+          "investmentCapital": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "scale": {
+            "vi": "Đang cập nhật",
+            "en": "Đang cập nhật"
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "TS-28",
+          "name": {
+            "vi": "Khu văn hóa -Thể thao",
+            "en": "Khu văn hóa -Thể thao"
+          },
+          "location": {
+            "vi": "Đường Trần Cảnh, Phường Buôn Hồ",
+            "en": "Đường Trần Cảnh, Phường Buôn Hồ"
+          },
+          "area": "6.56 ha",
+          "investmentCapital": {
+            "vi": "131 tỷ đồng",
+            "en": "131 billion VND"
+          },
+          "scale": {
+            "vi": "Đầu tư Khu văn hóa thể thao thị xã sẽ đồng thời hoàn thiện được mục tiêu kép là văn hóa và thể dục thể thao góp phần hoàn thiện tiêu chi đô thị loại III theo Nghị quyết số 1210/2016/UBTVQH13 ngày 25/05/2016 và Nghị quyết số 26/2022/NQ-UBTVQH15, ngày 21/9/2022 của Ủy ban Thường vụ Quốc hội. Hoàn thiện hệ thống thiết chế văn hóa, thể thao, tạo được sự đoàn kết trong cộng đồng dân cư góp phần thúc đẩy phát triển kinh tế - xã hội và quốc phòng - an ninh, xây dựng môi trường văn hóa – thể thao lành mạnh, giảm thiểu các tệ nạn xã hội. Việc đầu tư Khu văn hóa thể thao thị xã sẽ nâng cao vị thế về văn hóa – thể thao của địa phương trong khu vực, là cầu nối giúp đẩy mạnh phong trào văn hóa, thể dục – thể thao trong toàn dân",
+            "en": "Đầu tư Khu văn hóa thể thao thị xã sẽ đồng thời hoàn thiện được mục tiêu kép là văn hóa và thể dục thể thao góp phần hoàn thiện tiêu chi đô thị loại III theo Nghị quyết số 1210/2016/UBTVQH13 ngày 25/05/2016 và Nghị quyết số 26/2022/NQ-UBTVQH15, ngày 21/9/2022 của Ủy ban Thường vụ Quốc hội. Hoàn thiện hệ thống thiết chế văn hóa, thể thao, tạo được sự đoàn kết trong cộng đồng dân cư góp phần thúc đẩy phát triển kinh tế - xã hội và quốc phòng - an ninh, xây dựng môi trường văn hóa – thể thao lành mạnh, giảm thiểu các tệ nạn xã hội. Việc đầu tư Khu văn hóa thể thao thị xã sẽ nâng cao vị thế về văn hóa – thể thao của địa phương trong khu vực, là cầu nối giúp đẩy mạnh phong trào văn hóa, thể dục – thể thao trong toàn dân"
+          },
+          "qrLink": ""
+        }
+      ]
+    }
+  ]
+}
