@@ -38,11 +38,18 @@ export const ProjectModal = ({ isOpen, onClose, project, lang }: ProjectModalPro
     const scale = typeof project.scale === "string" ? project.scale : (isVi ? (project.scale?.vi || project.quyMo || "") : (project.scale?.en || project.quyMo || ""));
 
     return (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
+        <div className="fixed inset-0 z-9999 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
             <div
                 className="bg-white rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden flex flex-col shadow-2xl animate-in fade-in zoom-in-95 duration-200"
                 onClick={(e) => e.stopPropagation()}
                 onPointerDown={(e) => e.stopPropagation()}
+                onMouseDown={(e) => e.stopPropagation()}
+                onMouseUp={(e) => e.stopPropagation()}
+                onMouseMove={(e) => e.stopPropagation()}
+                onTouchStart={(e) => e.stopPropagation()}
+                onTouchEnd={(e) => e.stopPropagation()}
+                onTouchMove={(e) => e.stopPropagation()}
+                onWheel={(e) => e.stopPropagation()}
             >
                 {/* Header */}
                 <div className="bg-[#5C3A21] px-6 py-4 flex justify-between items-center shrink-0">

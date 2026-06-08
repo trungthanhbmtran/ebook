@@ -53,7 +53,7 @@ export default function ProjectCard({ item, lang = "vi" }: ProjectCardProps) {
                 <div className="bg-[#cba365] text-white font-black text-[10px] px-1.5 py-0.5 rounded shrink-0 mt-0.5 shadow-sm">
                     {item.stt ? (parseInt(item.stt) < 10 ? `0${item.stt}` : item.stt) : "01"}
                 </div>
-                <h5 className="font-bold text-[12.5px] text-gray-900 leading-snug uppercase break-words">
+                <h5 className="font-bold text-[12.5px] text-gray-900 leading-snug uppercase wrap-break-word">
                     {tenDuAn || "ĐANG CẬP NHẬT..."}
                 </h5>
             </div>
@@ -64,7 +64,7 @@ export default function ProjectCard({ item, lang = "vi" }: ProjectCardProps) {
                 {/* Vị trí */}
                 <div className="flex items-start gap-1.5">
                     <MapPin size={13} className="text-[#cba365] shrink-0 mt-[2px]" />
-                    <div className="break-words">
+                    <div className="wrap-break-word">
                         <span className="font-semibold text-gray-600">{labels.location}:</span>{" "}
                         <span className="text-blue-900 font-bold">{diaDiem || "-"}</span>
                     </div>
@@ -73,7 +73,7 @@ export default function ProjectCard({ item, lang = "vi" }: ProjectCardProps) {
                 {/* Diện tích */}
                 <div className="flex items-start gap-1.5">
                     <Maximize2 size={13} className="text-[#cba365] shrink-0 mt-[2px]" />
-                    <div className="break-words">
+                    <div className="wrap-break-word">
                         <span className="font-semibold text-gray-600">{labels.area}</span>{" "}
                         <span className="text-gray-900 font-bold">{dienTich || "-"}</span>
                     </div>
@@ -82,7 +82,7 @@ export default function ProjectCard({ item, lang = "vi" }: ProjectCardProps) {
                 {/* Vốn đầu tư */}
                 <div className="flex items-start gap-1.5 border-t border-[#cba365]/20 pt-1.5 mt-0.5">
                     <DollarSign size={13} className="text-[#c17f3a] shrink-0 mt-[2px]" />
-                    <div className="break-words">
+                    <div className="wrap-break-word">
                         <span className="font-semibold text-gray-600">{labels.investment}</span>{" "}
                         <strong className="text-[#a0622a] font-bold text-[11.5px]">
                             {tongVon || labels.unspecified}
@@ -96,7 +96,7 @@ export default function ProjectCard({ item, lang = "vi" }: ProjectCardProps) {
                 <div className="text-[11px] leading-relaxed flex items-start gap-1.5 mt-0.5 px-1">
                     <span className="text-gray-600 font-semibold shrink-0">{labels.scale}</span>
                     {/* Giới hạn 3 dòng thay vì 2 dòng để đọc được nhiều hơn */}
-                    <span className="line-clamp-3 text-gray-900 font-medium break-words">{quyMo}</span>
+                    <span className="line-clamp-3 text-gray-900 font-medium wrap-break-word">{quyMo}</span>
                 </div>
             )}
         </div>

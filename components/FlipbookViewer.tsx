@@ -34,7 +34,15 @@ export default function FlipbookViewer() {
     const [hasOpenedModal, setHasOpenedModal] = useState(false);
 
     useEffect(() => {
-        if (selectedProject) setHasOpenedModal(true);
+        if (selectedProject) {
+            setHasOpenedModal(true);
+            // Forcefully cancel any ongoing drag in react-pageflip
+            try {
+                document.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, cancelable: true }));
+            } catch (e) {
+                // Ignore dispatch errors
+            }
+        }
     }, [selectedProject]);
 
     const handleProjectClick = useCallback((project: any, lang: 'vi' | 'en') => {
@@ -119,8 +127,8 @@ export default function FlipbookViewer() {
             const nameVi = item.name?.vi || item.tenDuAn || item.name || "";
             const scaleVi = typeof item.scale === "string" ? item.scale : (item.scale?.vi || item.quyMo || "");
 
-            const nameLen = nameVi.length;
-            const scaleLen = scaleVi.length;
+            const nameLen = nameVi?.length || 0;
+            const scaleLen = scaleVi?.length || 0;
 
             if (nameLen > 70) weight += 0.5;
             if (scaleLen > 100) weight += 0.5;
@@ -330,10 +338,10 @@ export default function FlipbookViewer() {
         <div ref={containerRef} className="flex flex-col h-screen w-full font-sans overflow-hidden select-none relative back print:block print:h-auto print:overflow-visible print:w-full">
             <div className="absolute inset-0 z-0 flex pointer-events-none print:hidden">
                 <div className="relative w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
-                    <Image src="/nga-6-buon-ma-thuot-guong-mat-thuong-hieu-cua-thanh-pho-vung-cao-06-1652171304.jpg" alt="Buôn Ma Thuột Bg" fill sizes="50vw" priority quality={60} className="object-cover" />
+                    <Image src="/nga-6-buon-ma-thuot-guong-mat-thuong-hieu-cua-thanh-pho-vung-cao-06-1652171304.jpg" alt="Buôn Ma Thuột Bg" fill sizes="50vw" priority quality={75} className="object-cover" />
                 </div>
                 <div className="relative w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
-                    <Image src="/depositphotos659116602xl-1715649541611.jpg" alt="Nghinh Phong Bg" fill sizes="50vw" priority quality={60} className="object-cover" />
+                    <Image src="/depositphotos659116602xl-1715649541611.jpg" alt="Nghinh Phong Bg" fill sizes="50vw" priority quality={75} className="object-cover" />
                 </div>
             </div>
 
