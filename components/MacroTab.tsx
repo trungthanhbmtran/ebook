@@ -23,14 +23,14 @@ export default function MacroTab({ menu, mIdx, currentPage, side, onTabClick }: 
     const color = MACRO_COLORS[mIdx % MACRO_COLORS.length];
 
     if (!shouldRender) {
-        return <div className="h-[75px] sm:h-[100px]"></div>;
+        return <div className="h-[90px] sm:h-[110px]"></div>;
     }
 
     return (
         <button
             onClick={() => onTabClick(menu.pageIndex)}
             className={`
-                group h-[75px] sm:h-[100px] w-[35px] sm:w-[42px]
+                group h-[90px] sm:h-[110px] w-[35px] sm:w-[42px]
                 flex items-center justify-center p-1.5
                 transition-all duration-300 cursor-pointer overflow-hidden
                 ${color.bg} border ${color.border}/60

@@ -87,18 +87,18 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                     </div>
 
                     <div className="flex-1 py-2 md:py-3 overflow-hidden relative z-20">
-                        <div className="grid grid-cols-2 gap-x-3 gap-y-3 md:gap-x-8 md:gap-y-5">
+                        <div className="grid grid-cols-2 gap-x-2 gap-y-2 md:gap-x-8 md:gap-y-5">
                             {pageData.map((item, itemIdx) => {
                                 if (item.isMacroHeader) {
                                     const macroName = isVi ? item.macroGroupName : (item.macroGroupNameEn || item.macroGroupName);
                                     return (
                                         <div key={`${lang}-macro-${itemIdx}`} className="col-span-2 relative overflow-hidden mb-1 md:mb-1.5 shrink-0">
                                             <div className="bg-linear-to-r from-[#5C3A21] to-[#8A5A35] px-3 py-2 md:px-5 md:py-3 rounded-lg shadow-sm border-l-4 border-[#E5D3C1] flex justify-between items-center gap-2">
-                                                <div className="flex-1">
+                                                <div className="flex-1 min-w-0">
                                                     <div className="flex items-center gap-1 md:gap-2 mb-0.5 md:mb-1">
-                                                        <span className="text-3xs md:text-2xs font-bold text-[#E5D3C1] uppercase tracking-widnest md:tracking-[0.2em]">{labels.macroSpan}</span>
+                                                        <span className="text-[9px] md:text-2xs font-bold text-[#E5D3C1] uppercase tracking-widnest md:tracking-[0.2em]">{labels.macroSpan}</span>
                                                     </div>
-                                                    <h3 className="font-black text-xs md:text-base uppercase tracking-wider text-white leading-snug">{macroName}</h3>
+                                                    <h3 className="font-black text-[10px] md:text-base uppercase tracking-wider text-white leading-snug break-words">{macroName}</h3>
                                                 </div>
                                                 {item.projectCount > 0 && (
                                                     <div className="flex flex-col items-center justify-center bg-white/10 rounded-lg px-2.5 py-1 md:px-4 md:py-1.5 border border-white/20 shrink-0">
@@ -121,23 +121,23 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                                 const sttNum = item.stt ? (parseInt(item.stt) < 10 ? `0${item.stt}` : `${item.stt}`) : `0${itemIdx}`;
 
                                 return (
-                                    <div key={`${lang}-proj-${item.id || itemIdx}`} className="relative bg-white rounded-xl border border-[#CBA365]/30 flex flex-col group h-[250px] md:h-[270px] shrink-0 overflow-hidden shadow-sm hover:shadow-[0_8px_25px_rgba(138,90,53,0.15)] hover:-translate-y-0.5 transition-all duration-300">
+                                    <div key={`${lang}-proj-${item.id || itemIdx}`} className="relative bg-white rounded-xl border border-[#CBA365]/30 flex flex-col group h-[230px] md:h-[270px] shrink-0 overflow-hidden shadow-sm hover:shadow-[0_8px_25px_rgba(138,90,53,0.15)] hover:-translate-y-0.5 transition-all duration-300">
                                         {/* Accent top border */}
                                         <div className="h-1 w-full bg-linear-to-r from-[#8A5A35] to-[#CBA365]"></div>
 
-                                        <div className="p-3 md:p-4 flex-1 flex flex-col min-h-0">
+                                        <div className="p-2 md:p-4 flex-1 flex flex-col min-h-0">
                                             {/* Title + STT */}
-                                            <div className="flex items-start gap-2 mb-2 md:mb-3 shrink-0">
-                                                <div className="bg-[#5C3A21] text-white font-black text-3xs md:text-2xs px-1.5 py-0.5 rounded shadow-sm shrink-0 mt-0.5">
+                                            <div className="flex items-start gap-1.5 md:gap-2 mb-1.5 md:mb-3 shrink-0">
+                                                <div className="bg-[#5C3A21] text-white font-black text-[8px] md:text-2xs px-1.5 py-0.5 rounded shadow-sm shrink-0 mt-0.5">
                                                     {sttNum}
                                                 </div>
-                                                <h5 className="font-bold text-xs md:text-sm text-[#5C3A21] leading-snug uppercase line-clamp-2 group-hover:text-[#8A5A35] transition-colors" title={name}>
+                                                <h5 className="font-bold text-[10px] md:text-sm text-[#5C3A21] leading-snug uppercase line-clamp-2 group-hover:text-[#8A5A35] transition-colors" title={name}>
                                                     {name}
                                                 </h5>
                                             </div>
 
                                             {/* Info Grid */}
-                                            <div className="flex flex-col gap-1 md:gap-1.5 text-2xs md:text-xs text-[#3B261A] shrink-0 bg-[#FDF8F3] p-1.5 md:p-2 rounded-lg border border-[#CBA365]/15">
+                                            <div className="flex flex-col gap-0.5 md:gap-1.5 text-[9px] md:text-xs text-[#3B261A] shrink-0 bg-[#FDF8F3] p-1 md:p-2 rounded-lg border border-[#CBA365]/15">
                                                 <div className="flex items-start gap-1.5">
                                                     <MapPin size={12} className="text-[#CBA365] shrink-0 mt-0.5" />
                                                     <div className="line-clamp-1 leading-snug" title={location}>
@@ -163,7 +163,7 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
 
                                             {/* Scale */}
                                             {scale && (
-                                                <div className="flex-1 mt-1.5 md:mt-2 text-2xs md:text-[11px] leading-relaxed text-[#2E1A0F] overflow-y-auto custom-scrollbar pr-1">
+                                                <div className="flex-1 mt-1 md:mt-2 text-[9px] md:text-[11px] leading-relaxed text-[#2E1A0F] overflow-y-auto custom-scrollbar pr-1">
                                                     <span className="font-semibold text-[#8A5A35] mr-1 sticky top-0 bg-white z-10">{labels.scale}</span>
                                                     <span className="">{scale}</span>
                                                 </div>
@@ -171,10 +171,10 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                                         </div>
 
                                         {/* Footer Button */}
-                                        <div className="px-3 pb-3 md:px-4 md:pb-4 shrink-0 flex justify-end">
+                                        <div className="px-2 pb-2 md:px-4 md:pb-4 shrink-0 flex justify-end">
                                             <StopPropagationWrapper>
                                                 <button
-                                                    className="flex items-center gap-1.5 bg-[#8A5A35]/10 hover:bg-[#5C3A21] text-[#5C3A21] hover:text-white px-3 py-1.5 md:px-4 md:py-2 rounded-lg transition-all duration-300 text-2xs md:text-xs font-bold uppercase tracking-wider border border-[#8A5A35]/30 hover:border-[#5C3A21] shadow-sm relative z-50 cursor-pointer"
+                                                    className="flex items-center gap-1 bg-[#8A5A35]/10 hover:bg-[#5C3A21] text-[#5C3A21] hover:text-white px-2 py-1 md:px-4 md:py-2 rounded-lg transition-all duration-300 text-[9px] md:text-xs font-bold uppercase tracking-wider border border-[#8A5A35]/30 hover:border-[#5C3A21] shadow-sm relative z-50 cursor-pointer"
                                                     onClick={(e) => {
                                                         e.stopPropagation();
                                                         e.preventDefault();
