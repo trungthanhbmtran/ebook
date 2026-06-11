@@ -10,7 +10,8 @@ import { TableOfContentsVi, TableOfContentsEn, TOCItem } from "./book/TableOfCon
 import { ContentPageLeft, ContentPageRight } from "./book/ContentPage";
 import { BackCover } from "./book/BackCover";
 import { ProjectSummary } from "./book/ProjectSummary";
-import MacroTab from "./MacroTab";
+import { useScreenSize } from '../hooks/useScreenSize';
+import MacroTab from './MacroTab';
 import dynamic from 'next/dynamic';
 
 const ProjectModal = dynamic(() => import('./ProjectModal').then(mod => mod.ProjectModal), { ssr: false });
@@ -22,12 +23,13 @@ export default function FlipbookViewer() {
     const audioRef = useRef<HTMLAudioElement>(null);
     const lastFlipTime = useRef<number>(0);
 
+    const { isLg: isDesktop, isLoaded } = useScreenSize();
+
     const [currentPage, setCurrentPage] = useState(0);
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [zoom, setZoom] = useState(1);
     const [soundEnabled, setSoundEnabled] = useState(true);
     const [baseScale, setBaseScale] = useState(1);
-    const [isDesktop, setIsDesktop] = useState(true);
 
     const [selectedProject, setSelectedProject] = useState<any | null>(null);
     const [modalLang, setModalLang] = useState<'vi' | 'en'>('vi');
@@ -54,16 +56,6 @@ export default function FlipbookViewer() {
         setSelectedProject(project);
         setModalLang(lang);
     }, []);
-
-    const handleResize = useCallback(() => {
-        setIsDesktop(window.innerWidth >= 1024);
-    }, []);
-
-    useEffect(() => {
-        handleResize();
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, [handleResize]);
 
     const updateScale = useCallback(() => {
         const targetWidth = isDesktop ? 1200 : 424;
@@ -371,39 +363,49 @@ export default function FlipbookViewer() {
 
     return (
         <div ref={containerRef} className="flex flex-col h-screen w-full font-sans overflow-hidden select-none relative back print:block print:h-auto print:overflow-visible print:w-full">
-            <div className="absolute inset-0 z-0 flex pointer-events-none print:hidden">
-                <div className="relative w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
-                    <Image src="/nga-6-buon-ma-thuot-guong-mat-thuong-hieu-cua-thanh-pho-vung-cao-06-1652171304.jpg" alt="Buôn Ma Thuột Bg" fill sizes="50vw" priority quality={75} className="object-cover" />
+            <div className="absolute inset-0 z-0 flex flex-col md:flex-row pointer-events-none print:hidden">
+                <div className="relative w-full md:w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
+                    <Image src="/nga-6-buon-ma-thuot-guong-mat-thuong-hieu-cua-thanh-pho-vung-cao-06-1652171304.jpg" alt="Buôn Ma Thuột Bg" fill sizes="(max-width: 768px) 100vw, 50vw" priority quality={75} className="object-cover" />
                 </div>
-                <div className="relative w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
-                    <Image src="/depositphotos659116602xl-1715649541611.jpg" alt="Nghinh Phong Bg" fill sizes="50vw" priority quality={75} className="object-cover" />
-                </div>
+                {isDesktop && (
+                    <div className="relative w-full md:w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
+                        <Image src="/depositphotos659116602xl-1715649541611.jpg" alt="Nghinh Phong Bg" fill sizes="50vw" priority quality={75} className="object-cover" />
+                    </div>
+                )}
             </div>
 
             <audio ref={audioRef} src="https://www.soundjay.com/misc/sounds/page-flip-01a.mp3" preload="auto" />
 
             <div ref={bookAreaRef} className="flex-1 w-full flex items-center justify-center overflow-hidden relative z-10 print:hidden">
-                <button onClick={() => bookRef.current?.pageFlip()?.flipPrev()} className="absolute left-3 z-50 p-3 bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.7)] text-white rounded-full backdrop-blur transition-all hidden sm:flex"><ChevronLeft size={28} /></button>
-                <button onClick={() => bookRef.current?.pageFlip()?.flipNext()} className="absolute right-3 z-50 p-3 bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.7)] text-white rounded-full backdrop-blur transition-all hidden sm:flex"><ChevronRight size={28} /></button>
+                {isDesktop && (
+                    <>
+                        <button onClick={() => bookRef.current?.pageFlip()?.flipPrev()} className="absolute left-3 z-50 p-3 bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.7)] text-white rounded-full backdrop-blur transition-all hidden sm:flex"><ChevronLeft size={28} /></button>
+                        <button onClick={() => bookRef.current?.pageFlip()?.flipNext()} className="absolute right-3 z-50 p-3 bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.7)] text-white rounded-full backdrop-blur transition-all hidden sm:flex"><ChevronRight size={28} /></button>
+                    </>
+                )}
 
                 <div className={`flex items-center justify-center transition-all duration-500 transform-gpu ${isReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} style={{ transform: `scale(${zoom * baseScale})` }}>
                     <div className="relative flex items-center justify-center " style={{ width: isDesktop ? 1200 : 424, height: isDesktop ? 750 : 600 }}>
 
-                        <div className="absolute right-[calc(100%-1px)] top-8 flex-col gap-1.5 z-0 flex">
-                            {macroGroupsMenu.map((menu, mIdx) => (
-                                <MacroTab key={`left-${mIdx}`} menu={menu} mIdx={mIdx} currentPage={currentPage} side="left" onTabClick={goToPage} />
-                            ))}
-                        </div>
+                        {isDesktop && (
+                            <div className="absolute right-[calc(100%-1px)] top-8 flex-col gap-1.5 z-0 flex">
+                                {macroGroupsMenu.map((menu, mIdx) => (
+                                    <MacroTab key={`left-${mIdx}`} menu={menu} mIdx={mIdx} currentPage={currentPage} side="left" onTabClick={goToPage} />
+                                ))}
+                            </div>
+                        )}
 
                         <div className="relative w-full h-full z-10  ">
                             {flipbookComponent}
                         </div>
 
-                        <div className="absolute left-[calc(100%-1px)] top-8 flex-col gap-1.5 z-0 flex">
-                            {macroGroupsMenu.map((menu, mIdx) => (
-                                <MacroTab key={`right-${mIdx}`} menu={menu} mIdx={mIdx} currentPage={currentPage} side="right" onTabClick={goToPage} />
-                            ))}
-                        </div>
+                        {isDesktop && (
+                            <div className="absolute left-[calc(100%-1px)] top-8 flex-col gap-1.5 z-0 flex">
+                                {macroGroupsMenu.map((menu, mIdx) => (
+                                    <MacroTab key={`right-${mIdx}`} menu={menu} mIdx={mIdx} currentPage={currentPage} side="right" onTabClick={goToPage} />
+                                ))}
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
