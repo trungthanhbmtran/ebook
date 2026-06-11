@@ -4057,6 +4057,48 @@
             "en": "- Construction of a new international submarine fiber optic cable line and landing station (CLS) \r\n- Establish information data centers near the Landing Station to provide capacity for Vietnamese and international cloud computing service providers.\r\n- Providing renewable power to dock stations, data centers and other areas."
           },
           "qrLink": ""
+        },
+        {
+          "id": "HE-15",
+          "name": {
+            "vi": "T\u1ed5 h\u1ee3p Trung t\u00e2m D\u1eef li\u1ec7u AI - N\u0103ng l\u01b0\u1ee3ng t\u00e1i t\u1ea1o \u2013 \u0110\u00e0o t\u1ea1o nh\u00e2n l\u1ef1c c\u00f4ng ngh\u1ec7 cao (x\u00e3 Ea \u00d4)",
+            "en": "AI Data Center - Renewable Energy - High-Tech Human Resource Training Complex (Ea O Commune)"
+          },
+          "location": {
+            "vi": "x\u00e3 Ea \u00d4",
+            "en": "Ea O commune"
+          },
+          "area": "430 ha",
+          "investmentCapital": {
+            "vi": "65.000 t\u1ef7 \u0111\u1ed3ng",
+            "en": "65,000 billion VND"
+          },
+          "scale": {
+            "vi": "T\u1ed5 h\u1ee3p c\u00f4ng ngh\u1ec7 cao t\u00edch h\u1ee3p h\u1ea1 t\u1ea7ng s\u1ed1 (trung t\u00e2m d\u1eef li\u1ec7u AI), h\u1ea1 t\u1ea7ng n\u0103ng l\u01b0\u1ee3ng t\u00e1i t\u1ea1o (\u0111i\u1ec7n m\u1eb7t tr\u1eddi + l\u01b0u tr\u1eef BESS) v\u00e0 khu nghi\u00ean c\u1ee9u, \u0111\u00e0o t\u1ea1o nh\u00e2n l\u1ef1c c\u00f4ng ngh\u1ec7 cao trong c\u00f9ng m\u1ed9t khu\u00f4n vi\u00ean.",
+            "en": "High-tech complex integrating digital infrastructure (AI data center), renewable energy infrastructure (solar + BESS storage), and research & high-tech human resource training within one campus."
+          },
+          "qrLink": ""
+        },
+        {
+          "id": "HE-16",
+          "name": {
+            "vi": "T\u1ed5 h\u1ee3p Trung t\u00e2m D\u1eef li\u1ec7u AI - N\u0103ng l\u01b0\u1ee3ng t\u00e1i t\u1ea1o \u2013 \u0110\u00e0o t\u1ea1o nh\u00e2n l\u1ef1c c\u00f4ng ngh\u1ec7 cao (x\u00e3 Ea Wer)",
+            "en": "AI Data Center - Renewable Energy - High-Tech Human Resource Training Complex (Ea Wer Commune)"
+          },
+          "location": {
+            "vi": "x\u00e3 Ea Wer",
+            "en": "Ea Wer commune"
+          },
+          "area": "450 ha",
+          "investmentCapital": {
+            "vi": "50.000 t\u1ef7 \u0111\u1ed3ng",
+            "en": "50,000 billion VND"
+          },
+          "scale": {
+            "vi": "T\u1ed5 h\u1ee3p c\u00f4ng ngh\u1ec7 cao t\u00edch h\u1ee3p h\u1ea1 t\u1ea7ng s\u1ed1 (trung t\u00e2m d\u1eef li\u1ec7u AI), h\u1ea1 t\u1ea7ng n\u0103ng l\u01b0\u1ee3ng t\u00e1i t\u1ea1o (\u0111i\u1ec7n m\u1eb7t tr\u1eddi + l\u01b0u tr\u1eef BESS) v\u00e0 khu nghi\u00ean c\u1ee9u, \u0111\u00e0o t\u1ea1o nh\u00e2n l\u1ef1c c\u00f4ng ngh\u1ec7 cao trong c\u00f9ng m\u1ed9t khu\u00f4n vi\u00ean.",
+            "en": "High-tech complex integrating digital infrastructure (AI data center), renewable energy infrastructure (solar + BESS storage), and research & high-tech human resource training within one campus."
+          },
+          "qrLink": ""
         }
       ]
     },
