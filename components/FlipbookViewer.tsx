@@ -32,6 +32,11 @@ export default function FlipbookViewer() {
     const [selectedProject, setSelectedProject] = useState<any | null>(null);
     const [modalLang, setModalLang] = useState<'vi' | 'en'>('vi');
     const [hasOpenedModal, setHasOpenedModal] = useState(false);
+    const [mobileLang, setMobileLang] = useState<'vi' | 'en'>('vi');
+
+    const handleLanguageToggle = useCallback((lang: 'vi' | 'en') => {
+        setMobileLang(lang);
+    }, []);
 
     useEffect(() => {
         if (selectedProject) {
@@ -166,7 +171,7 @@ export default function FlipbookViewer() {
                 macroGroupsMenu.push({
                     name: macroItem.macroGroupName.replace(/LĨNH VỰC /i, ""),
                     projectCount: macroItem.projectCount,
-                    pageIndex: pIdx * 2 + 3
+                    pageIndex: isDesktop ? pIdx * 2 + 3 : pIdx + 3
                 });
             }
         });
@@ -177,33 +182,43 @@ export default function FlipbookViewer() {
                 acc.push({
                     titleVi: macroItem.macroGroupName,
                     titleEn: macroItem.macroGroupNameEn || macroItem.macroGroupName,
-                    pageVi: pIdx * 2 + 3,
-                    pageEn: pIdx * 2 + 4
+                    pageVi: isDesktop ? pIdx * 2 + 3 : pIdx + 3,
+                    pageEn: isDesktop ? pIdx * 2 + 4 : pIdx + 3
                 });
             }
             return acc;
         }, []);
 
-        let totalPages = 1 + 2 + (contentPages.length * 2) + 1;
-        if (totalPages % 2 !== 0) totalPages += 1;
+        let totalPages = isDesktop
+            ? 1 + 2 + (contentPages.length * 2) + 1
+            : 1 + 2 + contentPages.length + 1;
+        if (isDesktop && totalPages % 2 !== 0) totalPages += 1;
 
         const bookPagesToRender: React.ReactNode[] = [];
 
         bookPagesToRender.push(
             <div key="front-cover" className="page-wrapper h-full">
-                <Cover title={investmentData.bookTitle?.vi || "Danh mục dự án"} />
+                <Cover title={investmentData.bookTitle?.vi || "Danh mục dự án"} lang={isDesktop ? 'vi' : mobileLang} />
             </div>
         );
 
-        bookPagesToRender.push(
-            <div key="toc-vi" className="page-wrapper h-full">
-                <TableOfContentsVi items={tocItems} />
-            </div>
-        );
+        if (isDesktop || mobileLang === 'vi') {
+            bookPagesToRender.push(
+                <div key="toc-vi" className="page-wrapper h-full">
+                    <TableOfContentsVi items={tocItems} />
+                </div>
+            );
+        } else {
+            bookPagesToRender.push(
+                <div key="toc-en" className="page-wrapper h-full">
+                    <TableOfContentsEn items={tocItems} />
+                </div>
+            );
+        }
 
         bookPagesToRender.push(
             <div key="project-summary" className="page-wrapper h-full">
-                <ProjectSummary />
+                <ProjectSummary lang={isDesktop ? 'vi' : mobileLang} />
             </div>
         );
 
@@ -211,37 +226,55 @@ export default function FlipbookViewer() {
             const macroGroupItem = pageData.find((item: any) => item.isMacroHeader) || pageData.find((item: any) => item.macroGroupName);
             const runningHeaderVi = macroGroupItem ? `${macroGroupItem.macroGroupName}` : "Danh mục xúc tiến đầu tư";
             const runningHeaderEn = macroGroupItem ? `${macroGroupItem.macroGroupNameEn || macroGroupItem.macroGroupName}` : "Investment Promotion Portfolio";
+            const pageIndex = isDesktop ? index * 2 + 3 : index + 3;
 
-            bookPagesToRender.push(
-                <div key={`page-left-${index}`} className="page-wrapper h-full">
-                    <ContentPageLeft pageData={pageData} pageIndex={index * 2 + 3} runningHeaderVi={runningHeaderVi} onProjectClick={handleProjectClick} />
-                </div>
-            );
-
-            bookPagesToRender.push(
-                <div key={`page-right-${index}`} className="page-wrapper h-full">
-                    <ContentPageRight pageData={pageData} pageIndex={index * 2 + 4} runningHeaderEn={runningHeaderEn} onProjectClick={handleProjectClick} />
-                </div>
-            );
+            if (isDesktop) {
+                bookPagesToRender.push(
+                    <div key={`page-left-${index}`} className="page-wrapper h-full">
+                        <ContentPageLeft pageData={pageData} pageIndex={pageIndex} runningHeaderVi={runningHeaderVi} onProjectClick={handleProjectClick} />
+                    </div>
+                );
+                bookPagesToRender.push(
+                    <div key={`page-right-${index}`} className="page-wrapper h-full">
+                        <ContentPageRight pageData={pageData} pageIndex={pageIndex + 1} runningHeaderEn={runningHeaderEn} onProjectClick={handleProjectClick} />
+                    </div>
+                );
+            } else {
+                if (mobileLang === 'vi') {
+                    bookPagesToRender.push(
+                        <div key={`page-vi-${index}`} className="page-wrapper h-full">
+                            <ContentPageLeft pageData={pageData} pageIndex={pageIndex} runningHeaderVi={runningHeaderVi} onProjectClick={handleProjectClick} />
+                        </div>
+                    );
+                } else {
+                    bookPagesToRender.push(
+                        <div key={`page-en-${index}`} className="page-wrapper h-full">
+                            <ContentPageRight pageData={pageData} pageIndex={pageIndex} runningHeaderEn={runningHeaderEn} onProjectClick={handleProjectClick} />
+                        </div>
+                    );
+                }
+            }
         });
 
-        while (bookPagesToRender.length < totalPages - 1) {
-            const isLeftPage = bookPagesToRender.length % 2 !== 0;
-            bookPagesToRender.push(
-                <div key={`blank-${bookPagesToRender.length}`} className="page-light bg-[#f8f9fa] w-full flex flex-col h-full relative">
-                    {isLeftPage ? (
-                        <>
-                            <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[rgba(0,0,0,0.2)] to-transparent pointer-events-none z-30 print:hidden"></div>
-                            <div className="absolute right-0 top-0 bottom-0 w-[2px] bg-[rgba(0,0,0,0.1)] pointer-events-none z-30 print:hidden"></div>
-                        </>
-                    ) : (
-                        <>
-                            <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-[rgba(0,0,0,0.2)] to-transparent pointer-events-none z-30 print:hidden"></div>
-                            <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-[rgba(0,0,0,0.1)] pointer-events-none z-30 print:hidden"></div>
-                        </>
-                    )}
-                </div>
-            );
+        if (isDesktop) {
+            while (bookPagesToRender.length < totalPages - 1) {
+                const isLeftPage = bookPagesToRender.length % 2 !== 0;
+                bookPagesToRender.push(
+                    <div key={`blank-${bookPagesToRender.length}`} className="page-light bg-[#f8f9fa] w-full flex flex-col h-full relative">
+                        {isLeftPage ? (
+                            <>
+                                <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[rgba(0,0,0,0.2)] to-transparent pointer-events-none z-30 print:hidden"></div>
+                                <div className="absolute right-0 top-0 bottom-0 w-[2px] bg-[rgba(0,0,0,0.1)] pointer-events-none z-30 print:hidden"></div>
+                            </>
+                        ) : (
+                            <>
+                                <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-[rgba(0,0,0,0.2)] to-transparent pointer-events-none z-30 print:hidden"></div>
+                                <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-[rgba(0,0,0,0.1)] pointer-events-none z-30 print:hidden"></div>
+                            </>
+                        )}
+                    </div>
+                );
+            }
         }
 
         bookPagesToRender.push(
@@ -251,7 +284,7 @@ export default function FlipbookViewer() {
         );
 
         return { macroGroupsMenu, totalPages, bookPagesToRender };
-    }, [handleProjectClick]);
+    }, [handleProjectClick, isDesktop, mobileLang, handleLanguageToggle]);
 
     useEffect(() => {
         const scrollZone = bookAreaRef.current;
@@ -325,10 +358,12 @@ export default function FlipbookViewer() {
     const flipbookComponent = useMemo(() => (
         // @ts-ignore
         <HTMLFlipBook
-            key={isDesktop ? "desktop" : "mobile"}
+            key={isDesktop ? "desktop" : `mobile-${mobileLang}`}
             width={isDesktop ? 600 : 424} height={isDesktop ? 750 : 600} size="fixed" maxShadowOpacity={0.4}
             showCover={true} mobileScrollSupport={true} className="w-full h-full" ref={bookRef}
-            onInit={() => setIsReady(true)} onFlip={handleFlip} usePortrait={!isDesktop} drawShadow={true} flippingTime={650}
+            onInit={() => { setIsReady(true); }}
+            onFlip={handleFlip} usePortrait={!isDesktop} drawShadow={true} flippingTime={650}
+            startPage={currentPage}
         >
             {bookPagesToRender}
         </HTMLFlipBook>
@@ -378,6 +413,7 @@ export default function FlipbookViewer() {
                 isFullscreen={isFullscreen} setInputPage={setInputPage} handlePageInput={handlePageInput}
                 goToPage={goToPage} bookRef={bookRef} setZoom={setZoom} setSoundEnabled={setSoundEnabled}
                 toggleFullscreen={() => { !document.fullscreenElement ? containerRef.current?.requestFullscreen() : document.exitFullscreen() }}
+                isDesktop={isDesktop} mobileLang={mobileLang} onLanguageToggle={handleLanguageToggle}
             />
 
             <div className="print:hidden">

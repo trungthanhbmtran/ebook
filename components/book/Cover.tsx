@@ -1,6 +1,7 @@
 import React from 'react';
 
-export const Cover = ({ title }: { title: string }) => {
+export const Cover = ({ title, lang = 'vi' }: { title?: string, lang?: 'vi' | 'en' }) => {
+    const isVi = lang === 'vi';
     return (
         <div className="@container w-full h-full relative overflow-hidden bg-gradient-to-br from-[#EADAC4] to-[#CFA582] flex flex-col rounded-r-lg shadow-[-5px_0_25px_rgba(0,0,0,0.1),_inset_-2px_0_10px_rgba(0,0,0,0.05)]">
 
@@ -28,9 +29,12 @@ export const Cover = ({ title }: { title: string }) => {
 
                 {/* Header */}
                 <div className="text-center mt-[1cqw]">
-                    <h1 className="text-[2.2cqw] font-serif font-bold text-[#4A3B32] tracking-[0.2em] uppercase drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">Ủy ban Nhân dân tỉnh Đắk Lắk</h1>
-                    <h2 className="text-[1.4cqw] font-serif italic text-[#8A6B53] tracking-[0.1em] mt-[0.5cqw] uppercase">Dak Lak Provincial People's Committee</h2>
-                    <div className="mx-auto w-[15cqw] h-[1px] bg-gradient-to-r from-transparent via-[#8A6B53]/60 to-transparent mt-[1.5cqw]"></div>
+                    {isVi ? (
+                        <h1 className="text-[2.2cqw] font-serif font-bold text-[#4A3B32] tracking-[0.2em] uppercase drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">Ủy ban Nhân dân tỉnh Đắk Lắk</h1>
+                    ) : (
+                        <h1 className="text-[2cqw] font-serif font-bold text-[#4A3B32] tracking-[0.1em] uppercase drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">Dak Lak Provincial People's Committee</h1>
+                    )}
+                    <div className="mx-auto w-[15cqw] h-[1px] bg-linear-to-r from-transparent via-[#8A6B53]/60 to-transparent mt-[1.5cqw]"></div>
                 </div>
 
                 {/* Center Content: Images & Title */}
@@ -48,17 +52,14 @@ export const Cover = ({ title }: { title: string }) => {
                     {/* Main Title */}
                     <div className="text-center w-full px-[2cqw]">
                         <h2 className="font-serif font-black uppercase leading-[1.2] drop-shadow-[0_2px_4px_rgba(255,255,255,0.8)]">
-                            <span className="text-[3cqw] tracking-[0.15em] block mb-[1.5cqw] text-[#5D4037]">Danh mục dự án đầu tư</span>
+                            <span className="text-[3cqw] tracking-[0.15em] block mb-[1.5cqw] text-[#5D4037]">{isVi ? "Danh mục dự án đầu tư" : "Investment Projects Portfolio"}</span>
                             <div className="relative py-[2.5cqw] my-[1cqw]">
                                 <div className="absolute top-0 left-1/4 right-1/4 h-[1px] bg-gradient-to-r from-transparent via-[#8A6B53]/60 to-transparent"></div>
-                                <span className="text-[6cqw] tracking-[0.2em] bg-gradient-to-b from-[#3E2723] via-[#5D4037] to-[#3E2723] text-transparent bg-clip-text">TỈNH ĐẮK LẮK</span>
+                                <span className={`tracking-[0.2em] bg-gradient-to-b from-[#3E2723] via-[#5D4037] to-[#3E2723] text-transparent bg-clip-text ${isVi ? 'text-[6cqw]' : 'text-[5cqw]'}`}>{isVi ? "TỈNH ĐẮK LẮK" : "DAK LAK PROVINCE"}</span>
                                 <div className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-gradient-to-r from-transparent via-[#8A6B53]/60 to-transparent"></div>
                             </div>
-                            <span className="text-[3cqw] tracking-[0.1em] block mt-[1.5cqw] text-[#8A6B53]">Giai đoạn 2026 - 2030</span>
+                            <span className="text-[3cqw] tracking-[0.1em] block mt-[1.5cqw] text-[#8A6B53]">{isVi ? "Giai đoạn 2026 - 2030" : "Period 2026 - 2030"}</span>
                         </h2>
-                        <h3 className="text-[1.6cqw] font-serif italic font-medium tracking-[0.1em] text-[#8A6B53] mt-[2.5cqw] max-w-[90%] mx-auto leading-relaxed">
-                            Investment Projects Portfolio for the Period 2026 - 2030
-                        </h3>
                     </div>
                 </div>
 
@@ -66,12 +67,15 @@ export const Cover = ({ title }: { title: string }) => {
                 <div className="flex items-end justify-between px-[2cqw] mb-[1cqw]">
                     <div className="flex flex-col text-left flex-1 pr-[4cqw]">
                         <div className="w-[12cqw] h-[2px] bg-[#8A6B53]/60 mb-[2cqw]"></div>
-                        <p className="text-[1.6cqw] font-serif font-bold text-[#4A3B32] uppercase tracking-widest leading-[1.6] mb-[1cqw] drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)]">
-                            Tài liệu phục vụ Hội nghị công bố quy hoạch và xúc tiến Đầu tư tỉnh Đắk Lắk năm 2026
-                        </p>
-                        <p className="text-[1.3cqw] font-serif italic text-[#8A6B53] tracking-[0.05em]">
-                            Documentation for the 2026 Investment Promotion Conference
-                        </p>
+                        {isVi ? (
+                            <p className="text-[1.6cqw] font-serif font-bold text-[#4A3B32] uppercase tracking-widest leading-[1.6] mb-[1cqw] drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)]">
+                                Tài liệu phục vụ Hội nghị công bố quy hoạch và xúc tiến Đầu tư tỉnh Đắk Lắk năm 2026
+                            </p>
+                        ) : (
+                            <p className="text-[1.4cqw] font-serif font-bold text-[#4A3B32] uppercase tracking-widest leading-[1.6] mb-[1cqw] drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)]">
+                                Documentation for the 2026 Investment Promotion Conference of Dak Lak Province
+                            </p>
+                        )}
                     </div>
 
                     <div className="flex flex-col items-center justify-center shrink-0">
@@ -82,7 +86,7 @@ export const Cover = ({ title }: { title: string }) => {
                                 className="w-[8cqw] h-[8cqw] mix-blend-multiply"
                             />
                         </div>
-                        <span className="text-[1cqw] font-serif font-bold text-[#5D4037] mt-[1cqw] tracking-widest uppercase">Quét mã</span>
+                        <span className="text-[1cqw] font-serif font-bold text-[#5D4037] mt-[1cqw] tracking-widest uppercase">{isVi ? "Quét mã" : "Scan QR"}</span>
                     </div>
                 </div>
 

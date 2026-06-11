@@ -82,8 +82,8 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                 </div>
             ) : (
                 <div className={`flex-1 flex flex-col h-full relative z-20 ${wrapperPadding}`}>
-                    <div className="bg-[#5C3A21] w-full py-2 md:py-4 shrink-0 border-b-2 border-[#8A5A35] rounded-t-sm">
-                        <h2 className="text-2xs md:text-sm font-bold text-white uppercase tracking-wider md:tracking-widest text-center px-2 md:px-4 leading-snug line-clamp-1">{runningHeader}</h2>
+                    <div className="bg-[#5C3A21] w-full py-2 md:py-4 shrink-0 border-b-2 border-[#8A5A35] rounded-t-sm relative">
+                        <h2 className="text-2xs md:text-sm font-bold text-white uppercase tracking-wider md:tracking-widest text-center px-8 md:px-4 leading-snug line-clamp-1">{runningHeader}</h2>
                     </div>
 
                     <div className="flex-1 py-2 md:py-3 overflow-hidden relative z-20">
@@ -98,7 +98,7 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                                                     <div className="flex items-center gap-1 md:gap-2 mb-0.5 md:mb-1">
                                                         <span className="text-[9px] md:text-2xs font-bold text-[#E5D3C1] uppercase tracking-widnest md:tracking-[0.2em]">{labels.macroSpan}</span>
                                                     </div>
-                                                    <h3 className="font-black text-[10px] md:text-base uppercase tracking-wider text-white leading-snug break-words">{macroName}</h3>
+                                                    <h3 className="font-black text-[10px] md:text-base uppercase tracking-wider text-white leading-snug wrap-break-words">{macroName}</h3>
                                                 </div>
                                                 {item.projectCount > 0 && (
                                                     <div className="flex flex-col items-center justify-center bg-white/10 rounded-lg px-2.5 py-1 md:px-4 md:py-1.5 border border-white/20 shrink-0">

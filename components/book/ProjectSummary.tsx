@@ -1,7 +1,7 @@
 import React from 'react';
 import investmentData from '../../data/investment-projects.json';
 
-export const ProjectSummary = () => {
+export const ProjectSummary = ({ lang = 'vi' }: { lang?: 'vi' | 'en' }) => {
     // Lấy tổng dự án và thống kê theo từng lĩnh vực
     let totalProjects = 0;
     const categoryStats: { name: string, count: number }[] = [];
@@ -10,14 +10,16 @@ export const ProjectSummary = () => {
         investmentData.pages.forEach((page: any) => {
             const count = page.projects ? page.projects.length : 0;
             totalProjects += count;
-            if (page.category && page.category.vi) {
+            if (page.category) {
                 categoryStats.push({
-                    name: page.category.vi,
+                    name: lang === 'vi' ? page.category.vi : (page.category.en || page.category.vi),
                     count: count
                 });
             }
         });
     }
+
+    const isVi = lang === 'vi';
 
     return (
         <div className="page-light bg-[#Fdfbf7] w-full h-full flex flex-col relative shadow-[inset_10px_0_20px_rgba(0,0,0,0.05)] pl-8 md:pl-[96px] pr-4 md:pr-8 py-4 md:py-8 text-[#2E1A0F]">
@@ -34,10 +36,10 @@ export const ProjectSummary = () => {
                     <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#5C3A21]/60"></div>
 
                     <h2 className="text-lg md:text-2xl font-black text-[#2E1A0F] uppercase text-center mb-2 tracking-widest">
-                        Tổng Hợp Danh Mục
+                        {isVi ? "Tổng Hợp Danh Mục" : "Portfolio Summary"}
                     </h2>
-                    <h3 className="text-xs md:text-sm font-bold text-[#5C3A21] uppercase text-center mb-6 md:mb-10 tracking-[0.2em]">
-                        Dự Án Kêu Gọi Đầu Tư Tỉnh Đắk Lắk
+                    <h3 className="text-xs md:text-sm font-bold text-[#5C3A21] uppercase text-center mb-6 md:mb-10 tracking-[0.2em] px-2">
+                        {isVi ? "Dự Án Kêu Gọi Đầu Tư Tỉnh Đắk Lắk" : "Investment Projects of Dak Lak Province"}
                     </h3>
 
                     <div className="flex flex-col items-center justify-center mb-8 md:mb-12 relative">
@@ -46,7 +48,7 @@ export const ProjectSummary = () => {
                             {totalProjects}
                         </span>
                         <span className="text-base md:text-xl font-bold text-[#2E1A0F] uppercase tracking-[0.3em] mt-2 border-t-2 border-[#5C3A21]/30 pt-2 px-8 z-10">
-                            Dự Án
+                            {isVi ? "Dự Án" : "Projects"}
                         </span>
                     </div>
 
