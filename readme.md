@@ -22,9 +22,9 @@ docker run -d --name ebook-app -p 3000:3000 --restart unless-stopped ghcr.io/tru
 docker image prune -f
 ```
 
-> **Gộp 1 lệnh duy nhất (tiện hơn):**
+> **Gộp 1 lệnh duy nhất (tiện hơn, không bị lỗi nếu container chưa tồn tại):**
 > ```bash
-> docker pull ghcr.io/trungthanhbmtran/ebook:latest && docker stop ebook-app && docker rm ebook-app && docker run -d --name ebook-app -p 3000:3000 --restart unless-stopped ghcr.io/trungthanhbmtran/ebook:latest && docker image prune -f
+> docker pull ghcr.io/trungthanhbmtran/ebook:latest && (docker stop ebook-app || true) && (docker rm ebook-app || true) && docker run -d --name ebook-app -p 3000:3000 --restart unless-stopped ghcr.io/trungthanhbmtran/ebook:latest && docker image prune -f
 > ```
 
 ---
