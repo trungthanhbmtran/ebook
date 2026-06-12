@@ -50,7 +50,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 0
         },
         {
           "id": "RE-02",
@@ -91,7 +92,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 1
         },
         {
           "id": "RE-03",
@@ -132,7 +134,8 @@
           "infrastructureConditions": {
             "vi": "Khu vực đã được đầu tư hệ thống lưới điện quốc gia, nước giếng khoan, Hệ thống giao thông đường bộ khu vực tương đối\r\nthuận lợi ",
             "en": "The area has been invested in the national power grid system, well water, and a relative regional road traffic system\r\nfavorable"
-          }
+          },
+          "projectIndex": 2
         },
         {
           "id": "RE-04",
@@ -173,7 +176,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 3
         },
         {
           "id": "RE-05",
@@ -214,7 +218,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 4
         },
         {
           "id": "RE-06",
@@ -255,7 +260,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 5
         },
         {
           "id": "RE-07",
@@ -296,7 +302,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 6
         },
         {
           "id": "RE-08",
@@ -337,7 +344,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 7
         },
         {
           "id": "RE-09",
@@ -378,7 +386,8 @@
           "infrastructureConditions": {
             "vi": "Khu vực đã được đầu tư hệ thống lưới điện quốc gia, nước giếng khoan, Hệ thống giao thông đường bộ khu vực tương đối\r\nthuận lợi ",
             "en": "The area has been invested in the national power grid system, well water, and a relative regional road traffic system\r\nfavorable"
-          }
+          },
+          "projectIndex": 8
         },
         {
           "id": "RE-10",
@@ -419,7 +428,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 9
         },
         {
           "id": "RE-11",
@@ -460,7 +470,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 10
         },
         {
           "id": "RE-12",
@@ -501,7 +512,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 11
         },
         {
           "id": "RE-13",
@@ -542,7 +554,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 12
         },
         {
           "id": "RE-14",
@@ -583,7 +596,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 13
         },
         {
           "id": "RE-15",
@@ -624,7 +638,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 14
         },
         {
           "id": "RE-16",
@@ -665,7 +680,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 15
         },
         {
           "id": "RE-17",
@@ -706,7 +722,8 @@
           "infrastructureConditions": {
             "vi": "Chưa đầu tư",
             "en": "Not invested yet"
-          }
+          },
+          "projectIndex": 16
         },
         {
           "id": "RE-18",
@@ -747,7 +764,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 17
         },
         {
           "id": "RE-19",
@@ -788,7 +806,8 @@
           "infrastructureConditions": {
             "vi": "Giáp Quốc lộ 29, cách đường điện 110KV khoảng 4,7 km",
             "en": "Bordering Highway 29, about 4.7 km from 110KV power line"
-          }
+          },
+          "projectIndex": 18
         },
         {
           "id": "RE-20",
@@ -829,7 +848,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 19
         },
         {
           "id": "RE-21",
@@ -870,7 +890,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 20
         },
         {
           "id": "RE-22",
@@ -911,7 +932,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 21
         },
         {
           "id": "RE-23",
@@ -952,7 +974,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 22
         },
         {
           "id": "RE-24",
@@ -993,7 +1016,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 23
         },
         {
           "id": "RE-25",
@@ -1034,7 +1058,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 24
         },
         {
           "id": "RE-26",
@@ -1075,7 +1100,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 25
         },
         {
           "id": "RE-27",
@@ -1116,7 +1142,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 26
         },
         {
           "id": "RE-28",
@@ -1157,7 +1184,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 27
         },
         {
           "id": "RE-29",
@@ -1198,7 +1226,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 28
         },
         {
           "id": "RE-30",
@@ -1239,7 +1268,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 29
         },
         {
           "id": "RE-31",
@@ -1280,7 +1310,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 30
         },
         {
           "id": "RE-32",
@@ -1321,7 +1352,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 31
         },
         {
           "id": "RE-33",
@@ -1362,7 +1394,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 32
         },
         {
           "id": "RE-34",
@@ -1403,7 +1436,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 33
         },
         {
           "id": "RE-35",
@@ -1444,7 +1478,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 34
         },
         {
           "id": "RE-36",
@@ -1485,7 +1520,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 35
         },
         {
           "id": "RE-37",
@@ -1526,7 +1562,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 36
         },
         {
           "id": "RE-38",
@@ -1567,7 +1604,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 37
         },
         {
           "id": "RE-39",
@@ -1608,7 +1646,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 38
         },
         {
           "id": "RE-40",
@@ -1649,7 +1688,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 39
         },
         {
           "id": "RE-41",
@@ -1690,7 +1730,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 40
         },
         {
           "id": "RE-42",
@@ -1731,7 +1772,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 41
         },
         {
           "id": "RE-43",
@@ -1772,7 +1814,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 42
         },
         {
           "id": "RE-44",
@@ -1813,7 +1856,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 43
         },
         {
           "id": "RE-45",
@@ -1854,7 +1898,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 44
         },
         {
           "id": "RE-46",
@@ -1895,7 +1940,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 45
         },
         {
           "id": "RE-47",
@@ -1936,9 +1982,11 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 46
         }
-      ]
+      ],
+      "macroIndex": 0
     },
     {
       "pageId": 2,
@@ -1986,7 +2034,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 0
         },
         {
           "id": "UR-02",
@@ -2027,7 +2076,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 1
         },
         {
           "id": "UR-03",
@@ -2068,7 +2118,8 @@
           "infrastructureConditions": {
             "vi": "- Đường bê tông có mặt đường rộng 5,5m đến khu đô thị\r\n- Cơ sở hạ tầng khác chưa đầu tư",
             "en": "- Concrete road with 5.5m wide road surface to the urban area\r\n- Other infrastructure has not been invested"
-          }
+          },
+          "projectIndex": 2
         },
         {
           "id": "UR-04",
@@ -2109,7 +2160,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 3
         },
         {
           "id": "UR-05",
@@ -2150,7 +2202,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối (Hiện trạng hạ tầng kỹ thuật: Tiếp giáp đường Võ Nguyên Giáp trục chính đô thị, đã được đầu tư hoàn thiện. Đảm bảo kết nối hạ tầng kỹ thuật.\r\nKết nối giao thông: Cách trung tâm Ngã Sáu khoảng 2,5km; sân bay Buôn Ma Thuột khoảng 7,5 Km).",
             "en": "Meet the connection infrastructure (Current status of technical infrastructure: Adjacent to Vo Nguyen Giap street, urban main axis, has been completely invested. Ensure connection of technical infrastructure.\r\nTransport connection: About 2.5km from Nga Sau center; Buon Ma Thuot airport about 7.5 km)."
-          }
+          },
+          "projectIndex": 4
         },
         {
           "id": "UR-06",
@@ -2191,7 +2244,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 5
         },
         {
           "id": "UR-07",
@@ -2232,7 +2286,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 6
         },
         {
           "id": "UR-08",
@@ -2273,7 +2328,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 7
         },
         {
           "id": "UR-09",
@@ -2314,7 +2370,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 8
         },
         {
           "id": "UR-10",
@@ -2355,7 +2412,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 9
         },
         {
           "id": "UR-11",
@@ -2396,7 +2454,8 @@
           "infrastructureConditions": {
             "vi": "Hệ thống điện\r\nnước tại chỗ,\r\nthuận lợi trong\r\nviệc cấp điện, cấp\r\nthoát nước, thông\r\ntin liên lạc",
             "en": "Electrical system\r\nspot water,\r\nfavorable in\r\npower supply, supply\r\ndrainage, ventilation\r\ncontact information"
-          }
+          },
+          "projectIndex": 10
         },
         {
           "id": "UR-12",
@@ -2437,7 +2496,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông: đấu nối vào QL 25 \r\nHệ thống điện, nước đảm bảo điều kiện",
             "en": "Road: connecting to National Highway 25 \r\nElectricity and water systems ensure conditions"
-          }
+          },
+          "projectIndex": 11
         },
         {
           "id": "UR-13",
@@ -2478,7 +2538,8 @@
           "infrastructureConditions": {
             "vi": "Hệ thống đường giao thông và đường dây trung áp phía Tây khu đất, có hệ thống đường QL 14 cũ và QL 14 nắn thẳng",
             "en": "Road system and medium voltage line in the west of the land, including old National Road 14 and straightened National Road 14"
-          }
+          },
+          "projectIndex": 12
         },
         {
           "id": "UR-14",
@@ -2519,7 +2580,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư CSHT",
             "en": "No infrastructure investment yet"
-          }
+          },
+          "projectIndex": 13
         },
         {
           "id": "UR-15",
@@ -2560,7 +2622,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 14
         },
         {
           "id": "UR-16",
@@ -2601,7 +2664,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi ",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 15
         },
         {
           "id": "UR-17",
@@ -2642,7 +2706,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 16
         },
         {
           "id": "UR-18",
@@ -2683,7 +2748,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông thuận lợi đấu nối với đường Nguyễn Chí Thanh và đường Nguyễn Xuân Nguyên; Hệ thống điện, nước đảm bảo (Kết nối giao thông: Cách trung tâm Ngã Sáu khoảng 4,5km; sân bay Buôn Ma Thuột khoảng 9,0km).",
             "en": "Convenient traffic roads connecting to Nguyen Chi Thanh and Nguyen Xuan Nguyen streets; Guaranteed electricity and water system (Transport connection: about 4.5km from Nga Sau center; about 9.0km from Buon Ma Thuot airport)."
-          }
+          },
+          "projectIndex": 17
         },
         {
           "id": "UR-19",
@@ -2724,7 +2790,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 18
         },
         {
           "id": "UR-20",
@@ -2765,7 +2832,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 19
         },
         {
           "id": "UR-21",
@@ -2806,7 +2874,8 @@
           "infrastructureConditions": {
             "vi": "Đảm bảo điều kiện CSHT, lao động, mối liên kết vùng",
             "en": "Ensure infrastructure conditions, labor, and regional linkages"
-          }
+          },
+          "projectIndex": 20
         },
         {
           "id": "UR-22",
@@ -2847,7 +2916,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 21
         },
         {
           "id": "UR-23",
@@ -2888,7 +2958,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông thuận lợi; Hệ thống điện, cấp nước đảm bảo",
             "en": "Convenient traffic roads; Electricity and water supply systems are guaranteed"
-          }
+          },
+          "projectIndex": 22
         },
         {
           "id": "UR-24",
@@ -2929,7 +3000,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông: đấu nối vào QL 25\r\nHệ thống điện, nước đảm bảo điều kiện đấu nối",
             "en": "Road: connecting to National Highway 25\r\nElectricity and water systems ensure connection conditions"
-          }
+          },
+          "projectIndex": 23
         },
         {
           "id": "UR-25",
@@ -2970,7 +3042,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 24
         },
         {
           "id": "UR-26",
@@ -3011,7 +3084,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông thuận lợi (dự án tiếp giáp với đường Mậu Thân); Hệ thống điện, cấp nước đảm bảo",
             "en": "Convenient traffic roads (project adjacent to Mau Than road); Electricity and water supply systems are guaranteed"
-          }
+          },
+          "projectIndex": 25
         },
         {
           "id": "UR-27",
@@ -3052,7 +3126,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 26
         },
         {
           "id": "UR-28",
@@ -3093,7 +3168,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông: đấu nối vào QL 25 và đường ĐH 21\r\nHệ thống điện, nước đảm bảo điều kiện",
             "en": "Roads: connecting to Highway 25 and DH 21\r\nElectricity and water systems ensure conditions"
-          }
+          },
+          "projectIndex": 27
         },
         {
           "id": "UR-29",
@@ -3134,7 +3210,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 28
         },
         {
           "id": "UR-30",
@@ -3175,7 +3252,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 29
         },
         {
           "id": "UR-31",
@@ -3216,7 +3294,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 30
         },
         {
           "id": "UR-32",
@@ -3257,7 +3336,8 @@
           "infrastructureConditions": {
             "vi": "Hệ thống giao thông và điện nước đảm bảo",
             "en": "Transportation and electricity and water systems are guaranteed"
-          }
+          },
+          "projectIndex": 31
         },
         {
           "id": "UR-33",
@@ -3298,7 +3378,8 @@
           "infrastructureConditions": {
             "vi": "Hệ thống giao thông và điện nước đảm bảo",
             "en": "Transportation and electricity and water systems are guaranteed"
-          }
+          },
+          "projectIndex": 32
         },
         {
           "id": "UR-34",
@@ -3339,7 +3420,8 @@
           "infrastructureConditions": {
             "vi": "Đã có hệ thống đường giao thông liên thôn kết nối Quốc lộ 14 và Quốc lộ 29, đường dây điện trung áp, thuộc trung\r\ntâm khu dân cư của xã Pơng\r\nDrang",
             "en": "There is an inter-village road system connecting National Highway 14 and National Highway 29, medium-voltage power lines, central\r\nresidential area of Pong commune\r\nDrang"
-          }
+          },
+          "projectIndex": 33
         },
         {
           "id": "UR-35",
@@ -3380,7 +3462,8 @@
           "infrastructureConditions": {
             "vi": "Giao thông thuận tiện",
             "en": "Convenient transportation"
-          }
+          },
+          "projectIndex": 34
         },
         {
           "id": "UR-36",
@@ -3421,7 +3504,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông thuận lợi; Hệ thống điện, nước đảm bảo",
             "en": "Convenient traffic roads; Guaranteed electricity and water systems"
-          }
+          },
+          "projectIndex": 35
         },
         {
           "id": "UR-37",
@@ -3462,7 +3546,8 @@
           "infrastructureConditions": {
             "vi": " Khu vực chưa có hạ tầng giao thông kết nối; hệ thống điện, nước cơ bản đáp ứng, cần đầu tư hoàn thiện đồng bộ",
             "en": "The area does not have connecting transport infrastructure; The electricity and water systems are basically met and need investment to complete synchronously"
-          }
+          },
+          "projectIndex": 36
         },
         {
           "id": "UR-38",
@@ -3503,7 +3588,8 @@
           "infrastructureConditions": {
             "vi": "Thuật lợi, phạm vị ranh giới khu đất tiép giáp với đường Tỉnh lộ 8.",
             "en": "Thuat Loi, the land boundary is adjacent to Provincial Road 8."
-          }
+          },
+          "projectIndex": 37
         },
         {
           "id": "UR-39",
@@ -3544,7 +3630,8 @@
           "infrastructureConditions": {
             "vi": "Không thuận lợi, hiện chưa có HTKT, không đủ điều kiện đấu nối",
             "en": "Not favorable, currently there is no technical infrastructure, not eligible for connection"
-          }
+          },
+          "projectIndex": 38
         },
         {
           "id": "UR-40",
@@ -3585,7 +3672,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 39
         },
         {
           "id": "UR-41",
@@ -3626,7 +3714,8 @@
           "infrastructureConditions": {
             "vi": "Không thuận lợi, hiện chư có HTKT, không đủ điều kiện đấu nối",
             "en": "Not favorable, currently there is no technical infrastructure, not enough connection conditions"
-          }
+          },
+          "projectIndex": 40
         },
         {
           "id": "UR-42",
@@ -3667,7 +3756,8 @@
           "infrastructureConditions": {
             "vi": "HTKT và GPMB: Ban QL khu kinh tế đã có dự án đầu tư công",
             "en": "Technical assistance and site clearance: The economic zone management board has a public investment project"
-          }
+          },
+          "projectIndex": 41
         },
         {
           "id": "UR-43",
@@ -3708,7 +3798,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông: đấu nối vào đường Mai Thị Lựu \r\nHệ thống điện, nước đảm bảo điều kiện",
             "en": "Traffic road: connecting to Mai Thi Luu street \r\nElectricity and water systems ensure conditions"
-          }
+          },
+          "projectIndex": 42
         },
         {
           "id": "UR-44",
@@ -3749,7 +3840,8 @@
           "infrastructureConditions": {
             "vi": "Chưa đầu tư hạ tầng kết nối, không đủ điều kiện đấu nối",
             "en": "Has not invested in connection infrastructure, does not meet connection conditions"
-          }
+          },
+          "projectIndex": 43
         },
         {
           "id": "UR-45",
@@ -3790,7 +3882,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 44
         },
         {
           "id": "UR-46",
@@ -3831,7 +3924,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 45
         },
         {
           "id": "UR-47",
@@ -3872,7 +3966,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông: đấu nối vào đường Hà huy Tập\r\nHệ thống điện, nước đảm bảo điều kiện",
             "en": "Traffic road: connecting to Ha Huy Tap street\r\nElectricity and water systems ensure conditions"
-          }
+          },
+          "projectIndex": 46
         },
         {
           "id": "UR-48",
@@ -3913,7 +4008,8 @@
           "infrastructureConditions": {
             "vi": "Không thuận lợi",
             "en": "Not favorable"
-          }
+          },
+          "projectIndex": 47
         },
         {
           "id": "UR-49",
@@ -3954,7 +4050,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 48
         },
         {
           "id": "UR-50",
@@ -3995,9 +4092,11 @@
           "infrastructureConditions": {
             "vi": "Chưa có THKT, không đủ điều kiện đấu nối",
             "en": "No THKT yet, not eligible for connection"
-          }
+          },
+          "projectIndex": 49
         }
-      ]
+      ],
+      "macroIndex": 1
     },
     {
       "pageId": 3,
@@ -4045,7 +4144,8 @@
           "infrastructureConditions": {
             "vi": "Nhà đầu tư đang chuẩn bị thủ tục đầu tư để triển khai đầu tư kết cấu hạ tầng KCN Hòa Tâm - Giai đoạn 1.",
             "en": "Investors are preparing investment procedures to deploy infrastructure investment in Hoa Tam Industrial Park - Phase 1."
-          }
+          },
+          "projectIndex": 0
         },
         {
           "id": "IN-02",
@@ -4086,7 +4186,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 1
         },
         {
           "id": "IN-03",
@@ -4127,7 +4228,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 2
         },
         {
           "id": "IN-04",
@@ -4168,7 +4270,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 3
         },
         {
           "id": "IN-05",
@@ -4209,7 +4312,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 4
         },
         {
           "id": "IN-06",
@@ -4250,7 +4354,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 5
         },
         {
           "id": "IN-07",
@@ -4291,7 +4396,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 6
         },
         {
           "id": "IN-08",
@@ -4332,7 +4438,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 7
         },
         {
           "id": "IN-09",
@@ -4373,7 +4480,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 8
         },
         {
           "id": "IN-10",
@@ -4414,7 +4522,8 @@
           "infrastructureConditions": {
             "vi": "Giao thông cơ bản thuận tiện",
             "en": "Basic transportation is convenient"
-          }
+          },
+          "projectIndex": 9
         },
         {
           "id": "IN-11",
@@ -4455,7 +4564,8 @@
           "infrastructureConditions": {
             "vi": "Đảm bảo điều kiện cơ sở hạ tầng",
             "en": "Ensure infrastructure conditions"
-          }
+          },
+          "projectIndex": 10
         },
         {
           "id": "IN-12",
@@ -4496,7 +4606,8 @@
           "infrastructureConditions": {
             "vi": "Hạ tầng kỹ thuật chưa được đầu tư đồng bộ",
             "en": "Technical infrastructure has not been invested synchronously"
-          }
+          },
+          "projectIndex": 11
         },
         {
           "id": "IN-13",
@@ -4537,7 +4648,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng cơ sở hạ tầng kết nối thuận tiện",
             "en": "Meet convenient connection infrastructure"
-          }
+          },
+          "projectIndex": 12
         },
         {
           "id": "IN-14",
@@ -4578,7 +4690,8 @@
           "infrastructureConditions": {
             "vi": "Vị trí thuận lợi, ngã ba giao đường ĐT.647 và đường ĐT.646",
             "en": "Convenient location, intersection of DT.647 and DT.646 roads"
-          }
+          },
+          "projectIndex": 13
         },
         {
           "id": "IN-15",
@@ -4619,7 +4732,8 @@
           "infrastructureConditions": {
             "vi": "Vị trí thuận lợi, gần tuyến Quốc lộ 19C",
             "en": "Convenient location, near National Highway 19C"
-          }
+          },
+          "projectIndex": 14
         },
         {
           "id": "IN-16",
@@ -4660,7 +4774,8 @@
           "infrastructureConditions": {
             "vi": "Giao thông thuận tiện",
             "en": "Convenient transportation"
-          }
+          },
+          "projectIndex": 15
         },
         {
           "id": "IN-17",
@@ -4701,7 +4816,8 @@
           "infrastructureConditions": {
             "vi": "Gần nút giao đường giao\r\nthông đường tránh Tây Buôn\r\nHồ và Quốc lộ 29, giáp Cụm\r\nCông nghiệp Krông Búk ;\r\nđường dây điện trung áp; Gần\r\ntrung tâm xã Pơng Drang (dân\r\ncư, trường học, phòng khám\r\nchữa bệnh)",
             "en": "Near the intersection\r\nclear the way to avoid Tay Buon\r\nLake and Highway 29, bordering Cluster\r\nKrong Buk Industry ;\r\nmedium voltage power lines; Close\r\nPong Drang commune center (people\r\nresidences, schools, clinics\r\ncure)"
-          }
+          },
+          "projectIndex": 16
         },
         {
           "id": "IN-18",
@@ -4742,7 +4858,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 17
         },
         {
           "id": "IN-19",
@@ -4783,7 +4900,8 @@
           "infrastructureConditions": {
             "vi": "Về hạ tầng điện, nước của Cụm công nghiệp chưa được đầu tư đồng bộ. Thuận lợi: Công ty CP cấp nước Phú Yên đang đầu tư dự án mở rộng cấp nước sinh hoạt\r\nVề giao thông: hiện trạng quy hoạch nằm liền kề QLIA, cách phường Quy Nhơn, Gia Lai 30km; cách phường Tuy Hoà 50km; cách cao tốc đường bộ bắc - nam: 20km về phía bắc và 10km về phía nam",
             "en": "The industrial cluster's electricity and water infrastructure has not been invested synchronously. Advantages: Phu Yen Water Supply Joint Stock Company is investing in a project to expand domestic water supply\r\nRegarding traffic: current planning status is adjacent to QLIA, 30km from Quy Nhon ward, Gia Lai; 50km from Tuy Hoa ward; North-South highway: 20km north and 10km south"
-          }
+          },
+          "projectIndex": 18
         },
         {
           "id": "IN-20",
@@ -4824,7 +4942,8 @@
           "infrastructureConditions": {
             "vi": "Đã có đường điện 220v đi qua; đường GTNT loại B, đi lại bình thường thuận lợi",
             "en": "There is a 220v power line passing through; Class B rural road, normal and convenient travel"
-          }
+          },
+          "projectIndex": 19
         },
         {
           "id": "IN-21",
@@ -4865,7 +4984,8 @@
           "infrastructureConditions": {
             "vi": "Nằm trên trục đường Quốc lộ Trường Sơn Đông; đường điện Trung thế",
             "en": "Located on Truong Son Dong National Highway; Medium voltage power line"
-          }
+          },
+          "projectIndex": 20
         },
         {
           "id": "IN-22",
@@ -4906,7 +5026,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư",
             "en": "Not yet invested"
-          }
+          },
+          "projectIndex": 21
         },
         {
           "id": "IN-23",
@@ -4947,7 +5068,8 @@
           "infrastructureConditions": {
             "vi": "Chưa đầu tư",
             "en": "Not invested yet"
-          }
+          },
+          "projectIndex": 22
         },
         {
           "id": "IN-24",
@@ -4988,7 +5110,8 @@
           "infrastructureConditions": {
             "vi": "Về giao thông: có\r\nđường nhựa;\r\nHệ thống điện: có\r\nđường điện đi qua, đảm bảo về điện;\r\nVề nước: có nguồn\r\nnước tự nhiên đảm bảo",
             "en": "About traffic: yes\r\nasphalt road;\r\nElectrical system: yes\r\nPower lines pass through, ensuring electricity;\r\nRegarding water: there is a source\r\nGuaranteed natural water"
-          }
+          },
+          "projectIndex": 23
         },
         {
           "id": "IN-25",
@@ -5029,7 +5152,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 24
         },
         {
           "id": "IN-26",
@@ -5070,7 +5194,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi (tiếp giáp đường tỉnh lộ 690, giáp trạm điện 110kv; có hệ thống nước sạch chạy qua..)",
             "en": "Convenient (adjacent to provincial road 690, adjacent to 110kv power station; clean water system running through...)"
-          }
+          },
+          "projectIndex": 25
         },
         {
           "id": "IN-27",
@@ -5111,7 +5236,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 26
         },
         {
           "id": "IN-28",
@@ -5152,7 +5278,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 27
         },
         {
           "id": "IN-29",
@@ -5193,7 +5320,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng kết nối.",
             "en": "Meet connection infrastructure."
-          }
+          },
+          "projectIndex": 28
         },
         {
           "id": "IN-30",
@@ -5234,7 +5362,8 @@
           "infrastructureConditions": {
             "vi": "Hạ tầng giao thông, điện, nước: Chưa có",
             "en": "Transport, electricity, water infrastructure: Not yet available"
-          }
+          },
+          "projectIndex": 29
         },
         {
           "id": "IN-31",
@@ -5275,7 +5404,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 30
         },
         {
           "id": "IN-32",
@@ -5316,7 +5446,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 31
         },
         {
           "id": "IN-33",
@@ -5357,7 +5488,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng các yêu cầu về cơ sở hạ tầng",
             "en": "Meet infrastructure requirements"
-          }
+          },
+          "projectIndex": 32
         },
         {
           "id": "IN-34",
@@ -5398,7 +5530,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư cơ sở hạ tầng",
             "en": "There has been no investment in infrastructure"
-          }
+          },
+          "projectIndex": 33
         },
         {
           "id": "IN-35",
@@ -5439,9 +5572,11 @@
           "infrastructureConditions": {
             "vi": "Đảm bảo điều kiện cơ sở hạ tầng",
             "en": "Ensure infrastructure conditions"
-          }
+          },
+          "projectIndex": 34
         }
-      ]
+      ],
+      "macroIndex": 2
     },
     {
       "pageId": 4,
@@ -5489,7 +5624,8 @@
           "infrastructureConditions": {
             "vi": "Hệ thống giao thông đảm bảo",
             "en": "Guaranteed transportation system"
-          }
+          },
+          "projectIndex": 0
         },
         {
           "id": "AG-02",
@@ -5530,7 +5666,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 1
         },
         {
           "id": "AG-03",
@@ -5571,7 +5708,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 2
         },
         {
           "id": "AG-04",
@@ -5612,7 +5750,8 @@
           "infrastructureConditions": {
             "vi": "Giáp đường quốc phòng, cách QL 29 khoảng 2,2km, cách đường điện 110kv khoảng 5,1 km",
             "en": "Bordering national defense road, about 2.2km from National Highway 29, about 5.1km from 110kv power line"
-          }
+          },
+          "projectIndex": 3
         },
         {
           "id": "AG-05",
@@ -5653,7 +5792,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi (còn nhiều đường đất nhỏ chưa được đầu tư)",
             "en": "Favorable basic infrastructure (there are still many small dirt roads that have not been invested in)"
-          }
+          },
+          "projectIndex": 4
         },
         {
           "id": "AG-06",
@@ -5694,7 +5834,8 @@
           "infrastructureConditions": {
             "vi": "chưa được đầu tư hạ tầng kỹ thuật phục vụ dự án. Hạ tầng điện, nước, đường giao\r\nthông nội vùng sẽ được xem xét đầu tư đồng bộ khi triển khai dự án,",
             "en": "There has not been any investment in technical infrastructure to serve the project. Electricity, water, and road infrastructure\r\nIntra-regional traffic will be considered for synchronous investment when implementing the project."
-          }
+          },
+          "projectIndex": 5
         },
         {
           "id": "AG-07",
@@ -5735,7 +5876,8 @@
           "infrastructureConditions": {
             "vi": "Nằm trên trục đường Quốc lộ Trường Sơn Đông; đường điện Trung thế",
             "en": "Located on Truong Son Dong National Highway; Medium voltage power line"
-          }
+          },
+          "projectIndex": 6
         },
         {
           "id": "AG-08",
@@ -5776,7 +5918,8 @@
           "infrastructureConditions": {
             "vi": "đường đi huyện Ea H'Leo (cũ), chưa có điện",
             "en": "The road to Ea H'Leo district (old) has no electricity"
-          }
+          },
+          "projectIndex": 7
         },
         {
           "id": "AG-09",
@@ -5817,7 +5960,8 @@
           "infrastructureConditions": {
             "vi": "đường đi huyện Ea H'Leo (cũ), chưa có điện",
             "en": "The road to Ea H'Leo district (old) has no electricity"
-          }
+          },
+          "projectIndex": 8
         },
         {
           "id": "AG-10",
@@ -5858,7 +6002,8 @@
           "infrastructureConditions": {
             "vi": "đường đi huyện Ea H'Leo (cũ), chưa có điện",
             "en": "The road to Ea H'Leo district (old) has no electricity"
-          }
+          },
+          "projectIndex": 9
         },
         {
           "id": "AG-11",
@@ -5899,7 +6044,8 @@
           "infrastructureConditions": {
             "vi": "Giáp đường quốc phòng, cách QL 29 khoảng 2,2km, cách đường điện 110kv khoảng 5,1 km",
             "en": "Bordering national defense road, about 2.2km from National Highway 29, about 5.1km from 110kv power line"
-          }
+          },
+          "projectIndex": 10
         },
         {
           "id": "AG-12",
@@ -5940,7 +6086,8 @@
           "infrastructureConditions": {
             "vi": "đường đi huyện Ea H'Leo (cũ), chưa có điện",
             "en": "The road to Ea H'Leo district (old) has no electricity"
-          }
+          },
+          "projectIndex": 11
         },
         {
           "id": "AG-13",
@@ -5981,7 +6128,8 @@
           "infrastructureConditions": {
             "vi": "Quyết định số 1747/QĐ-TTg ngày 30/12/2023 của Thủ tướng Chính phủ; ",
             "en": "Decision No. 1747/QD-TTg dated December 30, 2023 of the Prime Minister;"
-          }
+          },
+          "projectIndex": 12
         },
         {
           "id": "AG-14",
@@ -6022,7 +6170,8 @@
           "infrastructureConditions": {
             "vi": "tiếp giáp Đường kè Đầm Cù Mông",
             "en": "adjacent to Cu Mong Dam Embankment Road"
-          }
+          },
+          "projectIndex": 13
         },
         {
           "id": "AG-15",
@@ -6063,7 +6212,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 14
         },
         {
           "id": "AG-16",
@@ -6104,7 +6254,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi. Đã trình UBND tỉnh Chấp thuận chủ trương đầu tư",
             "en": "Favorable. Submitted to the Provincial People's Committee for approval of investment policy"
-          }
+          },
+          "projectIndex": 15
         },
         {
           "id": "AG-17",
@@ -6145,7 +6296,8 @@
           "infrastructureConditions": {
             "vi": "Có liên kết đường giao thông",
             "en": "There are road links"
-          }
+          },
+          "projectIndex": 16
         },
         {
           "id": "AG-18",
@@ -6186,7 +6338,8 @@
           "infrastructureConditions": {
             "vi": "đã có đường giao thông dọc biển",
             "en": "There are roads along the sea"
-          }
+          },
+          "projectIndex": 17
         },
         {
           "id": "AG-19",
@@ -6227,7 +6380,8 @@
           "infrastructureConditions": {
             "vi": "Giáp đường quốc phòng, cách QL 29 khoảng 2,2km, cách đường điện 110kv khoảng 5,1 km",
             "en": "Bordering national defense road, about 2.2km from National Highway 29, about 5.1km from 110kv power line"
-          }
+          },
+          "projectIndex": 18
         },
         {
           "id": "AG-20",
@@ -6268,7 +6422,8 @@
           "infrastructureConditions": {
             "vi": "Hệ thống giao thông đảm bảo",
             "en": "Guaranteed transportation system"
-          }
+          },
+          "projectIndex": 19
         },
         {
           "id": "AG-21",
@@ -6309,7 +6464,8 @@
           "infrastructureConditions": {
             "vi": "Đây là dự án thứ cấp được thu hút đầu tư sau khi hạ tầng KCN được đầu tư hoàn thành.",
             "en": "This is a secondary project that attracts investment after the industrial park infrastructure is completed."
-          }
+          },
+          "projectIndex": 20
         },
         {
           "id": "AG-22",
@@ -6350,7 +6506,8 @@
           "infrastructureConditions": {
             "vi": "Đây là dự án thứ cấp được thu hút đầu tư sau khi hạ tầng KCN được đầu tư hoàn thành.",
             "en": "This is a secondary project that attracts investment after the industrial park infrastructure is completed."
-          }
+          },
+          "projectIndex": 21
         },
         {
           "id": "AG-23",
@@ -6391,7 +6548,8 @@
           "infrastructureConditions": {
             "vi": "Giáp QL 29,  cách đường điện 110kv khoảng 3,2 km",
             "en": "Bordering National Highway 29, about 3.2 km from 110kv power line"
-          }
+          },
+          "projectIndex": 22
         },
         {
           "id": "AG-24",
@@ -6432,7 +6590,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi (còn nhiều đường đất nhỏ chưa được đầu tư)",
             "en": "Favorable basic infrastructure (there are still many small dirt roads that have not been invested in)"
-          }
+          },
+          "projectIndex": 23
         },
         {
           "id": "AG-25",
@@ -6473,7 +6632,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông huyện lộ, mặt đường nhựa, rộng 5.5m, quy hoạch 24m. Điện lưới quốc gia. ",
             "en": "District road, asphalt surface, 5.5m wide, 24m planning. National grid."
-          }
+          },
+          "projectIndex": 24
         },
         {
           "id": "AG-26",
@@ -6514,7 +6674,8 @@
           "infrastructureConditions": {
             "vi": "Đầy đủ thuận lợi",
             "en": "Full of conveniences"
-          }
+          },
+          "projectIndex": 25
         },
         {
           "id": "AG-27",
@@ -6555,7 +6716,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi điện,\r\nnước, đường giao\r\nthông",
             "en": "Convenient electricity,\r\nwater, roads\r\npine"
-          }
+          },
+          "projectIndex": 26
         },
         {
           "id": "AG-28",
@@ -6596,7 +6758,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 27
         },
         {
           "id": "AG-29",
@@ -6637,7 +6800,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng thuận lợi",
             "en": "Convenient infrastructure"
-          }
+          },
+          "projectIndex": 28
         },
         {
           "id": "AG-30",
@@ -6678,7 +6842,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 29
         },
         {
           "id": "AG-31",
@@ -6719,7 +6884,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 30
         },
         {
           "id": "AG-32",
@@ -6760,7 +6926,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 31
         },
         {
           "id": "AG-33",
@@ -6801,7 +6968,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 32
         },
         {
           "id": "AG-34",
@@ -6842,7 +7010,8 @@
           "infrastructureConditions": {
             "vi": "Tiếp cận đầy đủ hệ thống HTKT (Điện, nước, đường giao thông…)",
             "en": "Full access to the technical infrastructure system (Electricity, water, roads...)"
-          }
+          },
+          "projectIndex": 33
         },
         {
           "id": "AG-35",
@@ -6883,7 +7052,8 @@
           "infrastructureConditions": {
             "vi": "Tiếp cận đầy đủ hệ thống HTKT (Điện, nước, đường giao thông…)",
             "en": "Full access to the technical infrastructure system (Electricity, water, roads...)"
-          }
+          },
+          "projectIndex": 34
         },
         {
           "id": "AG-36",
@@ -6924,7 +7094,8 @@
           "infrastructureConditions": {
             "vi": " Đường giao thông chưa được đầu tư. chưa có thống điện. có nguồn nước đảm bảo",
             "en": "Roads have not been invested. no electricity system. have a guaranteed water source"
-          }
+          },
+          "projectIndex": 35
         },
         {
           "id": "AG-37",
@@ -6965,7 +7136,8 @@
           "infrastructureConditions": {
             "vi": "Tiếp cận đầy đủ hệ thống HTKT (Điện, nước, đường giao thông…)",
             "en": "Full access to the technical infrastructure system (Electricity, water, roads...)"
-          }
+          },
+          "projectIndex": 36
         },
         {
           "id": "AG-38",
@@ -7006,7 +7178,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 37
         },
         {
           "id": "AG-39",
@@ -7047,7 +7220,8 @@
           "infrastructureConditions": {
             "vi": "Đảm bảo đáp ứng CSHT",
             "en": "Ensure compliance with infrastructure"
-          }
+          },
+          "projectIndex": 38
         },
         {
           "id": "AG-40",
@@ -7088,7 +7262,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi.  Đã có Nhà đầu tư Đề xuất dự án",
             "en": "Favorable.  There are already Investors Proposing the project"
-          }
+          },
+          "projectIndex": 39
         },
         {
           "id": "AG-41",
@@ -7129,7 +7304,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng cơ sở hạ tầng kết nối thuận tiện",
             "en": "Meet convenient connection infrastructure"
-          }
+          },
+          "projectIndex": 40
         },
         {
           "id": "AG-42",
@@ -7170,7 +7346,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông thuân tiên; Hệ thống đường, điện đảm bảo",
             "en": "Good traffic roads; Road and electricity systems are guaranteed"
-          }
+          },
+          "projectIndex": 41
         },
         {
           "id": "AG-43",
@@ -7211,7 +7388,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 42
         },
         {
           "id": "AG-44",
@@ -7252,7 +7430,8 @@
           "infrastructureConditions": {
             "vi": " Đường giao thông đảm bảo. có hệ thống điện. có nguồn nước đảm bảo",
             "en": "Roads are guaranteed. has an electrical system. have a guaranteed water source"
-          }
+          },
+          "projectIndex": 43
         },
         {
           "id": "AG-45",
@@ -7293,9 +7472,11 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư",
             "en": "Not yet invested"
-          }
+          },
+          "projectIndex": 44
         }
-      ]
+      ],
+      "macroIndex": 3
     },
     {
       "pageId": 5,
@@ -7343,7 +7524,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng giao thông kết nối",
             "en": "Meets connecting transport infrastructure"
-          }
+          },
+          "projectIndex": 0
         },
         {
           "id": "HE-02",
@@ -7384,7 +7566,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng giao thông kết nối",
             "en": "Meets connecting transport infrastructure"
-          }
+          },
+          "projectIndex": 1
         },
         {
           "id": "HE-03",
@@ -7425,7 +7608,8 @@
           "infrastructureConditions": {
             "vi": "Thuận tiện, sát trung tâm xã Quảng Phú",
             "en": "Convenient, close to the center of Quang Phu commune"
-          }
+          },
+          "projectIndex": 2
         },
         {
           "id": "HE-04",
@@ -7466,7 +7650,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng giao thông kết nối",
             "en": "Meets connecting transport infrastructure"
-          }
+          },
+          "projectIndex": 3
         },
         {
           "id": "HE-05",
@@ -7507,7 +7692,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng giao thông kết nối",
             "en": "Meets connecting transport infrastructure"
-          }
+          },
+          "projectIndex": 4
         },
         {
           "id": "HE-06",
@@ -7548,7 +7734,8 @@
           "infrastructureConditions": {
             "vi": "Đảm bảo điều kiện CSHT, lao động, mối liên kết vùng",
             "en": "Ensure infrastructure conditions, labor, and regional linkages"
-          }
+          },
+          "projectIndex": 5
         },
         {
           "id": "HE-07",
@@ -7589,7 +7776,8 @@
           "infrastructureConditions": {
             "vi": "Đảm bảo điều kiện CSHT, lao động, mối liên kết vùng",
             "en": "Ensure infrastructure conditions, labor, and regional linkages"
-          }
+          },
+          "projectIndex": 6
         },
         {
           "id": "HE-08",
@@ -7630,7 +7818,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng đầy đủ, đã kết nối đảm bảo.",
             "en": "Full infrastructure, guaranteed connection."
-          }
+          },
+          "projectIndex": 7
         },
         {
           "id": "HE-09",
@@ -7671,7 +7860,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 8
         },
         {
           "id": "HE-10",
@@ -7712,7 +7902,8 @@
           "infrastructureConditions": {
             "vi": "Đáp ứng hạ tầng giao thông kết nối",
             "en": "Meets connecting transport infrastructure"
-          }
+          },
+          "projectIndex": 9
         },
         {
           "id": "HE-11",
@@ -7753,7 +7944,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 10
         },
         {
           "id": "HE-12",
@@ -7794,7 +7986,8 @@
           "infrastructureConditions": {
             "vi": "Đã đầu tư xây dựng giai đoạn 1 bằng phương pháp chôn lấp hợp vệ sinh (diện tích 1,5ha) có đường giao thông kết nối vào khu vực xây dựng dự án",
             "en": "Invested in the construction of phase 1 using the sanitary landfill method (area of ​​1.5 hectares) with roads connecting to the project construction area."
-          }
+          },
+          "projectIndex": 11
         },
         {
           "id": "HE-13",
@@ -7835,7 +8028,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư",
             "en": "Not yet invested"
-          }
+          },
+          "projectIndex": 12
         },
         {
           "id": "HE-14",
@@ -7876,7 +8070,8 @@
           "infrastructureConditions": {
             "vi": "Đây là dự án thứ cấp được thu hút đầu tư sau khi hạ tầng KCN được đầu tư hoàn thành.",
             "en": "This is a secondary project that attracts investment after the industrial park infrastructure is completed."
-          }
+          },
+          "projectIndex": 13
         },
         {
           "id": "HE-15",
@@ -7917,7 +8112,8 @@
           "infrastructureConditions": {
             "vi": "Về điện cách đường dây trung áp khoảng 1km; về đường giao thông hiện trạng là đường cấp phối, bề rộng mặt đường 5mét, đi đến vị trí thửa đất, cơ bản thuận tiện; về nước cách khoảng 800mét có một hồ nước thủy lợi lớn phụ vụ cho nhu cầu phát triển nông nghiệp",
             "en": "Regarding electricity, it is about 1km from the medium voltage line; Regarding the current traffic road, it is a gravel road, the road surface width is 5 meters, going to the location of the land plot, basically convenient; About 800 meters away, there is a large irrigation lake serving the needs of agricultural development"
-          }
+          },
+          "projectIndex": 14
         },
         {
           "id": "HE-16",
@@ -7958,9 +8154,11 @@
           "infrastructureConditions": {
             "vi": "Do khu vực là khu xa dân cư, người dân chủ yếu là canh tác nông nghiệp nên cơ sở hạ tầng về đường giao thông, đường điện, nước chưa được đầu tư xây dựng.",
             "en": "Because the area is far from residential areas, people mainly practice agriculture, so the infrastructure of roads, electricity, and water has not been invested in."
-          }
+          },
+          "projectIndex": 15
         }
-      ]
+      ],
+      "macroIndex": 4
     },
     {
       "pageId": 6,
@@ -8008,7 +8206,8 @@
           "infrastructureConditions": {
             "vi": "Đã có đường giao thông BTXM; hệ thống điện quốc gia",
             "en": "There are concrete roads; national electricity system"
-          }
+          },
+          "projectIndex": 0
         },
         {
           "id": "TS-02",
@@ -8049,7 +8248,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 1
         },
         {
           "id": "TS-03",
@@ -8090,7 +8290,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 2
         },
         {
           "id": "TS-04",
@@ -8131,7 +8332,8 @@
           "infrastructureConditions": {
             "vi": "Cơ bản đáp ứng hạ tầng kết nối.",
             "en": "Basically meets the connection infrastructure."
-          }
+          },
+          "projectIndex": 3
         },
         {
           "id": "TS-05",
@@ -8172,7 +8374,8 @@
           "infrastructureConditions": {
             "vi": "Về hạ tầng điện, nước của Cụm công nghiệp chưa được đầu tư đồng bộ. Thuận lợi: Công ty CP cấp nước Phú Yên đang đầu tư dự án mở rộng cấp nước sinh hoạt\r\nVề giao thông: hiện trạng quy hoạch nằm giáp biển. Về giao thông cách phường Quy Nhơn, Gia Lai 40km; cách phường Tuy Hoà 60km; cách cao tốc đường bộ bắc - nam: 25km về phía bắc và 15km về phía nam",
             "en": "The industrial cluster's electricity and water infrastructure has not been invested synchronously. Advantages: Phu Yen Water Supply Joint Stock Company is investing in a project to expand domestic water supply\r\nRegarding traffic: current planning status is adjacent to the sea. Regarding traffic, it is 40km from Quy Nhon ward, Gia Lai; 60km from Tuy Hoa ward; North-South highway: 25km north and 15km south"
-          }
+          },
+          "projectIndex": 4
         },
         {
           "id": "TS-06",
@@ -8213,7 +8416,8 @@
           "infrastructureConditions": {
             "vi": "Chưa đầu tư",
             "en": "Not invested yet"
-          }
+          },
+          "projectIndex": 5
         },
         {
           "id": "TS-07",
@@ -8254,7 +8458,8 @@
           "infrastructureConditions": {
             "vi": "Điều kiện cơ sở hạ tầng: Đáp ứng cơ sở hạ tầng kết nối thuận tiện.",
             "en": "Infrastructure conditions: Meets convenient connection infrastructure."
-          }
+          },
+          "projectIndex": 6
         },
         {
           "id": "TS-08",
@@ -8295,7 +8500,8 @@
           "infrastructureConditions": {
             "vi": "Đường bê tông hiện hữu, đã có hệ thống hiện đấu nối, chưa có hệ thống nước tập trung",
             "en": "Existing concrete road, existing connection system, no centralized water system"
-          }
+          },
+          "projectIndex": 7
         },
         {
           "id": "TS-09",
@@ -8336,7 +8542,8 @@
           "infrastructureConditions": {
             "vi": "",
             "en": ""
-          }
+          },
+          "projectIndex": 8
         },
         {
           "id": "TS-10",
@@ -8377,7 +8584,8 @@
           "infrastructureConditions": {
             "vi": "Chưa đầu tư",
             "en": "Not invested yet"
-          }
+          },
+          "projectIndex": 9
         },
         {
           "id": "TS-11",
@@ -8418,7 +8626,8 @@
           "infrastructureConditions": {
             "vi": "Đầy đủ thuận lợi",
             "en": "Full of conveniences"
-          }
+          },
+          "projectIndex": 10
         },
         {
           "id": "TS-12",
@@ -8459,7 +8668,8 @@
           "infrastructureConditions": {
             "vi": "Đầy đủ thuận lợi",
             "en": "Full of conveniences"
-          }
+          },
+          "projectIndex": 11
         },
         {
           "id": "TS-13",
@@ -8500,7 +8710,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi",
             "en": "Favorable"
-          }
+          },
+          "projectIndex": 12
         },
         {
           "id": "TS-14",
@@ -8541,7 +8752,8 @@
           "infrastructureConditions": {
             "vi": "Đường giao thông thuận lợi; Hệ thống điện, nước đảm bảo",
             "en": "Convenient traffic roads; Guaranteed electricity and water systems"
-          }
+          },
+          "projectIndex": 13
         },
         {
           "id": "TS-15",
@@ -8582,7 +8794,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng chưa đầu tư kết nối",
             "en": "Infrastructure has not invested in connection"
-          }
+          },
+          "projectIndex": 14
         },
         {
           "id": "TS-16",
@@ -8623,7 +8836,8 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản thuận lợi",
             "en": "Convenient basic infrastructure"
-          }
+          },
+          "projectIndex": 15
         },
         {
           "id": "TS-17",
@@ -8664,7 +8878,8 @@
           "infrastructureConditions": {
             "vi": "Thuận lợi.  Đã có Nhà đầu tư Đề xuất dự án",
             "en": "Favorable.  There are already Investors Proposing the project"
-          }
+          },
+          "projectIndex": 16
         },
         {
           "id": "TS-18",
@@ -8705,7 +8920,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư",
             "en": "Not yet invested"
-          }
+          },
+          "projectIndex": 17
         },
         {
           "id": "TS-19",
@@ -8746,7 +8962,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư cơ sở hạ tầng",
             "en": "There has been no investment in infrastructure"
-          }
+          },
+          "projectIndex": 18
         },
         {
           "id": "TS-20",
@@ -8787,7 +9004,8 @@
           "infrastructureConditions": {
             "vi": " Đường giao thông chưa được đầu tư. chưa có thống điện. có nguồn nước tự nhiên đảm bảo",
             "en": "Roads have not been invested. no electricity system. There is a guaranteed natural water source"
-          }
+          },
+          "projectIndex": 19
         },
         {
           "id": "TS-21",
@@ -8828,7 +9046,8 @@
           "infrastructureConditions": {
             "vi": "Giao thông thuận lợi; hệ thống, điện cấp nước chưa được đầu tư",
             "en": "Convenient transportation; The system, electricity and water supply have not been invested"
-          }
+          },
+          "projectIndex": 20
         },
         {
           "id": "TS-22",
@@ -8869,7 +9088,8 @@
           "infrastructureConditions": {
             "vi": "Hạ tầng giao thông, điện, nước: Chưa có",
             "en": "Transport, electricity, water infrastructure: Not yet available"
-          }
+          },
+          "projectIndex": 21
         },
         {
           "id": "TS-23",
@@ -8910,7 +9130,8 @@
           "infrastructureConditions": {
             "vi": "Hạ tầng giao thông, điện, nước: Chưa có",
             "en": "Transport, electricity, water infrastructure: Not yet available"
-          }
+          },
+          "projectIndex": 22
         },
         {
           "id": "TS-24",
@@ -8951,7 +9172,8 @@
           "infrastructureConditions": {
             "vi": "Giao thông thuận lợi; hệ thống, điện cấp nước chưa được đầu tư",
             "en": "Convenient transportation; The system, electricity and water supply have not been invested"
-          }
+          },
+          "projectIndex": 23
         },
         {
           "id": "TS-25",
@@ -8992,7 +9214,8 @@
           "infrastructureConditions": {
             "vi": "Hạ tầng giao thông, điện, nước: Chưa có",
             "en": "Transport, electricity, water infrastructure: Not yet available"
-          }
+          },
+          "projectIndex": 24
         },
         {
           "id": "TS-26",
@@ -9033,7 +9256,8 @@
           "infrastructureConditions": {
             "vi": "Chưa được đầu tư CSHT",
             "en": "No infrastructure investment yet"
-          }
+          },
+          "projectIndex": 25
         },
         {
           "id": "TS-27",
@@ -9074,7 +9298,8 @@
           "infrastructureConditions": {
             "vi": "Phạm vi ranh giới vị trí đề xuất lập quy hoạch có quy mô diện tích ≈ 191,0ha. Trong đó, có ≈ 135,4ha tại xã Cuôr Đăng, huyện Cư M’gar (nay là xã Cuôr Đăng, tỉnh Đắk Lắk) và có ≈ 55,6ha tại xã Hòa Đông, huyện Krông Pắc (nay là xã Ea Knuếc, tỉnh Đắk Lắk",
             "en": "The boundary of the proposed planning location has an area of ​​≈ 191.0 hectares. Of which, there are ≈ 135.4 hectares in Cuôr Dang commune, Cu M'gar district (now Cuôr Dang commune, Dak Lak province) and ≈ 55.6 hectares in Hoa Dong commune, Krong Pac district (now Ea Knuec commune, Dak Lak province)"
-          }
+          },
+          "projectIndex": 26
         },
         {
           "id": "TS-28",
@@ -9115,9 +9340,11 @@
           "infrastructureConditions": {
             "vi": "Cơ sở hạ tầng cơ bản đảm bảo",
             "en": "Basic infrastructure guaranteed"
-          }
+          },
+          "projectIndex": 27
         }
-      ]
+      ],
+      "macroIndex": 5
     }
   ]
 }

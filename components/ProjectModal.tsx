@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, MapPin, Maximize2, DollarSign, Target } from 'lucide-react';
+import { X, MapPin, Maximize2, DollarSign, Target, FileText, Layers, Map, ShieldCheck } from 'lucide-react';
 
 interface ProjectModalProps {
     isOpen: boolean;
@@ -27,20 +27,52 @@ export const ProjectModal = ({ isOpen, onClose, project, lang }: ProjectModalPro
         area: isVi ? "Diện tích" : "Area",
         capital: isVi ? "Tổng vốn đầu tư" : "Investment Capital",
         scale: isVi ? "Quy mô" : "Scale",
+        landOrigin: isVi ? "Nguồn gốc đất" : "Land Origin",
+        landStatus: isVi ? "Hiện trạng sử dụng đất" : "Current Land Use Status",
+        planning: isVi ? "Quyết định phê duyệt quy hoạch" : "Planning Approval Decisions",
+        infrastructure: isVi ? "Điều kiện cơ sở hạ tầng" : "Infrastructure Conditions",
         unspecified: isVi ? "Chưa xác định" : "Not specified",
         close: isVi ? "Đóng" : "Close"
+    };
+
+    const extractField = (field: any) => {
+        if (!field) return null;
+        if (typeof field === "string") return field;
+        return isVi ? field.vi : field.en;
     };
 
     const name = isVi ? (project.name?.vi || project.tenDuAn || project.name || "Đang cập nhật") : (project.name?.en || project.tenDuAn || project.name || "Updating");
     const location = isVi ? (project.location?.vi || project.diaDiem || "-") : (project.location?.en || project.diaDiem || "-");
     const capital = isVi ? (project.investmentCapital?.vi || project.tongVon || labels.unspecified) : (project.investmentCapital?.en || project.tongVon || labels.unspecified);
     const area = project.area || project.dienTich || "-";
-    const scale = typeof project.scale === "string" ? project.scale : (isVi ? (project.scale?.vi || project.quyMo || "") : (project.scale?.en || project.quyMo || ""));
+    
+    const landOrigin = extractField(project.landOrigin);
+    const currentLandUseStatus = extractField(project.currentLandUseStatus);
+    const expectedInvestmentScale = extractField(project.expectedInvestmentScale);
+    const planningApprovalDecisions = extractField(project.planningApprovalDecisions);
+    const infrastructureConditions = extractField(project.infrastructureConditions);
+    
+    // For scale, use expectedInvestmentScale if it exists, otherwise fallback to scale
+    const originalScale = typeof project.scale === "string" ? project.scale : (isVi ? (project.scale?.vi || project.quyMo || "") : (project.scale?.en || project.quyMo || ""));
+    const scale = expectedInvestmentScale || originalScale;
+
+    const renderField = (icon: React.ReactNode, label: string, value: string | null) => {
+        if (!value) return null;
+        return (
+            <div className="bg-[#FDF8F3] p-4 rounded-xl border border-[#CBA365]/30 flex items-start gap-3">
+                <div className="mt-0.5 shrink-0 text-[#CBA365]">{icon}</div>
+                <div>
+                    <div className="text-xs font-bold text-[#8A5A35] uppercase tracking-wider mb-1">{label}</div>
+                    <div className="text-[#3B261A] font-medium leading-relaxed whitespace-pre-line">{value}</div>
+                </div>
+            </div>
+        );
+    };
 
     return (
         <div className="fixed inset-0 z-9999 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" onClick={onClose}>
             <div
-                className="bg-white rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden flex flex-col shadow-2xl animate-in fade-in zoom-in-95 duration-200"
+                className="bg-white rounded-2xl w-full max-w-3xl max-h-[90vh] overflow-hidden flex flex-col shadow-2xl animate-in fade-in zoom-in-95 duration-200"
                 onClick={(e) => e.stopPropagation()}
                 onPointerDown={(e) => e.stopPropagation()}
                 onMouseDown={(e) => e.stopPropagation()}
@@ -60,8 +92,8 @@ export const ProjectModal = ({ isOpen, onClose, project, lang }: ProjectModalPro
                 </div>
 
                 {/* Content */}
-                <div className="p-6 overflow-y-auto custom-scrollbar flex flex-col gap-6">
-                    <div>
+                <div className="p-6 overflow-y-auto custom-scrollbar flex flex-col gap-4">
+                    <div className="mb-2">
                         <h2 className="text-xl md:text-2xl font-black text-[#5C3A21] leading-snug uppercase mb-4">
                             {name}
                         </h2>
@@ -69,40 +101,26 @@ export const ProjectModal = ({ isOpen, onClose, project, lang }: ProjectModalPro
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="bg-[#FDF8F3] p-4 rounded-xl border border-[#CBA365]/30 flex items-start gap-3">
-                            <MapPin className="text-[#CBA365] mt-0.5 shrink-0" size={20} />
-                            <div>
-                                <div className="text-xs font-bold text-[#8A5A35] uppercase tracking-wider mb-1">{labels.location}</div>
-                                <div className="text-[#3B261A] font-medium leading-relaxed">{location}</div>
-                            </div>
-                        </div>
-
-                        <div className="bg-[#FDF8F3] p-4 rounded-xl border border-[#CBA365]/30 flex items-start gap-3">
-                            <Maximize2 className="text-[#CBA365] mt-0.5 shrink-0" size={20} />
-                            <div>
-                                <div className="text-xs font-bold text-[#8A5A35] uppercase tracking-wider mb-1">{labels.area}</div>
-                                <div className="text-[#3B261A] font-medium leading-relaxed">{area}</div>
-                            </div>
-                        </div>
+                        {renderField(<MapPin size={20} />, labels.location, location)}
+                        {renderField(<Maximize2 size={20} />, labels.area, area)}
                     </div>
 
-                    <div className="bg-[#FDF8F3] p-4 rounded-xl border border-[#CBA365]/30 flex items-start gap-3">
-                        <DollarSign className="text-[#CBA365] mt-0.5 shrink-0" size={20} />
-                        <div>
-                            <div className="text-xs font-bold text-[#8A5A35] uppercase tracking-wider mb-1">{labels.capital}</div>
-                            <div className="text-[#C96E28] font-black text-lg">{capital}</div>
-                        </div>
-                    </div>
-
-                    {scale && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="bg-[#FDF8F3] p-4 rounded-xl border border-[#CBA365]/30 flex items-start gap-3">
-                            <Target className="text-[#CBA365] mt-0.5 shrink-0" size={20} />
+                            <DollarSign className="text-[#CBA365] mt-0.5 shrink-0" size={20} />
                             <div>
-                                <div className="text-xs font-bold text-[#8A5A35] uppercase tracking-wider mb-1">{labels.scale}</div>
-                                <div className="text-[#3B261A] font-medium leading-relaxed whitespace-pre-line">{scale}</div>
+                                <div className="text-xs font-bold text-[#8A5A35] uppercase tracking-wider mb-1">{labels.capital}</div>
+                                <div className="text-[#C96E28] font-black text-lg">{capital}</div>
                             </div>
                         </div>
-                    )}
+                        {renderField(<Target size={20} />, labels.scale, scale)}
+                    </div>
+
+                    {renderField(<Map size={20} />, labels.landOrigin, landOrigin)}
+                    {renderField(<Layers size={20} />, labels.landStatus, currentLandUseStatus)}
+                    {renderField(<ShieldCheck size={20} />, labels.planning, planningApprovalDecisions)}
+                    {renderField(<FileText size={20} />, labels.infrastructure, infrastructureConditions)}
+                    
                 </div>
 
                 {/* Footer */}

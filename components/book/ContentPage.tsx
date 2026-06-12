@@ -55,10 +55,10 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
     );
 
     const labels = {
-        macroSpan: isVi ? "Lĩnh vực đầu tư" : "Investment Sector",
+        macroSpan: isVi ? "Lĩnh vực đầu tư" : "Sector",
         location: isVi ? "Địa điểm:" : "Location:",
         area: isVi ? "Diện tích:" : "Area:",
-        capital: isVi ? "Tổng vốn đầu tư" : "Investment Capital",
+        capital: isVi ? "Tổng vốn đầu tư" : "Est. Capital",
         scale: isVi ? "Quy mô:" : "Scale:",
         page: isVi ? "Trang" : "Page"
     };
@@ -117,64 +117,66 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                                 const location = isVi ? (item.location?.vi || item.diaDiem || "-") : (item.location?.en || item.diaDiem || "-");
                                 const capital = isVi ? (item.investmentCapital?.vi || item.tongVon || "-") : (item.investmentCapital?.en || item.tongVon || "-");
                                 const area = item.area || item.dienTich || "-";
-                                const scale = typeof item.scale === "string" ? item.scale : (isVi ? (item.scale?.vi || item.quyMo || "") : (item.scale?.en || item.quyMo || ""));
+                                
+                                const expectedScale = isVi ? item.expectedInvestmentScale?.vi : item.expectedInvestmentScale?.en;
+                                const originalScale = typeof item.scale === "string" ? item.scale : (isVi ? (item.scale?.vi || item.quyMo || "") : (item.scale?.en || item.quyMo || ""));
+                                const scale = expectedScale || originalScale;
+                                
                                 const sttNum = item.stt ? (parseInt(item.stt) < 10 ? `0${item.stt}` : `${item.stt}`) : `0${itemIdx}`;
 
                                 return (
-                                    <div key={`${lang}-proj-${item.id || itemIdx}`} className="relative bg-white rounded-xl border border-[#CBA365]/30 flex flex-col group h-[230px] md:h-[270px] shrink-0 overflow-hidden shadow-sm hover:shadow-[0_8px_25px_rgba(138,90,53,0.15)] hover:-translate-y-0.5 transition-all duration-300">
+                                    <div key={`${lang}-proj-${item.id || itemIdx}`} className="relative bg-white rounded-xl border border-[#CBA365]/40 flex flex-col group h-[245px] md:h-[285px] shrink-0 overflow-hidden shadow-sm hover:shadow-[0_8px_25px_rgba(138,90,53,0.15)] transition-shadow duration-300">
                                         {/* Accent top border */}
-                                        <div className="h-1 w-full bg-linear-to-r from-[#8A5A35] to-[#CBA365]"></div>
+                                        <div className="h-1.5 w-full bg-gradient-to-r from-[#5C3A21] via-[#8A5A35] to-[#CBA365] shrink-0"></div>
 
-                                        <div className="p-2 md:p-4 flex-1 flex flex-col min-h-0">
+                                        <div className="p-3 md:p-4 flex-1 flex flex-col min-h-0">
                                             {/* Title + STT */}
-                                            <div className="flex items-start gap-1.5 md:gap-2 mb-1.5 md:mb-3 shrink-0">
-                                                <div className="bg-[#5C3A21] text-white font-black text-[8px] md:text-2xs px-1.5 py-0.5 rounded shadow-sm shrink-0 mt-0.5">
+                                            <div className="flex items-start gap-2 mb-2 md:mb-3 shrink-0 h-[32px] md:h-[40px]">
+                                                <div className="bg-[#5C3A21] text-white font-black text-[10px] md:text-xs px-2 py-1 rounded shadow-sm shrink-0 mt-0.5">
                                                     {sttNum}
                                                 </div>
-                                                <h5 className="font-bold text-[10px] md:text-sm text-[#5C3A21] leading-snug uppercase line-clamp-2 group-hover:text-[#8A5A35] transition-colors" title={name}>
+                                                <h5 className="flex-1 min-w-0 font-bold text-[11px] md:text-[13px] text-[#5C3A21] leading-snug uppercase line-clamp-2 group-hover:text-[#8A5A35] transition-colors" title={name}>
                                                     {name}
                                                 </h5>
                                             </div>
 
-                                            {/* Info Grid */}
-                                            <div className="flex flex-col gap-0.5 md:gap-1.5 text-[9px] md:text-xs text-[#3B261A] shrink-0 bg-[#FDF8F3] p-1 md:p-2 rounded-lg border border-[#CBA365]/15">
-                                                <div className="flex items-start gap-1.5">
-                                                    <MapPin size={12} className="text-[#CBA365] shrink-0 mt-0.5" />
-                                                    <div className="line-clamp-1 leading-snug" title={location}>
-                                                        <span className="font-semibold text-[#8A5A35] mr-1">{labels.location}</span>
-                                                        <span className="font-medium text-[#1A1A1A]">{location}</span>
-                                                    </div>
-                                                </div>
-                                                <div className="flex items-start gap-1.5">
-                                                    <Maximize2 size={12} className="text-[#CBA365] shrink-0 mt-0.5" />
-                                                    <div className="line-clamp-1 leading-snug" title={area}>
-                                                        <span className="font-semibold text-[#8A5A35] mr-1">{labels.area}</span>
-                                                        <span className="font-bold text-[#1A1A1A]">{area}</span>
-                                                    </div>
-                                                </div>
-                                                <div className="flex items-start gap-1.5 pt-1 md:pt-1.5 border-t border-[#CBA365]/20 mt-0.5">
-                                                    <DollarSign size={12} className="text-[#C96E28] shrink-0 mt-0.5" />
-                                                    <div className="line-clamp-1 leading-snug" title={capital}>
-                                                        <span className="font-semibold text-[#8A5A35] mr-1">{labels.capital}</span>
-                                                        <strong className="text-[#C96E28] font-black">{capital}</strong>
-                                                    </div>
+                                            {/* Location */}
+                                            <div className="flex items-start gap-1.5 mb-2 md:mb-3 shrink-0 text-[10px] md:text-xs h-[30px] md:h-[36px]">
+                                                <MapPin size={14} className="text-[#CBA365] shrink-0 mt-[1px]" />
+                                                <div className="flex-1 min-w-0 line-clamp-2 leading-snug" title={location}>
+                                                    <span className="font-semibold text-[#8A5A35] mr-1">{labels.location}</span>
+                                                    <span className="font-medium text-[#3B261A]">{location}</span>
                                                 </div>
                                             </div>
 
-                                            {/* Scale */}
-                                            {scale && (
-                                                <div className="flex-1 mt-1 md:mt-2 text-[9px] md:text-[11px] leading-relaxed text-[#2E1A0F] overflow-y-auto custom-scrollbar pr-1">
-                                                    <span className="font-semibold text-[#8A5A35] mr-1 sticky top-0 bg-white z-10">{labels.scale}</span>
-                                                    <span className="">{scale}</span>
+                                            {/* Grid of Key Metrics (Area & Capital) */}
+                                            <div className="grid grid-cols-2 gap-2 mb-2 md:mb-3 shrink-0 h-[56px] md:h-[64px]">
+                                                <div className="bg-[#FDF8F3] h-full p-1.5 md:p-2 rounded-lg border border-[#CBA365]/30 flex flex-col justify-center items-center text-center min-w-0">
+                                                    <span className="text-[8px] md:text-[8.5px] font-bold text-[#8A5A35] uppercase mb-0.5 tracking-tighter md:tracking-tight whitespace-nowrap w-full">{labels.area}</span>
+                                                    <span className="text-[10px] md:text-xs font-black text-[#1A1A1A] leading-tight break-words w-full line-clamp-2">{area}</span>
                                                 </div>
-                                            )}
+                                                <div className="bg-[#FDF8F3] h-full p-1.5 md:p-2 rounded-lg border border-[#CBA365]/30 flex flex-col justify-center items-center text-center min-w-0">
+                                                    <span className="text-[8px] md:text-[8.5px] font-bold text-[#8A5A35] uppercase mb-0.5 tracking-tighter md:tracking-tight whitespace-nowrap w-full">{labels.capital}</span>
+                                                    <span className="text-[10px] md:text-xs font-black text-[#C96E28] leading-tight break-words w-full line-clamp-2">{capital}</span>
+                                                </div>
+                                            </div>
+
+                                            {/* Scale snippet */}
+                                            <div className="flex-1 min-w-0 text-[9px] md:text-[10.5px] leading-relaxed text-[#555] overflow-hidden">
+                                                {scale && (
+                                                    <div className="line-clamp-2" title={scale}>
+                                                        <span className="font-semibold text-[#8A5A35] mr-1">{labels.scale}</span>
+                                                        {scale}
+                                                    </div>
+                                                )}
+                                            </div>
                                         </div>
 
                                         {/* Footer Button */}
-                                        <div className="px-2 pb-2 md:px-4 md:pb-4 shrink-0 flex justify-end">
+                                        <div className="px-3 pb-3 md:px-4 md:pb-4 shrink-0 flex justify-end mt-auto">
                                             <StopPropagationWrapper>
                                                 <button
-                                                    className="flex items-center gap-1 bg-[#8A5A35]/10 hover:bg-[#5C3A21] text-[#5C3A21] hover:text-white px-2 py-1 md:px-4 md:py-2 rounded-lg transition-all duration-300 text-[9px] md:text-xs font-bold uppercase tracking-wider border border-[#8A5A35]/30 hover:border-[#5C3A21] shadow-sm relative z-50 cursor-pointer"
+                                                    className="flex items-center gap-1 bg-gradient-to-r from-[#8A5A35] to-[#CBA365] hover:from-[#5C3A21] hover:to-[#8A5A35] text-white px-3 py-1.5 md:px-4 md:py-2 rounded-lg transition-all duration-300 text-[9px] md:text-xs font-bold uppercase tracking-wider shadow-md relative z-50 cursor-pointer group/btn"
                                                     onClick={(e) => {
                                                         e.stopPropagation();
                                                         e.preventDefault();
@@ -182,7 +184,7 @@ const ContentPage = ({ pageData, pageIndex, runningHeader, lang, onProjectClick 
                                                     }}
                                                 >
                                                     <span>{isVi ? "Xem chi tiết" : "Details"}</span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform group-hover:translate-x-0.5 transition-transform">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform group-hover/btn:translate-x-1 transition-transform">
                                                         <path d="M5 12h14M12 5l7 7-7 7" />
                                                     </svg>
                                                 </button>

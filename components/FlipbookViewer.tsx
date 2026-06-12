@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback, useMemo } from "react";
+import { flushSync } from 'react-dom';
 import HTMLFlipBook from "react-pageflip";
 import Image from "next/image";
 import Toolbar from "./Toolbar";
@@ -34,6 +35,7 @@ export default function FlipbookViewer() {
     const { isLg: isDesktop, isLoaded } = useScreenSize();
 
     const [currentPage, setCurrentPage] = useState(0);
+    const [targetPage, setTargetPage] = useState(0);
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [zoom, setZoom] = useState(1);
     const [soundEnabled, setSoundEnabled] = useState(true);
@@ -166,14 +168,19 @@ export default function FlipbookViewer() {
         if (currentPageData.length > 0) contentPages.push(currentPageData);
 
         const macroGroupsMenu: any[] = [];
+        const macroPageIndices = new Set<number>();
+
         contentPages.forEach((page, pIdx) => {
             const macroItem = page.find((item: any) => item.isMacroHeader);
             if (macroItem) {
+                const pageIndex = isDesktop ? pIdx * 2 + 3 : pIdx + 3;
                 macroGroupsMenu.push({
                     name: macroItem.macroGroupName.replace(/LĨNH VỰC /i, ""),
                     projectCount: macroItem.projectCount,
-                    pageIndex: isDesktop ? pIdx * 2 + 3 : pIdx + 3
+                    pageIndex: pageIndex
                 });
+                macroPageIndices.add(pageIndex);
+                if (isDesktop) macroPageIndices.add(pageIndex + 1);
             }
         });
 
@@ -230,25 +237,29 @@ export default function FlipbookViewer() {
             const pageIndex = isDesktop ? index * 2 + 3 : index + 3;
 
             if (isDesktop) {
+                const isMacroSpreadLeft = macroPageIndices.has(pageIndex);
+                const isMacroSpreadRight = macroPageIndices.has(pageIndex + 1);
+
                 bookPagesToRender.push(
                     <div key={`page-left-${index}`} className="page-wrapper h-full">
-                        <LazyPageContent pageIndex={pageIndex}>
+                        <LazyPageContent pageIndex={pageIndex} alwaysRender={isMacroSpreadLeft}>
                             <ContentPageLeft pageData={pageData} pageIndex={pageIndex} runningHeaderVi={runningHeaderVi} onProjectClick={handleProjectClick} />
                         </LazyPageContent>
                     </div>
                 );
                 bookPagesToRender.push(
                     <div key={`page-right-${index}`} className="page-wrapper h-full">
-                        <LazyPageContent pageIndex={pageIndex + 1}>
+                        <LazyPageContent pageIndex={pageIndex + 1} alwaysRender={isMacroSpreadRight}>
                             <ContentPageRight pageData={pageData} pageIndex={pageIndex + 1} runningHeaderEn={runningHeaderEn} onProjectClick={handleProjectClick} />
                         </LazyPageContent>
                     </div>
                 );
             } else {
+                const isMacroPage = macroPageIndices.has(pageIndex);
                 if (mobileLang === 'vi') {
                     bookPagesToRender.push(
                         <div key={`page-vi-${index}`} className="page-wrapper h-full">
-                            <LazyPageContent pageIndex={pageIndex}>
+                            <LazyPageContent pageIndex={pageIndex} alwaysRender={isMacroPage}>
                                 <ContentPageLeft pageData={pageData} pageIndex={pageIndex} runningHeaderVi={runningHeaderVi} onProjectClick={handleProjectClick} />
                             </LazyPageContent>
                         </div>
@@ -345,7 +356,14 @@ export default function FlipbookViewer() {
     }, [currentPage, totalPages, isReady, isDesktop]);
 
     const goToPage = useCallback((pageIndex: number) => {
-        if (bookRef.current?.pageFlip()) bookRef.current.pageFlip().flip(pageIndex);
+        setTimeout(() => {
+            flushSync(() => {
+                setTargetPage(pageIndex);
+            });
+            if (bookRef.current?.pageFlip()) {
+                bookRef.current.pageFlip().flip(pageIndex);
+            }
+        }, 0);
     }, []);
 
     const handlePageInput = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -358,6 +376,7 @@ export default function FlipbookViewer() {
 
     const handleFlip = useCallback((e: any) => {
         setCurrentPage(e.data);
+        setTargetPage(e.data);
         if (soundEnabled && audioRef.current) {
             audioRef.current.currentTime = 0;
             audioRef.current.play().catch(() => { });
@@ -390,7 +409,7 @@ export default function FlipbookViewer() {
     }
 
     return (
-        <FlipbookContext.Provider value={{ currentPage }}>
+        <FlipbookContext.Provider value={{ currentPage, targetPage }}>
             <div ref={containerRef} className="flex flex-col h-screen w-full font-sans overflow-hidden select-none relative back print:block print:h-auto print:overflow-visible print:w-full">
                 <div className="absolute inset-0 z-0 flex flex-col md:flex-row pointer-events-none print:hidden">
                     <div className="relative w-full md:w-1/2 h-full opacity-100 sepia-[20%] transform-gpu">
@@ -416,25 +435,21 @@ export default function FlipbookViewer() {
                     <div className={`flex items-center justify-center transition-all duration-500 transform-gpu ${isReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} style={{ transform: `scale(${zoom * baseScale})` }}>
                         <div className="relative flex items-center justify-center " style={{ width: isDesktop ? 1200 : 424, height: isDesktop ? 750 : 600 }}>
 
-                            {isDesktop && (
                                 <div className="absolute right-[calc(100%-1px)] top-8 flex-col gap-1.5 z-0 flex">
                                     {macroGroupsMenu.map((menu, mIdx) => (
                                         <MacroTab key={`left-${mIdx}`} menu={menu} mIdx={mIdx} currentPage={currentPage} side="left" onTabClick={goToPage} />
                                     ))}
                                 </div>
-                            )}
 
                             <div className="relative w-full h-full z-10  ">
                                 {flipbookComponent}
                             </div>
 
-                            {isDesktop && (
                                 <div className="absolute left-[calc(100%-1px)] top-8 flex-col gap-1.5 z-0 flex">
                                     {macroGroupsMenu.map((menu, mIdx) => (
                                         <MacroTab key={`right-${mIdx}`} menu={menu} mIdx={mIdx} currentPage={currentPage} side="right" onTabClick={goToPage} />
                                     ))}
                                 </div>
-                            )}
                         </div>
                     </div>
                 </div>
